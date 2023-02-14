@@ -1,0 +1,271 @@
+{
+	"ID": "20221110204058-u0qpda5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110204058-u0qpda5",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221112135301-1ogxcv8\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221110212209-vo9lg0p\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:100,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221110221811-paaaiez\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:58,\u0026amp;quot;focusEnd\u0026amp;quot;:58}",
+		"title": "易巡检文稿",
+		"updated": "20221112160800"
+	},
+	"Children": [
+		{
+			"ID": "20221112135301-1ogxcv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112135301-1ogxcv8",
+				"updated": "20221112155652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "各位老师好，我是项目负责人臧家明，下面我来介绍一下我们的项目..."
+				}
+			]
+		},
+		{
+			"ID": "20221110204058-0q8i5ke",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110204058-0q8i5ke",
+				"updated": "20221110222303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的项目针对工业巡检的场景，传统的巡检场景主要使用纸质记录，也有使用手机或平板电脑进行记录的"
+				}
+			]
+		},
+		{
+			"ID": "20221110211608-7epiyt2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110211608-7epiyt2",
+				"updated": "20221110211833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但它们通常会有以下痛点：......"
+				}
+			]
+		},
+		{
+			"ID": "20221110211834-59lqcnh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110211834-59lqcnh",
+				"updated": "20221110213011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此我们的项目借助混合现实技术为工业巡检场景提供一套解决方案，包括两个端"
+				}
+			]
+		},
+		{
+			"ID": "20221110213011-4x1ehpt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110213011-4x1ehpt",
+				"updated": "20221110213040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户可以佩戴微软的混合现实可穿戴设备HoloLens作为巡检端进行巡检工作"
+				}
+			]
+		},
+		{
+			"ID": "20221110213040-u8x5nsg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110213040-u8x5nsg",
+				"updated": "20221112155713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们还会提供管理端与巡检端进行数据通信，可以进行一些数据分析或者是设备信息、巡检结果的实时同步"
+				}
+			]
+		},
+		{
+			"ID": "20221110213127-aau8562",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110213127-aau8562",
+				"updated": "20221110213201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面我来结合两个端详细说一下我们的创新优势"
+				}
+			]
+		},
+		{
+			"ID": "20221110213203-lk2m6tg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110213203-lk2m6tg",
+				"updated": "20221110222350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HoloLens巡检端可以扫描定位一些需要巡检的设备，通过虚实叠加的方式显示对应的设备的相关信息，比如检查点的清单和当前的状态，解放用户双手，用户可以通过手势识别或者是语音识别等多种交互方式进行巡检结果的处理，比如对缺陷的上报，可以通过语音输入或者是拍照上传缺陷的相关信息。"
+				}
+			]
+		},
+		{
+			"ID": "20221112155805-nz2xvaj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112155805-nz2xvaj",
+				"updated": "20221112160123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "巡检端与服务器进行数据的实时同步，服务器进行数据的存储，可以在上面部署算法，提供算力，对数据进行推理并回传结果，可以提供一些拓展的辅助服务，比如用户可以拍照上传仪表进行仪表识别读数，这也是我们计划实现的一个功能。"
+				}
+			]
+		},
+		{
+			"ID": "20221110221309-1htjmp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110221309-1htjmp5",
+				"updated": "20221112160156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后还有一个管理端，主要是对设备信息和巡检结果进行一些管理，对服务器存储的数据进行分析和可视化。"
+				}
+			]
+		},
+		{
+			"ID": "20221110221707-em7ra2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110221707-em7ra2r",
+				"updated": "20221112160252"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的技术路线主要有四方面，首先是工业场景下的混合现实用户交互的开发，我们在Unity中基于混合现实工具包MRTK构建出HoloLens巡检端。"
+				}
+			]
+		},
+		{
+			"ID": "20221110221811-paaaiez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110221811-paaaiez",
+				"updated": "20221112160510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二是对巡检数据管理端的构建，我们会为这个端提供一些前端用户界面，会编写后端，制作出满足我们基础功能需求的一个管理端。"
+				}
+			]
+		},
+		{
+			"ID": "20221110221916-3bbmdtu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110221916-3bbmdtu",
+				"updated": "20221112160506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三是对需要巡检的机械设备的定位方法的研究，我们使用ArUco为每个设备分配一个二维码Marker，用户在巡检端通过扫描Marker进行设备的识别与定位，使用HoloLens World Locking Tool构建世界锁定坐标，将虚拟影像定位在仪器实物上方。"
+				}
+			]
+		},
+		{
+			"ID": "20221112160514-ewrefvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112160514-ewrefvv",
+				"updated": "20221112160625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第四是仪表识别算法和部署方法的研究，我们计划设计实现仪表数值识别的算法，使用基于TCP等协议的Socket通信将数据从巡检端传输至服务器，通过部署在服务器上的算法推理后传输到巡检端进行展示。"
+				}
+			]
+		},
+		{
+			"ID": "20221110222035-7ohzuiw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110222035-7ohzuiw",
+				"updated": "20221112160636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的团队成员由两名大三的核心成员和一名大二的预备成员组成，专业有软件工程和数字媒体技术，都有相关的开发技术的基础和经验"
+				}
+			]
+		},
+		{
+			"ID": "20221110222438-kak9xza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110222438-kak9xza",
+				"updated": "20221112160716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的指导教师是高天寒教授，团队依托于泛虚拟现实人才培养与技术创新中心，这是高老师和中心的资料。"
+				}
+			]
+		},
+		{
+			"ID": "20221110222508-9ovswai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110222508-9ovswai",
+				"updated": "20221112160800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的预期成果是可交付的应用程序，包括编辑管理端和HoloLens巡检端，还计划产出软著和专利，这是我们的经费使用计划。"
+				}
+			]
+		},
+		{
+			"ID": "20221110222552-ffomvwi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110222552-ffomvwi",
+				"updated": "20221110222603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谢谢各位老师，请各位批评指正。"
+				}
+			]
+		},
+		{
+			"ID": "20221110212209-vo9lg0p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110212209-vo9lg0p"
+			}
+		}
+	]
+}

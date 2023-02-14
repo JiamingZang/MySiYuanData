@@ -1,0 +1,39 @@
+{
+	"ID": "20220811111050-yf4sndv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220811111050-yf4sndv",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220811111050-3tzpl0u\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220811111050-3tzpl0u\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:565.5999755859375,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220811111050-3tzpl0u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:6,\u0026amp;quot;focusEnd\u0026amp;quot;:6}",
+		"title": "一个简单的抽象例子",
+		"updated": "20220811111248"
+	},
+	"Children": [
+		{
+			"ID": "20220811111050-3tzpl0u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811111050-3tzpl0u",
+				"updated": "20220811111244"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import LeNet #假定我们使用的模型叫做LeNet，首先导入模型的定义类\nimport torch.optim as optim #引入PyTorch自带的可选优化函数\n...\nnet = LeNet() #声明一个LeNet的实例\ncriterion = nn.CrossEntropyLoss() #声明模型的损失函数，使用的是交叉熵损失函数\noptimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)\n# 声明优化函数，我们使用的就是之前提到的SGD，优化的参数就是LeNet内部的参数，lr即为之前提到的学习率\n#下面开始训练\nfor epoch in range(30): #设置要在全部数据上训练的次数\n  \n    for i, data in enumerate(traindata):\n        #data就是我们获取的一个batch size大小的数据\n  \n        inputs, labels = data #分别得到输入的数据及其对应的类别结果\n        # 首先要通过zero_grad()函数把梯度清零，不然PyTorch每次计算梯度会累加，不清零的话第二次算的梯度等于第一次加第二次的\n        optimizer.zero_grad()\n        # 获得模型的输出结果，也即是当前模型学到的效果\n        outputs = net(inputs)\n        # 获得输出结果和数据真正类别的损失函数\n        loss = criterion(outputs, labels)\n        # 算完loss之后进行反向梯度传播，这个过程之后梯度会记录在变量中\n        loss.backward()\n        # 用计算的梯度去做优化\n        optimizer.step()\n...\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

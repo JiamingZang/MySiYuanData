@@ -1,0 +1,2372 @@
+{
+	"ID": "20220807092632-7dc2z8c",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220807092632-7dc2z8c",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220807105914-qd8xcyv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220811150031-4wgt5ku\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220807124257-ld3dljb\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:41,\u0026amp;quot;focusEnd\u0026amp;quot;:41}",
+		"title": "加密技术",
+		"updated": "20220829135623"
+	},
+	"Children": [
+		{
+			"ID": "20220807105914-qd8xcyv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220807105914-qd8xcyv",
+				"updated": "20220807105916"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "加密",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807095053-zjnh4bj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807095053-zjnh4bj",
+				"updated": "20220807095142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单向散列函数使用场景中一个重要限制是要确保给定的散列值不能被修改，可以通过加密技术帮助单向散列函数解决完整性问题。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807095247-qufzxvb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807095247-qufzxvb",
+				"updated": "20220807095309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "明文(Plaintext)加密产生密文(Ciphertext)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807095321-dz6k3fa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807095321-dz6k3fa",
+				"updated": "20220807095341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在加密和解密运算中，决定运算结果的一段信息称为密钥",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807100316-2izj371",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807100316-2izj371",
+				"updated": "20220807100516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "历史上的加密没有密钥，数据的保密性依赖于算法的保密性，而通过算法的设计者、实现者、算法实现的代码和算法运行的环境都有可能破坏算法的保密性，且只有少数人知道的算法，质量也难以保证。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807100516-htf3wac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807100516-htf3wac",
+				"updated": "20220807100631"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现代密码学，加密数据的安全性依赖加密算法的质量和密钥的保密性两个因素。一个算法需要经受公开的分析、评测和攻击之后还是安全才能被认为是经得住考验的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807100643-cootwe3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807100643-cootwe3",
+				"updated": "20220807100658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下图为 SHA-3 算法的遴选过程",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807100631-smx29vl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807100631-smx29vl",
+				"updated": "20220807100641"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220807100641-p29mffj.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807103932-mqlneda",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807103932-mqlneda",
+				"updated": "20220807104026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "渐渐地，使用公开的算法是密码学领域的基本常识，一个现代密码学算法的安全性，基于密钥的保密而不是算法的保密上。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807105744-saifq89",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220807105744-saifq89",
+				"updated": "20220807105816"
+			},
+			"Children": [
+				{
+					"ID": "20220807105750-usxtpg3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807105750-usxtpg3",
+						"updated": "20220807105750"
+					},
+					"Children": [
+						{
+							"ID": "20220807105750-h0kypcj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807105750-h0kypcj",
+								"updated": "20220807105805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "没有经过充分讨论分析，不要自己发明密码算法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807105805-o103p6m",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807105805-o103p6m",
+						"updated": "20220807105816"
+					},
+					"Children": [
+						{
+							"ID": "20220807105805-9s6sulh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807105805-9s6sulh",
+								"updated": "20220807105816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不要把安全性寄托在算法的保密性上",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807092632-54kyiq8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220807092632-54kyiq8",
+				"updated": "20220807095013"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "对称密钥",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807095013-4k9dru0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807095013-4k9dru0",
+				"updated": "20220807110002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1976 年之前，密码学就是研究对称密钥的学问",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807110002-ssltr2f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807110002-ssltr2f",
+				"updated": "20220807110028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对称密钥就是每一个参与者持有相同的密钥，使用相同的密钥",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807110028-7cyfw2t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807110028-7cyfw2t",
+				"updated": "20220807110042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "非对称密钥每一个参与者持有不同的密钥",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807111351-7qhh0aq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807111351-7qhh0aq",
+				"updated": "20220807111644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "密钥(Key)和密码(Password)是有区别的，密码类似中文中的口令，口令的用法是对照口令本身，密钥是参与加解密运算",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807111645-kb7o65t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807111645-kb7o65t",
+				"updated": "20220807112918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理好密钥是现代密码学系统最关键的任务",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124035-7ut0e52",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220807124035-7ut0e52",
+				"updated": "20220807124048"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "如何选择对称加密算法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124116-0m0kbpo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220807124116-0m0kbpo",
+				"updated": "20220807124127"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据加密对性能的影响",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124049-33zqi3c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807124049-33zqi3c",
+				"updated": "20220807124145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对称加密算法也可以分为退役的、遗留的和现行的",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220807124133-1hyv1wa.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220807124140-4r75djr.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220807124145-mp8anlz.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124210-kd42pdd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220807124210-kd42pdd",
+				"updated": "20220807124225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相比单向散列函数，对称加密是一种比较快的操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124225-e09hunr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220807124225-e09hunr",
+				"updated": "20220807124231"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "序列算法和分组算法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220807124231-qiu5l1s",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220807124231-qiu5l1s",
+				"updated": "20220811145952"
+			},
+			"Children": [
+				{
+					"ID": "20220807124243-3ib0yn9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124243-3ib0yn9",
+						"updated": "20220807124243"
+					},
+					"Children": [
+						{
+							"ID": "20220807124243-rbyq3yr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124243-rbyq3yr",
+								"updated": "20220807124257"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "进行数据分组，按数据组运算就是分组算法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807124257-qrn1dve",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124257-qrn1dve",
+						"updated": "20220807124257"
+					},
+					"Children": [
+						{
+							"ID": "20220807124257-ld3dljb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124257-ld3dljb",
+								"updated": "20220807124331"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不进行数据分组，按照原始数据大小运算就是序列算法，如 RC4 和 ChaCha20",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807124337-8iyoefd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124337-8iyoefd",
+						"updated": "20220811145952"
+					},
+					"Children": [
+						{
+							"ID": "20220807124337-vjf83ge",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124337-vjf83ge",
+								"updated": "20220811145952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "序列算法从对称密钥中推导出一段和明文数据相同长度的密钥序列，与数据进行异或得到密文，解密也是异或"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807124425-gpwkuzm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124425-gpwkuzm",
+						"updated": "20220807124425"
+					},
+					"Children": [
+						{
+							"ID": "20220807124425-olcuk9k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124425-olcuk9k",
+								"updated": "20220807124528"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "序列算法的关键就是怎么从固定长度的密钥推导出参与运算的任意长度的密钥序列，因为序列推导和异或都是比较快的操作，所以序列算法比较高效",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807124539-guw0ua8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124539-guw0ua8",
+						"updated": "20220807124539"
+					},
+					"Children": [
+						{
+							"ID": "20220807124539-dd05szl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124539-dd05szl",
+								"updated": "20220807124636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类似条件下，相同安全强度的密钥，ChaCha20 比 AES 快 4-6 倍，比 Camellia 快近十倍，是现代主流浏览器优先选择的加密算法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807124636-we4ntk8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220807124636-we4ntk8",
+						"updated": "20220807124755"
+					},
+					"Children": [
+						{
+							"ID": "20220807124636-0b7eq1t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807124636-0b7eq1t",
+								"updated": "20220807124707"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "性能良好、用法皮实，因此优先推荐使用序列算法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220807124708-qeiesbo",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220807124708-qeiesbo",
+								"updated": "20220807124755"
+							},
+							"Children": [
+								{
+									"ID": "20220807124707-ljjag6e",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220807124707-ljjag6e",
+										"updated": "20220807124707"
+									},
+									"Children": [
+										{
+											"ID": "20220807124707-4nmpz74",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807124707-4nmpz74",
+												"updated": "20220807124713"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ChaCha20",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807124713-bafheal",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220807124713-bafheal",
+										"updated": "20220807124713"
+									},
+									"Children": [
+										{
+											"ID": "20220807124713-hetiwdc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807124713-hetiwdc",
+												"updated": "20220807124718"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AES256",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807124718-jwc9sqb",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220807124718-jwc9sqb",
+										"updated": "20220807124718"
+									},
+									"Children": [
+										{
+											"ID": "20220807124718-z0bl1ux",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807124718-z0bl1ux",
+												"updated": "20220807124722"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AES128",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807124746-o8lqyeh",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220807124746-o8lqyeh",
+										"updated": "20220807124755"
+									},
+									"Children": [
+										{
+											"ID": "20220807124746-9co5zst",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807124746-9co5zst",
+												"updated": "20220807124755"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "还有其他因素考虑，后续修正",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811145634-ql0h8x2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220811145634-ql0h8x2",
+				"updated": "20220811145702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对称密钥算法安全性"
+				}
+			]
+		},
+		{
+			"ID": "20220811145704-i7tkk6h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811145704-i7tkk6h",
+				"updated": "20220811150031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分组算法的计算过程"
+				}
+			]
+		},
+		{
+			"ID": "20220811150031-4wgt5ku",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811150031-4wgt5ku",
+				"updated": "20220811150211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个典型的分组算法由三个部分组成，数据分组、分组运算、链接模式，其加密和解密过程如图。"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220811150206-b5ihz2c.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220811150211-ue7snfo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220811150213-w8ersr6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811150213-w8ersr6",
+				"updated": "20220811150336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中，第一个分组计算时没有上一个分组可以用，所以引入了一个初始化数据，称为初始化向量。分组运算中，链接模式的功能如下："
+				}
+			]
+		},
+		{
+			"ID": "20220811150336-u39pxrg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811150336-u39pxrg",
+				"updated": "20220811150338"
+			},
+			"Children": [
+				{
+					"ID": "20220811150338-46ztvjk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811150338-46ztvjk",
+						"updated": "20220811150338"
+					},
+					"Children": [
+						{
+							"ID": "20220811150338-fn8hlul",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811150338-fn8hlul",
+								"updated": "20220811150359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同的明文数据，密文数据应该完全不同，即使明文数据中包含相同的数据分组"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811150359-3vhjoun",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811150359-3vhjoun"
+					},
+					"Children": [
+						{
+							"ID": "20220811150359-sd6c2wj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811150359-sd6c2wj",
+								"updated": "20220811150542"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "相同的明文数据，每一次加密运算，密文数据应该是完全不同的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811151019-n46yj5v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811151019-n46yj5v",
+				"updated": "20220811151031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "影响算法安全性的因素"
+				}
+			]
+		},
+		{
+			"ID": "20220811151031-8b4ome7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811151031-8b4ome7",
+				"updated": "20220811151052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过分组加密的过程，可以找到五种影响因素："
+				}
+			]
+		},
+		{
+			"ID": "20220811151052-wb7l2ob",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811151052-wb7l2ob",
+				"updated": "20220811151112"
+			},
+			"Children": [
+				{
+					"ID": "20220811151053-oconmul",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811151053-oconmul",
+						"updated": "20220811151053"
+					},
+					"Children": [
+						{
+							"ID": "20220811151053-2529jds",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811151053-2529jds",
+								"updated": "20220811151057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加密函数和解密函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811151058-j9anmgq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811151058-j9anmgq"
+					},
+					"Children": [
+						{
+							"ID": "20220811151058-c9qmtg0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811151058-c9qmtg0",
+								"updated": "20220811151059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "密钥"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811151059-ykm7ish",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811151059-ykm7ish"
+					},
+					"Children": [
+						{
+							"ID": "20220811151059-b6ag9oy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811151059-b6ag9oy",
+								"updated": "20220811151103"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化向量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811151104-gclawvi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811151104-gclawvi"
+					},
+					"Children": [
+						{
+							"ID": "20220811151104-v8uoa5n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811151104-v8uoa5n",
+								"updated": "20220811151106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链接模式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811151106-gan2qvi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811151106-gan2qvi",
+						"updated": "20220811151112"
+					},
+					"Children": [
+						{
+							"ID": "20220811151106-fdeuxzo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811151106-fdeuxzo",
+								"updated": "20220811151112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据补齐方案"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811151122-qt2bzb1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811151122-qt2bzb1",
+				"updated": "20220811151133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初始化向量怎么选"
+				}
+			]
+		},
+		{
+			"ID": "20220811151133-fja7zj1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811151133-fja7zj1",
+				"updated": "20220811155644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一个数据块计算的输入信息包括密钥、初始化向量和第一个明文数据分组，如果确定这些输入，第一个密文分组就确定了，如果两段数据第一个分组相同，且初始化向量相同，那么第一个密文分组就相同。大部分算法分组数据块都比较小，实际应用中容易构造出相同的数据库，比如HTTP协议的头部数据，如果要保密的数据恰好重复了一段已知的明文，攻击者可以根据密文数据是否相同来猜测和寻找明文，破坏数据的保密性。"
+				}
+			]
+		},
+		{
+			"ID": "20220811155656-qkz6ren",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811155656-qkz6ren",
+				"updated": "20220811155744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果不想暴露重复数据的机密性，只能在初始化向量上想办法，因为密钥和第一个明文数据分组相同，只有初始化变量可以控制。"
+				}
+			]
+		},
+		{
+			"ID": "20220811155754-iqdfpr7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811155754-iqdfpr7",
+				"updated": "20220811155835"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "因此在一个对称密钥的生命周期中，初始化向量不能重复，这是对称密钥算法的第一个要求"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220811155836-xor9dud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811155836-xor9dud",
+				"updated": "20220811155844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见办法有两种："
+				}
+			]
+		},
+		{
+			"ID": "20220811155844-1vwbl11",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811155844-1vwbl11",
+				"updated": "20220811155846"
+			},
+			"Children": [
+				{
+					"ID": "20220811155846-ps5hqlj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811155846-ps5hqlj",
+						"updated": "20220811155846"
+					},
+					"Children": [
+						{
+							"ID": "20220811155846-9bwlj7v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811155846-9bwlj7v",
+								"updated": "20220811155851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用安全强度足够的随机数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811155851-pllmvj8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811155851-pllmvj8"
+					},
+					"Children": [
+						{
+							"ID": "20220811155851-x8xqgi0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811155851-x8xqgi0",
+								"updated": "20220811155916"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用序列数，下一个初始化向量取值比上一次自动加一或减一"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811155955-9nbkydc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811155955-9nbkydc",
+				"updated": "20220811160002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这两种办法各有问题："
+				}
+			]
+		},
+		{
+			"ID": "20220811160002-l57ym1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811160002-l57ym1e",
+				"updated": "20220811160049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一种，随机数获取有时候效率不高，且加密端和解密端同步初始化向量也是个问题，常见的解决办法是把初始化向量和加密数据一起发送。"
+				}
+			]
+		},
+		{
+			"ID": "20220811160059-yghsr1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811160059-yghsr1h",
+				"updated": "20220811160150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二种，需要保持序列数的状态，还需要加密运算的同步，还有其他问题，如分布式计算环境下序列数同步问题，还有攻击者会知道每一个初始化向量的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220811160200-2j4ptgo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811160200-2j4ptgo",
+				"updated": "20220811160240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般密钥算法库不提供缺省的初始化向量，应用程序要根据使用场景制定适当的初始化向量选取方案，这容易被忽略。"
+				}
+			]
+		},
+		{
+			"ID": "20220811165346-wg85ibc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811165346-wg85ibc",
+				"updated": "20220811170804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在一个对称密钥的生命周期里，初始化向量不能重复，而初始化向量的长度是固定的，也就是说密钥使用次数是有限制的，如果是128为，最多有"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "2^{128}"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "个不重复的数值，最多只能使用这些次，此外还有很多其他因素限制，所以密钥使用限制数要远远低于初始化向量的许可数目，要有检查密钥使用次数限制的习惯。"
+				}
+			]
+		},
+		{
+			"ID": "20220811170656-w11hhcp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811170656-w11hhcp",
+				"updated": "20220811181926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接模式怎么选"
+				}
+			]
+		},
+		{
+			"ID": "20220811181927-j2rw9t5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220811181927-j2rw9t5",
+				"updated": "20220811182151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ECB模式"
+				}
+			]
+		},
+		{
+			"ID": "20220811182151-353e26u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811182151-353e26u",
+				"updated": "20220811182702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ECB模式不使用链接模式，也不用初始化向量。独立运算意味着可以并行计算，运算效率高，没有次序要求，即使插入数据也不会对原数据产生影响，但这有致命的安全缺陷。"
+				}
+			]
+		},
+		{
+			"ID": "20220811182820-dzu1af3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811182820-dzu1af3",
+				"updated": "20220811183016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果知道了数据块对应的密文，可以寻找重复的密文，不用解密就可以知道对应的数据块。"
+				}
+			]
+		},
+		{
+			"ID": "20220811183016-5ssrwr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811183016-5ssrwr0",
+				"updated": "20220811183158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果有这样一个数据，分为五组，采用ECB模式加密时，可以把"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "亿四千五百万六千"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "去掉，也可以把它插到其他数据中，叫做“分组重放”攻击。"
+				}
+			]
+		},
+		{
+			"ID": "20220811183023-uavct7t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811183023-uavct7t",
+				"updated": "20220811183039"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "王二于二零二零年\n八月二十二日向李\n四借款人民币三十\n亿四千五百万六千\n圆整，立此为证。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811183038-hnd90do",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811183038-hnd90do",
+				"updated": "20220829094834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不应该在一般的应用程序使用ECB模式，不过有经验的工程师会合理使用ECB模式构造更加安全和复杂的算法。"
+				}
+			]
+		},
+		{
+			"ID": "20220829094857-al5vt9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220829094857-al5vt9k",
+				"updated": "20220829110344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CBC模式(Cipher Block Chaining)"
+				}
+			]
+		},
+		{
+			"ID": "20220829094903-5nxrqpa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829094903-5nxrqpa",
+				"updated": "20220829105940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用初始化向量和链接模式。解决了数据重放攻击问题，是2018之前最常用的模式。但是从2018年开始，由于安全问题，CBC模式开始退出历史舞台，但可能需要十数年到数十年。"
+				}
+			]
+		},
+		{
+			"ID": "20220829105909-4silcwq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829105909-4silcwq",
+				"updated": "20220829110200"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CBC模式由于尚未退出历史舞台，学习它首先有助于解决现存项目的安全问题，学习针对CBC的攻击方案还有助于深入了解加密算法安全问题，最后就是要进一步帮助理解初始化向量和链接模式对加密算法的影响，为更高级的学习打基础。"
+				}
+			]
+		},
+		{
+			"ID": "20220829110725-re41wf4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829110725-re41wf4",
+				"updated": "20220829112232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加密过程中输入数据是明文分组"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "Mi"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "与上一次的密文分组"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "C_{i-1}"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "进行异或运算"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220829112018-kx7jzlk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829112019-3irly4k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829112019-3irly4k",
+				"updated": "20220829113914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解密过程中输出数据也是明文分组和上一次密文分组进行异或的结果，所以要把明文分组和上一次密文分组分开，也就是把上一次密文分组和解密函数输出数据进行异或即可。即"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "(C_{i-1}) \\oplus (M_{i} \\oplus C_{i-1}) = M_{i}"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220829113307-ullx47a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829113307-ullx47a",
+				"updated": "20220829113312"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220829113312-lpbbcn6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829113922-0oia541",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829113922-0oia541",
+				"updated": "20220829114056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而解密过程中第一个明文分组需要的密文分组就是初始向量，所以加密和解密的初始向量要一样，需要注意的是，初始向量以及其他的一个密文分组只对下一个明文分组的解密有影响，而加密过程中，每一个密文分组都依赖于签名所有的明文分组和初始向量。"
+				}
+			]
+		},
+		{
+			"ID": "20220829114228-nx2csus",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220829114228-nx2csus",
+				"updated": "20220829114340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初始化向量需要保密吗？"
+				}
+			]
+		},
+		{
+			"ID": "20220829114338-54m0fuz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829114338-54m0fuz",
+				"updated": "20220829114653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之前讨论过"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220811155754-iqdfpr7"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "初始化向量选择问题"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，初始化向量的唯一性在加密运算的安全性中非常重要。但初始化向量并不需要保密，可以类比想到每一个分组加密的初始化向量都是上一次加密运算得到的密文分组，而密文分组可以是公开的。"
+				}
+			]
+		},
+		{
+			"ID": "20220829114508-1gaogaq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220829114508-1gaogaq",
+				"updated": "20220829115528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异或运算"
+				}
+			]
+		},
+		{
+			"ID": "20220829115529-xjmvhak",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829115529-xjmvhak",
+				"updated": "20220829115840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异或运算在密码算法中运用广泛，原因如下："
+				}
+			]
+		},
+		{
+			"ID": "20220829115548-otn2zfw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220829115548-otn2zfw",
+				"updated": "20220829120434"
+			},
+			"Children": [
+				{
+					"ID": "20220829115550-tjqp43r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220829115550-tjqp43r",
+						"updated": "20220829115550"
+					},
+					"Children": [
+						{
+							"ID": "20220829115550-t32i1zj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220829115550-t32i1zj",
+								"updated": "20220829115621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "异或运算是按位运算，运算时间只与位数有关"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220829115631-jr93wkl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220829115631-jr93wkl"
+					},
+					"Children": [
+						{
+							"ID": "20220829115631-oh86f2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220829115631-oh86f2z",
+								"updated": "20220829115643"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按位运算，需要的算力只和数据位数有关"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220829115842-czvixc8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220829115842-czvixc8",
+						"updated": "20220829120434"
+					},
+					"Children": [
+						{
+							"ID": "20220829115842-f0sqqnt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220829115842-f0sqqnt",
+								"updated": "20220829120434"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "异或运算相同的数据归零，一段数据和全0数据异或后不变"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220829124219-3jopgph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829124219-3jopgph",
+				"updated": "20220829124417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但CBC模式主要的安全问题也来源于异或，如果两段数据中只有一位不同，它们异或运算后只有这一位数据是1，其他数据都是0，就可以通过构造密文或明文分组，一次改变一位数据，交给加密或解密运算处理，观察结果展开攻击。"
+				}
+			]
+		},
+		{
+			"ID": "20220829124506-171pu7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829124506-171pu7w",
+				"updated": "20220829124656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "比如一个128位密钥，能承受2"
+				},
+				{
+					"Type": "NodeSup",
+					"Data": "sup",
+					"Children": [
+						{
+							"Type": "NodeSupOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "128"
+						},
+						{
+							"Type": "NodeSupCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "次运算，但如果一次改变一位数据，最多需要128次运算，如果一次只能观测一个字节，一次一位改变需要2"
+				},
+				{
+					"Type": "NodeSup",
+					"Data": "sup",
+					"Children": [
+						{
+							"Type": "NodeSupOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "8"
+						},
+						{
+							"Type": "NodeSupCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "=256次运算"
+				}
+			]
+		},
+		{
+			"ID": "20220829135159-b1cebh8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829135159-b1cebh8",
+				"updated": "20220829135250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阻断一个攻击的方式之一，就是破坏攻击依赖的路径或者条件。只要让攻击者没办法一次改变一位或少量数据就可以有效防止上述攻击。"
+				}
+			]
+		},
+		{
+			"ID": "20220829135333-c89podz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220829135333-c89podz",
+				"updated": "20220829135346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "密钥少一位有影响吗？"
+				}
+			]
+		},
+		{
+			"ID": "20220829135347-z3qdx7q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829135347-z3qdx7q",
+				"updated": "20220829135509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般我们不关心密钥位数变化，出于互操作性考虑，很多标准和协议需要把密钥高位的0清除掉，然后参与运算，少一位密码，会带来计算性能差异以及计算时间的偏差，但2020年以前没人关心这件事。"
+				}
+			]
+		},
+		{
+			"ID": "20220829135512-78hl7px",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829135512-78hl7px",
+				"updated": "20220829135555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2020年9月8日，一个名为浣熊攻击的研究成果发布，利用密钥高位清零造成的运算时间差，应用统计学计数破解运算密钥。"
+				}
+			]
+		},
+		{
+			"ID": "20220829135559-ypoq33v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829135559-ypoq33v",
+				"updated": "20220829135623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "警示我们要尽量避免计算时间偏差和计算算力偏差，谨慎处理不可避免的计算时间偏差和算力偏差。"
+				}
+			]
+		}
+	]
+}

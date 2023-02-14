@@ -1,0 +1,348 @@
+{
+	"ID": "20220915193447-odqtmhh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220915193447-odqtmhh",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220915193447-3jhcor2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220915193510-840xqy2\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:181.60000610351562,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220915193849-3emgg3q\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:9,\u0026amp;quot;focusEnd\u0026amp;quot;:9}",
+		"title": "数模",
+		"updated": "20220915193916"
+	},
+	"Children": [
+		{
+			"ID": "20220915193447-3jhcor2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220915193447-3jhcor2",
+				"updated": "20220915193510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据处理"
+				}
+			]
+		},
+		{
+			"ID": "20220915193510-840xqy2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220915193510-840xqy2",
+				"updated": "20220915193916"
+			},
+			"Children": [
+				{
+					"ID": "20220915193511-yoix7qf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220915193511-yoix7qf",
+						"updated": "20220915193511"
+					},
+					"Children": [
+						{
+							"ID": "20220915193511-a240q7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220915193511-a240q7c",
+								"updated": "20220915193713"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "空白处表示没有检出，为0"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220915193713-79wxq0l.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220915193521-hslme1b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220915193521-hslme1b"
+					},
+					"Children": [
+						{
+							"ID": "20220915193521-pqmy9lm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220915193521-pqmy9lm",
+								"updated": "20220915193724"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成分比例加和85-105为有效，其余排除"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220915193724-i4fxeqk.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220915193546-566k8s5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220915193546-566k8s5"
+					},
+					"Children": [
+						{
+							"ID": "20220915193546-1e04mwe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220915193546-1e04mwe",
+								"updated": "20220915193627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表单二中没有写风化属性的就是和表单一里面的属性一致"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220915193627-oh8g54k.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220915193828-o1ipbjp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220915193828-o1ipbjp",
+						"updated": "20220915193916"
+					},
+					"Children": [
+						{
+							"ID": "20220915193828-leu8diz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220915193828-leu8diz",
+								"updated": "20220915193833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文物分类"
+								}
+							]
+						},
+						{
+							"ID": "20220915193834-qjjemu4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220915193834-qjjemu4",
+								"updated": "20220915193916"
+							},
+							"Children": [
+								{
+									"ID": "20220915193833-rnuna7w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220915193833-rnuna7w",
+										"updated": "20220915193916"
+									},
+									"Children": [
+										{
+											"ID": "20220915193833-24cn87g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220915193833-24cn87g",
+												"updated": "20220915193837"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "风化"
+												}
+											]
+										},
+										{
+											"ID": "20220915193850-2wa06nb",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220915193850-2wa06nb",
+												"updated": "20220915193916"
+											},
+											"Children": [
+												{
+													"ID": "20220915193849-nsagrp3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220915193849-nsagrp3",
+														"updated": "20220915193916"
+													},
+													"Children": [
+														{
+															"ID": "20220915193849-3emgg3q",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220915193849-3emgg3q",
+																"updated": "20220915193916"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "有风化区和未风化区"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220915193838-89n5aya",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220915193838-89n5aya"
+									},
+									"Children": [
+										{
+											"ID": "20220915193838-w4vjoso",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220915193838-w4vjoso",
+												"updated": "20220915193849"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无风化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

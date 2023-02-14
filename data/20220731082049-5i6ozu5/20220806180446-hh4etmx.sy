@@ -1,0 +1,1239 @@
+{
+	"ID": "20220806180446-hh4etmx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806180446-hh4etmx",
+		"title": "5天学会一种web框架",
+		"updated": "20220806180457"
+	},
+	"Children": [
+		{
+			"ID": "20220806180457-iipur7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220806180457-iipur7d",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "web框架学习列表"
+				}
+			]
+		},
+		{
+			"ID": "20220806180457-k4jfy1r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806180457-k4jfy1r",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"ID": "20220806180457-bynzjip",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-bynzjip",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-6fc3hmh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-6fc3hmh",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何定义 url route"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-g1he3n9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-g1he3n9",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-4yjzcqk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-4yjzcqk",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何组织 request handler 函数"
+								}
+							]
+						},
+						{
+							"ID": "20220806180457-4murhxs",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806180457-4murhxs",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"ID": "20220806180457-0bl9ai9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-0bl9ai9",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-ikf0e3y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-ikf0e3y",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "写一个最简单的request handler 函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-29iuwji",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-29iuwji",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-e5u9y5g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-e5u9y5g",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何从get/post请求中取出参数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-6m5x8xx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-6m5x8xx",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-dcaeyom",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-dcaeyom",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何定义全局url 拦截函数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-vtvyqff",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-vtvyqff",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-ibviax9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-ibviax9",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何获取/修改/存储 cookie,session数据"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-3rhfqf7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-3rhfqf7",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-mu6ak20",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-mu6ak20",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何修改/输出 http header 数据"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-crw3dq8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-crw3dq8",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-1rfqsiu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-1rfqsiu",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何部部署app 程序"
+								}
+							]
+						},
+						{
+							"ID": "20220806180457-f5vpkjb",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806180457-f5vpkjb",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"ID": "20220806180457-or0a9mm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-or0a9mm",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-lkng3p2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-lkng3p2",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务器部署可以参考 "
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "读python web 程序的9种部署方式"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "http://lutaf.com/141.htm"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-cy8qto9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-cy8qto9",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-vzkdn46",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-vzkdn46",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何配置开发环境"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-lo2mtqu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-lo2mtqu",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-x67ay4x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-x67ay4x",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何配置静态文件访问"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-gxsm21s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-gxsm21s",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-kmm4szr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-kmm4szr",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何访问数据库"
+								}
+							]
+						},
+						{
+							"ID": "20220806180457-de3wok9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806180457-de3wok9",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"ID": "20220806180457-er8nkts",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-er8nkts",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-bbmbr23",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-bbmbr23",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是否支持ORM"
+												}
+											]
+										},
+										{
+											"ID": "20220806180457-3ecn27d",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806180457-3ecn27d",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"ID": "20220806180457-40gnvdx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806180457-40gnvdx",
+														"updated": "20220806180457"
+													},
+													"Children": [
+														{
+															"ID": "20220806180457-7yknx8b",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806180457-7yknx8b",
+																"updated": "20220806180457"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "支持orm"
+																}
+															]
+														},
+														{
+															"ID": "20220806180457-ippic6u",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220806180457-ippic6u",
+																"updated": "20220806180457"
+															},
+															"Children": [
+																{
+																	"ID": "20220806180457-s62kha9",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220806180457-s62kha9",
+																		"updated": "20220806180457"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220806180457-m6l9ohh",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220806180457-m6l9ohh",
+																				"updated": "20220806180457"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "如何维护表结构的变更"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220806180457-11p25xw",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220806180457-11p25xw",
+																		"updated": "20220806180457"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220806180457-6l552ep",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220806180457-6l552ep",
+																				"updated": "20220806180457"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "如何定义/组织/初始化 数据表"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220806180457-jfvzugi",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220806180457-jfvzugi",
+																		"updated": "20220806180457"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220806180457-yg6zobs",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220806180457-yg6zobs",
+																				"updated": "20220806180457"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "如何对接orm系统和现有的表结构"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220806180457-x04cfmy",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220806180457-x04cfmy",
+																		"updated": "20220806180457"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220806180457-lm8u2q0",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220806180457-lm8u2q0",
+																				"updated": "20220806180457"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "掌握最基本的add/delete/按字段查询/count/slice/order by"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220806180457-4j9sasu",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220806180457-4j9sasu",
+																		"updated": "20220806180457"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220806180457-g5vqfg4",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220806180457-g5vqfg4",
+																				"updated": "20220806180457"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "如何直接使用sql 访问数据库"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806180457-f132p52",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806180457-f132p52",
+														"updated": "20220806180457"
+													},
+													"Children": [
+														{
+															"ID": "20220806180457-fm7r39g",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806180457-fm7r39g",
+																"updated": "20220806180457"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "不支持orm (这样的web框架，不用也罢)"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-dm1snv6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-dm1snv6",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-uxebgab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-uxebgab",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何使用模板系统"
+								}
+							]
+						},
+						{
+							"ID": "20220806180457-degj9jr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806180457-degj9jr",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"ID": "20220806180457-6zvugr0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-6zvugr0",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-1804vzb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-1804vzb",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何组织/访问 模板文件的目录结构"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-folxx6k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-folxx6k",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-5dep51z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-5dep51z",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何在模板中嵌入代码"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-b2j297m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-b2j297m",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-zgx06ai",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-zgx06ai",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模板是否支持继承结构"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-wvxzbnc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-wvxzbnc",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-k4lkqux",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-k4lkqux",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模板之间如何include"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806180457-uplcac0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806180457-uplcac0",
+										"updated": "20220806180457"
+									},
+									"Children": [
+										{
+											"ID": "20220806180457-nz7hlsv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806180457-nz7hlsv",
+												"updated": "20220806180457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何自定义模板函数"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-zehudgx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-zehudgx",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-tsxol54",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-tsxol54",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何通过http get/post 获取远程数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-dy6x9c5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-dy6x9c5",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-b8mxgbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-b8mxgbm",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何parse json"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-2rbgj7d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-2rbgj7d",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-gx2q0zy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-gx2q0zy",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何parse xml"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-5s6ywpa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-5s6ywpa",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-43o5w9e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-43o5w9e",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何输出为 json"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-a9fnw51",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-a9fnw51",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-xz9japp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-xz9japp",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何处理状态码:404和50x"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-dmp4sxe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-dmp4sxe",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-8356lg1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-8356lg1",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何处理文件上传"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806180457-pfjdhxf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220806180457-pfjdhxf",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可选的学习项目"
+				}
+			]
+		},
+		{
+			"ID": "20220806180457-ynajwrh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806180457-ynajwrh",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"ID": "20220806180457-9gdz2db",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-9gdz2db",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-lxmqjt5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-lxmqjt5",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发送email"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-is44kfs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-is44kfs",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-61m1ckt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-61m1ckt",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "log"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-wsj9n3v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-wsj9n3v",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-ikw3tbi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-ikw3tbi",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图片处理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806180457-nh56s8n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220806180457-nh56s8n",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "误区"
+				}
+			]
+		},
+		{
+			"ID": "20220806180457-y0hy8pi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806180457-y0hy8pi",
+				"updated": "20220806180457"
+			},
+			"Children": [
+				{
+					"ID": "20220806180457-sa6rxvl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-sa6rxvl",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-kkefpyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-kkefpyx",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表单验证辅助函数，  "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "很多框架的表单验证部分实现的特别复杂"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，初学者完全不需要，手写代码处理就够用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806180457-2dva05s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806180457-2dva05s",
+						"updated": "20220806180457"
+					},
+					"Children": [
+						{
+							"ID": "20220806180457-fpvbcy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806180457-fpvbcy7",
+								"updated": "20220806180457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ORM中的hasone,manytomany,onetomany关系,概念很复杂，其实只是多写/少写一个查询字段的关系，学习成本太高，初学者完全不需要理会，直接跳过"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

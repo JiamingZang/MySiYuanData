@@ -1,0 +1,2916 @@
+{
+	"ID": "20220808075842-6e5yab4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808075842-6e5yab4",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220808075842-hb9tabp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220808105325-tq2n5ou\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2400,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220808075842-hb9tabp\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "NumPy",
+		"updated": "20220808172612"
+	},
+	"Children": [
+		{
+			"ID": "20220808075842-hb9tabp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808075842-hb9tabp",
+				"updated": "20220808081606"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "NumPy 数组",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808081607-915mcdl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808081607-915mcdl",
+				"updated": "20220808081922"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "numpy.ndarray",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是 NumPy 的核心数据结构。与 Python 中列表差异如下",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808081648-h1nrbbk",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808081648-h1nrbbk",
+				"updated": "20220808081650"
+			},
+			"Children": [
+				{
+					"ID": "20220808081650-fijvl31",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808081650-fijvl31",
+						"updated": "20220808081650"
+					},
+					"Children": [
+						{
+							"ID": "20220808081650-uw38aw4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808081650-uw38aw4",
+								"updated": "20220808081719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Python 列表可以动态改变，NumPy 数组不能，改变其长度会创建新数组并删除原数组",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808081720-zdwrpqc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808081720-zdwrpqc",
+						"updated": "20220808081720"
+					},
+					"Children": [
+						{
+							"ID": "20220808081720-rh3r2zo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808081720-rh3r2zo",
+								"updated": "20220808081747"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NumPy 数组中数据类型必须相同，Python 列表则可以不同",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808081747-5qwu98d",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808081747-5qwu98d",
+						"updated": "20220808081747"
+					},
+					"Children": [
+						{
+							"ID": "20220808081747-ux6e1jm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808081747-ux6e1jm",
+								"updated": "20220808081804"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NumPy 数组速度快，内存少",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808081808-xnyqkmd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808081808-xnyqkmd",
+				"updated": "20220808081811"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "创建数组",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808081840-lzcvrss",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220808081840-lzcvrss",
+				"updated": "20220808085115"
+			},
+			"Children": [
+				{
+					"ID": "20220808085115-64jmy9c",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808085115-64jmy9c",
+						"updated": "20220808085115"
+					},
+					"Children": [
+						{
+							"ID": "20220808085115-ptelc1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808085115-ptelc1c",
+								"updated": "20220808085115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以将一个列表传入 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.array()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或者 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.asarray()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中，",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.array()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 属于深拷贝，",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.asarray()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是浅拷贝。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808084913-qnljdd0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20220808084913-qnljdd0",
+				"updated": "20220808085510"
+			},
+			"Children": [
+				{
+					"ID": "20220808085117-a64937i",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808085117-a64937i",
+						"updated": "20220808085117"
+					},
+					"Children": [
+						{
+							"ID": "20220808085117-w8zkssu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808085117-w8zkssu",
+								"updated": "20220808085117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以通过 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.ones()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.zeros()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 创建全 1 或全 0 的数组，参数需要用来指定数组的形状，如 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.ones((2,3))*0.5",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 可以初始化一个全 0.5 的数组，这两个函数一般在初始化权重时使用。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808085120-qtxdej6",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808085120-qtxdej6",
+						"updated": "20220808085120"
+					},
+					"Children": [
+						{
+							"ID": "20220808085120-dry8w8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808085120-dry8w8l",
+								"updated": "20220808085301"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.arrange([start,]stop,[step,]dtype=None)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 创建一个在[start, stop)区间的数组，其中 start 是可选参数，默认为 0，step 可选，默认为 1。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808085301-o1vzl4q",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220808085301-o1vzl4q",
+						"updated": "20220808085510"
+					},
+					"Children": [
+						{
+							"ID": "20220808085301-5ohsp6c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808085301-5ohsp6c",
+								"updated": "20220808085416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "np.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 创建一个从开始到结束数值的等差数列。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220808085423-u0xd2af",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220808085423-u0xd2af",
+								"updated": "20220808085510"
+							},
+							"Children": [
+								{
+									"ID": "20220808085429-3se4dcy",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808085429-3se4dcy",
+										"updated": "20220808085429"
+									},
+									"Children": [
+										{
+											"ID": "20220808085429-o808gi0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808085429-o808gi0",
+												"updated": "20220808085451"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "endpoint 若为 True，则数组最后一个元素的 stop",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808085451-61orpru",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808085451-61orpru",
+										"updated": "20220808085510"
+									},
+									"Children": [
+										{
+											"ID": "20220808085451-92iruno",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808085451-92iruno",
+												"updated": "20220808085510"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "retstep 若为 True，则返回数组与公差",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808082003-ajttmw0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808082003-ajttmw0",
+				"updated": "20220808082006"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数组的属性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082007-swv6rfp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808082007-swv6rfp",
+				"updated": "20220808082015"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "ndim",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082015-4fdjx0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808082015-4fdjx0f",
+				"updated": "20220808082205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组维度（或轴）的个数。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082038-dznex35",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808082038-dznex35",
+				"updated": "20220808082046"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "shape",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082047-20boh7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808082047-20boh7h",
+				"updated": "20220808082159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组维度或形状，是一个整数的元组，其长度等于 ndim。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082120-17amr1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808082120-17amr1f",
+				"updated": "20220808082531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对数组的形状进行变换可以使用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "arr.reshape()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 函数，需要注意变换前后元素个数需要一样。还可以使用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.reshape(a, newshape, order)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 对数组 a 进行 reshape，reshape 有个 order 参数，指按照什么顺序读写元素",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082330-ht2162k",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808082330-ht2162k",
+				"updated": "20220808082330"
+			},
+			"Children": [
+				{
+					"ID": "20220808082317-1aogdt9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808082317-1aogdt9",
+						"updated": "20220808082317"
+					},
+					"Children": [
+						{
+							"ID": "20220808082317-b7cj2g2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808082317-b7cj2g2",
+								"updated": "20220808082359"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "'C'",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 默认参数，使用 C-like 语言中行优先的方式读写",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808082401-d1snejd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808082401-d1snejd",
+						"updated": "20220808082401"
+					},
+					"Children": [
+						{
+							"ID": "20220808082401-2kl6y80",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808082401-2kl6y80",
+								"updated": "20220808082427"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "'F'",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 使用 Fortran-like 语言中列优先的方式读写",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808082428-o440iq1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808082428-o440iq1",
+						"updated": "20220808082428"
+					},
+					"Children": [
+						{
+							"ID": "20220808082428-w7gn91c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808082428-w7gn91c",
+								"updated": "20220808082512"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "'A'",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 原数组若是‘C’的方式就用行优先，否则列优先",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808082534-6etbuk7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808082534-6etbuk7",
+						"updated": "20220808082534"
+					},
+					"Children": [
+						{
+							"ID": "20220808082534-n8bzpd2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808082534-n8bzpd2",
+								"updated": "20220808082558"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "整个过程就是先按照指定的方式把原数组展开，然后按照指定的方式写入新数组",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808082615-hnu6u3k",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808082615-hnu6u3k",
+						"updated": "20220808082615"
+					},
+					"Children": [
+						{
+							"ID": "20220808082615-892fp3h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808082615-892fp3h",
+								"updated": "20220808082623"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一般都是行优先",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808082623-n5z54r4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808082623-n5z54r4",
+				"updated": "20220808082628"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "size",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082628-k03qbvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808082628-k03qbvo",
+				"updated": "20220808082647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "元素的总数，等于 shape 属性中元素的乘积。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082653-6laax7h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808082653-6laax7h",
+				"updated": "20220808082656"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "dtype",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808082656-3xs59bn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808082656-3xs59bn",
+				"updated": "20220808084706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看数组元素的数据类型，可以在创建数组时指定 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.asarray([[1,2],[3,4]], dtype = 'float')",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808084708-02kp2q5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808084708-02kp2q5",
+				"updated": "20220808084746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以通过 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "astype()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 改变数组的数据类型，但是整个操作会创建一个新的数组，而不是改变原数组。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808084826-01rjl6q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808084826-01rjl6q",
+				"updated": "20220808084900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要注意的是，不能通过 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "arr.dtype='...'",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的方式直接改变数组的数据类型，这样会导致输出的数据改变。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808085522-v0aolb2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808085522-v0aolb2",
+				"updated": "20220808085535"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数组的轴",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808085536-7joyhe0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808085536-7joyhe0",
+				"updated": "20220808093501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组的轴 axis 这个概念常出现在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.sum()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ",",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.max()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这样的聚合函数中。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808085619-snc4tcm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808085619-snc4tcm",
+				"updated": "20220808085710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数组的轴就是数组的维度，对二维数组来说有两个维度 0 和 1。0 代表行，1 代表列。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808085711-38c775f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808085711-38c775f",
+				"updated": "20220808085818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "形状为(a, b, c)的数组，沿着 0 轴聚合后，形状变为(b, c)，沿着 1 轴聚合后，形状变为(a, c)。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102020-9bgeoif",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808102020-9bgeoif",
+				"updated": "20220808102026"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用场景",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102026-wezbuol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808102026-wezbuol",
+				"updated": "20220808102030"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据加载阶段",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102031-9v53n88",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808102031-9v53n88",
+				"updated": "20220808102137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把训练数据读入后要转为 NumPy 数组，然后进行后续操作，训练数据有三种：图片、文本、类似二维表的结构化数据。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102138-bpui2y5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808102138-bpui2y5",
+				"updated": "20220808102236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "处理图片一般使用 Pillow 和 OpenCV 两个模块，PyTorch 中很多图片操作基于 Pillow，需要从 Pillow 角度出发。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102242-nhju88n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808102242-nhju88n",
+				"updated": "20220808102248"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Pillow 方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808102248-jb0yczk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808102248-jb0yczk",
+				"updated": "20220808103437"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "from PIL import Image\nim = image.open('jk.jpg')\nim.size\n# (575, 575)\nimport numpy as np\nim_pillow = np.asarray(im)\nim_pillow.shape\n# (575, 575, 3)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808103429-fk4qptb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808103429-fk4qptb",
+				"updated": "20220808103807"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "OpenCV 方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808103807-mjd54d7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808103807-mjd54d7",
+				"updated": "20220808103852"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import cv2\nim_cv2 = cv2.imread('jk.jpg')\ntype(im_cv2)\n# numpy.ndarray\nim_cv2.shape\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808104104-2uoybll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808104104-2uoybll",
+				"updated": "20220808104927"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pillow 读入顺序是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "RGB",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，而 OpenCV 读入顺序是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "BGR",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，关于 RGB，可以见",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220730150853-xp7lbkb",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefSpace",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "这部分笔记",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808104929-mr2l4oe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808104929-mr2l4oe",
+				"updated": "20220808105059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 numpy 数组中索引可以用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "im_pillow[: , : ,0]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这种形式。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105713-9dzk2gt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808105713-9dzk2gt",
+				"updated": "20220808105719"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "合并数组",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105115-lzzhs9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808105115-lzzhs9a",
+				"updated": "20220808105215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相同维度的 numpy 数组可以用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.concatenate((a1, a2,...), axis=0)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 进行拼接，其中，a1，a2 是要合并的数组，而 axis 是要合并的维度，默认是沿着 0 轴。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105727-tskbemz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808105727-tskbemz",
+				"updated": "20220808105731"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "增加维度",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105300-wgx601a",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808105300-wgx601a",
+				"updated": "20220808105735"
+			},
+			"Children": [
+				{
+					"ID": "20220808105735-n56yg2s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808105735-n56yg2s",
+						"updated": "20220808105735"
+					},
+					"Children": [
+						{
+							"ID": "20220808105735-720mda8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808105735-720mda8",
+								"updated": "20220808105735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若维度不同，可以使用 newaxis 增加一个维度，演示代码如下：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808105325-tq2n5ou",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808105325-tq2n5ou",
+				"updated": "20220808105611"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import numpy as np\nim_pillow_c1.shape\n# (116, 318)\nzeros.shape\n# (116,318,2)\nim_pillow_c1 = im_pillow_c1[:, :, np.newaxis]\nim_pillow_c1.shape\n# (116,318,1)\nim_pillow_c1_3ch = np.concatenate((im_pillow_c1， zeros), axis=2)\nim_pillow_c1_3ch.shape\n# (116,318,3)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105506-3uhth6z",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808105506-3uhth6z",
+				"updated": "20220808105739"
+			},
+			"Children": [
+				{
+					"ID": "20220808105739-egj2dlh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808105739-egj2dlh",
+						"updated": "20220808105739"
+					},
+					"Children": [
+						{
+							"ID": "20220808105739-76ucoqd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808105739-76ucoqd",
+								"updated": "20220808105746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "另一个方法是直接赋值",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808105749-xp74jud",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808105749-xp74jud",
+				"updated": "20220808105857"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "im_pillow_c2_3ch = np.zeros(im_pillow.shape)\nim_pillow_c2_3ch[:, :, 1] = im_pillow_c2[:, :, 0]\nim_pillow_c3_3ch = np.zeros(im_pillow.shape)\nim_pillow_c3_3ch[:, :, 2] = im_pillow_c3[:, :, 0]\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808105849-xg8449w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808105849-xg8449w",
+				"updated": "20220808110158"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "深拷贝和浅拷贝",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110158-3cp0sdm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110158-3cp0sdm",
+				"updated": "20220808110222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取一个通道的数据还可以直接将两个通道赋值为 0",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110223-b3qia1h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808110223-b3qia1h",
+				"updated": "20220808110325"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "im_pillow[:,:,1:]=0\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110326-jjknjzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110326-jjknjzm",
+				"updated": "20220808110526"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.array()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 属于深拷贝，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.asarray()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 浅拷贝，也称为视图 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "view()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，是与原数组共享数据的数组",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110625-z6984rs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808110625-z6984rs",
+				"updated": "20220808110629"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "模型评估",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110629-17rn3ql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110629-17rn3ql",
+				"updated": "20220808110643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型评估时，需要将输出值转为对应的标签",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110654-xtc1myf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808110654-xtc1myf",
+				"updated": "20220808110715"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "求最大/小值索引",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110717-gjwl60i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110717-gjwl60i",
+				"updated": "20220808110846"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "argmax(a, axis = None)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，不指定 axis 默认为 1 维",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110846-qizalk3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110846-qizalk3",
+				"updated": "20220808110853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最小值使用 argmin",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110854-290uuno",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808110854-290uuno",
+				"updated": "20220808110904"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "求数组排序后的索引",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808110916-5nx03yj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808110916-5nx03yj",
+				"updated": "20220808110959"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "np.argsort(a, axis = -1, kind = None)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 可以对原数组从小到大排序",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808111037-qumhowx",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808111037-qumhowx",
+				"updated": "20220808111055"
+			},
+			"Children": [
+				{
+					"ID": "20220808111038-71bemb4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808111038-71bemb4",
+						"updated": "20220808111038"
+					},
+					"Children": [
+						{
+							"ID": "20220808111038-zz2352g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808111038-zz2352g",
+								"updated": "20220808111046"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "axis 默认-1，最后一个轴",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808111047-6hka766",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808111047-6hka766",
+						"updated": "20220808111055"
+					},
+					"Children": [
+						{
+							"ID": "20220808111047-728fcs3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808111047-728fcs3",
+								"updated": "20220808111055"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "kind 是算法，默认是快速排序",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2193 @@
+{
+	"ID": "20221026132809-jojwz1i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221026132809-jojwz1i",
+		"title": "TA技术培训-视频笔记",
+		"updated": "20221027100541"
+	},
+	"Children": [
+		{
+			"ID": "20221026132809-z03ol1c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221026132809-z03ol1c",
+				"updated": "20221026132829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UGUI入门"
+				}
+			]
+		},
+		{
+			"ID": "20221026133149-wm3p2hl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026133149-wm3p2hl",
+				"updated": "20221026133303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UGUI——Unity提供的UI处理方案。"
+				}
+			]
+		},
+		{
+			"ID": "20221026133749-3qv3jet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026133749-3qv3jet",
+				"updated": "20221026134009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在Hierarchy面板右键，选择UI-Image新建一个UI组件"
+				}
+			]
+		},
+		{
+			"ID": "20221026133832-68hj08x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026133832-68hj08x",
+				"updated": "20221026133833"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221026133833-y33jlx5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221026134106-p5wdec3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026134106-p5wdec3",
+				"updated": "20221026134107"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221026134107-ygrl6xe.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221026134012-ehirahi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026134012-ehirahi",
+				"updated": "20221026134059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生成了一个Canvas和EventSystem"
+				}
+			]
+		},
+		{
+			"ID": "20221026134317-a81a5ay",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026134317-a81a5ay",
+				"updated": "20221026134337"
+			},
+			"Children": [
+				{
+					"ID": "20221026134337-8ug8hf6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026134337-8ug8hf6",
+						"updated": "20221026134337"
+					},
+					"Children": [
+						{
+							"ID": "20221026134337-ldsrksd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026134337-ldsrksd",
+								"updated": "20221026134508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "rectTransform"
+								}
+							]
+						},
+						{
+							"ID": "20221026134508-1r7rs1v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026134508-1r7rs1v"
+							},
+							"Children": [
+								{
+									"ID": "20221026134544-ebouba1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026134544-ebouba1"
+									},
+									"Children": [
+										{
+											"ID": "20221026134544-awvpwpi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026134544-awvpwpi",
+												"updated": "20221026134657"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "锚点和轴心点，使用recttool选中后，中间的圈是轴心点，四个三角形围住的是锚点"
+												}
+											]
+										},
+										{
+											"ID": "20221026134816-zy16dho",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026134816-zy16dho"
+											},
+											"Children": [
+												{
+													"ID": "20221026134816-u9jvxzl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026134816-u9jvxzl"
+													},
+													"Children": [
+														{
+															"ID": "20221026134816-b0ve9nz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026134816-b0ve9nz",
+																"updated": "20221026135429"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "锚点是当前UI固定在上层UI的位置，调整上层UI时，当前UI与锚点的距离不会随之改变"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026134942-0oo57e8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026134942-0oo57e8"
+													},
+													"Children": [
+														{
+															"ID": "20221026134942-4ohym8j",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026134942-4ohym8j",
+																"updated": "20221026135027"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "轴心点类似于三维物体的轴心，缩放、旋转时都是以轴心点为中心进行"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026135431-064e55z",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026135431-064e55z"
+													},
+													"Children": [
+														{
+															"ID": "20221026135431-ggbf8pr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026135431-ggbf8pr",
+																"updated": "20221026135500"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "锚点的比例数值是按照父物体的比例算的，而轴心点的数值是按照它自身的比例算的"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026135659-cdhj312",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026135659-cdhj312"
+													},
+													"Children": [
+														{
+															"ID": "20221026135659-t1uwp4u",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026135659-t1uwp4u",
+																"updated": "20221026135715"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "锚点面板"
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "image"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/image-20221026135703-syhwnf2.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "image"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/image-20221026135715-fu45s5h.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026135751-e5auy5l",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026135751-e5auy5l"
+													},
+													"Children": [
+														{
+															"ID": "20221026135751-5ng7jdr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026135751-5ng7jdr",
+																"updated": "20221026140045"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "锚点是可以分开的，如果分成左右两个则相当于距离父物体的两边距离都不改变，按住shift可以同时改变锚点和中心点的位置，比如同时设置为左上角然后把xy坐标设置为0可以自动对齐到左上角"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026134508-6t4m1az",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026134508-6t4m1az"
+									},
+									"Children": [
+										{
+											"ID": "20221026134508-s8th37n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026134508-s8th37n",
+												"updated": "20221026135548"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "xyz的意义是轴心点相对于锚点的位置，z轴不影响渲染层级关系通常为0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026140226-echhlj5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026140226-echhlj5"
+									},
+									"Children": [
+										{
+											"ID": "20221026140226-y0vt3yr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026140226-y0vt3yr",
+												"updated": "20221026140439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码中获取rect组件的长和宽可以直接获取这个组件后，获取它的rect.width和rect.height的值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026142300-2iq7fyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026142300-2iq7fyp",
+				"updated": "20221026142302"
+			}
+		},
+		{
+			"ID": "20221026142302-yo3dgj2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026142302-yo3dgj2",
+				"updated": "20221026142302"
+			},
+			"Children": [
+				{
+					"ID": "20221026140502-ctom0ew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026140502-ctom0ew"
+					},
+					"Children": [
+						{
+							"ID": "20221026140502-z0bhvuj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026140502-z0bhvuj",
+								"updated": "20221026140507"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Canvas组件"
+								}
+							]
+						},
+						{
+							"ID": "20221026140507-ehz9ha5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026140507-ehz9ha5"
+							},
+							"Children": [
+								{
+									"ID": "20221026142315-8n20abn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026142315-8n20abn"
+									},
+									"Children": [
+										{
+											"ID": "20221026142315-6mi0gnk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026142315-6mi0gnk",
+												"updated": "20221026142319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Canvas"
+												}
+											]
+										},
+										{
+											"ID": "20221026142322-91n1vr7",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026142322-91n1vr7"
+											},
+											"Children": [
+												{
+													"ID": "20221026140507-n5acm9i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026140507-n5acm9i"
+													},
+													"Children": [
+														{
+															"ID": "20221026140507-n7eezm0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026140507-n7eezm0",
+																"updated": "20221026140547"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Render Mode渲染模式"
+																}
+															]
+														},
+														{
+															"ID": "20221026140623-svann61",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20221026140623-svann61"
+															},
+															"Children": [
+																{
+																	"ID": "20221026140623-d36g0vq",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20221026140623-d36g0vq"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20221026140623-3yultuq",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20221026140623-3yultuq",
+																				"updated": "20221026141206"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "Overlay会始终渲染画布范围，无论摄像机朝向，始终渲染在最上层，不会被其他物体遮挡"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20221026141014-9bzvr0e",
+																			"Type": "NodeList",
+																			"ListData": {},
+																			"Properties": {
+																				"id": "20221026141014-9bzvr0e"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20221026140729-uyea0iv",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20221026140729-uyea0iv"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20221026140729-ezppivc",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20221026140729-ezppivc",
+																								"updated": "20221026140845"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "Sort Order是渲染顺序"
+																								}
+																							]
+																						},
+																						{
+																							"ID": "20221026140856-33nwnhl",
+																							"Type": "NodeList",
+																							"ListData": {},
+																							"Properties": {
+																								"id": "20221026140856-33nwnhl"
+																							},
+																							"Children": [
+																								{
+																									"ID": "20221026140856-ldc53eg",
+																									"Type": "NodeListItem",
+																									"ListData": {
+																										"BulletChar": 42,
+																										"Marker": "Kg=="
+																									},
+																									"Properties": {
+																										"id": "20221026140856-ldc53eg"
+																									},
+																									"Children": [
+																										{
+																											"ID": "20221026140856-m98ge4f",
+																											"Type": "NodeParagraph",
+																											"Properties": {
+																												"id": "20221026140856-m98ge4f",
+																												"updated": "20221026140930"
+																											},
+																											"Children": [
+																												{
+																													"Type": "NodeText",
+																													"Data": "不同的Canvas，SortOrder的值越大，则会渲染在越上层"
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20221026141018-gyflta6",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20221026141018-gyflta6"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20221026141018-qqc2vjy",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20221026141018-qqc2vjy",
+																				"updated": "20221026141152"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "Camera是针对相机的，需要附上渲染的相机，之后这个Canvas会被放置在相机的视锥体上，可以调整距离相机的距离，也可以被其他三维物体遮挡"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20221026141238-fox0j01",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20221026141238-fox0j01"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20221026141238-0jr5y6d",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20221026141238-0jr5y6d",
+																				"updated": "20221026141340"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "WordSpace是纯粹将UI放在世界三维空间中，可以调整相机以决定能否看到这个Canvas，可以用来做一些场景中的3D UI"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026141401-89c0eaj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026141401-89c0eaj"
+									},
+									"Children": [
+										{
+											"ID": "20221026141401-dihpxzl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026141401-dihpxzl",
+												"updated": "20221026141412"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Canvas Scalar"
+												}
+											]
+										},
+										{
+											"ID": "20221026141413-ozg7irq",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026141413-ozg7irq"
+											},
+											"Children": [
+												{
+													"ID": "20221026141412-7wryarl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026141412-7wryarl"
+													},
+													"Children": [
+														{
+															"ID": "20221026141412-udfs1ip",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026141412-udfs1ip",
+																"updated": "20221026141444"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "用于调整Canvas中UI的大小"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026141642-78zmovm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026141642-78zmovm"
+													},
+													"Children": [
+														{
+															"ID": "20221026141642-miwjakv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026141642-miwjakv",
+																"updated": "20221026141657"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Constant Pixel Size恒定像素大小"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026141657-pnji09c",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026141657-pnji09c"
+													},
+													"Children": [
+														{
+															"ID": "20221026141657-sdw049t",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026141657-sdw049t",
+																"updated": "20221026141821"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Scale With Screen Size可以根据屏幕大小自适应条件UI大小，可以选择根据宽高来调节"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026142158-zxmuxy8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026142158-zxmuxy8"
+									},
+									"Children": [
+										{
+											"ID": "20221026142158-v4nso8t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026142158-v4nso8t",
+												"updated": "20221026142205"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Graphic Raycaster"
+												}
+											]
+										},
+										{
+											"ID": "20221026142212-90zul04",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026142212-90zul04"
+											},
+											"Children": [
+												{
+													"ID": "20221026142212-yb6tr62",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026142212-yb6tr62"
+													},
+													"Children": [
+														{
+															"ID": "20221026142212-368mtud",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026142212-368mtud",
+																"updated": "20221026142230"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "射线检测使用，为了进行UI交互"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026142348-ag8539m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026142348-ag8539m"
+									},
+									"Children": [
+										{
+											"ID": "20221026142348-yfuqinh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026142348-yfuqinh",
+												"updated": "20221026142352"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Canvas Group"
+												}
+											]
+										},
+										{
+											"ID": "20221026142352-oqjqddv",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026142352-oqjqddv"
+											},
+											"Children": [
+												{
+													"ID": "20221026142352-hq95g6p",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026142352-hq95g6p"
+													},
+													"Children": [
+														{
+															"ID": "20221026142352-y2sgiz8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026142352-y2sgiz8",
+																"updated": "20221026142428"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可以整体调整所有子物体的属性，不必再单独遍历寻找子物体"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026142515-u6kxro2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026142515-u6kxro2"
+													},
+													"Children": [
+														{
+															"ID": "20221026142515-i54rvpj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026142515-i54rvpj",
+																"updated": "20221026142729"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可以放在Canvas上也可以放在其他UI物体上，如果父物体和子物体都有这个组件，父物体的调节对子物体没有影响"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026142729-xp90k8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026142729-xp90k8d"
+			}
+		},
+		{
+			"ID": "20221026142732-n49wn0w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026142732-n49wn0w",
+				"updated": "20221026151926"
+			},
+			"Children": [
+				{
+					"ID": "20221026142733-p6h7a0q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026142733-p6h7a0q",
+						"updated": "20221026142733"
+					},
+					"Children": [
+						{
+							"ID": "20221026142733-dl22pvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026142733-dl22pvj",
+								"updated": "20221026142737"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Image组件"
+								}
+							]
+						},
+						{
+							"ID": "20221026142803-ud116bf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026142803-ud116bf"
+							},
+							"Children": [
+								{
+									"ID": "20221026142803-udkup28",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026142803-udkup28"
+									},
+									"Children": [
+										{
+											"ID": "20221026142803-8ksrztz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026142803-8ksrztz",
+												"updated": "20221026143409"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "图片来源：必须是Sprite的格式，可以导入Unity中进行设置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026143610-kruwble",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026143610-kruwble"
+									},
+									"Children": [
+										{
+											"ID": "20221026143610-gk6kcfz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026143610-gk6kcfz",
+												"updated": "20221026143616"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可调节颜色RGBA"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026143616-gy14zh0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026143616-gy14zh0"
+					},
+					"Children": [
+						{
+							"ID": "20221026143616-4gjkyv4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026143616-4gjkyv4",
+								"updated": "20221026143622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Raw Image组件"
+								}
+							]
+						},
+						{
+							"ID": "20221026143622-do7as0v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026143622-do7as0v"
+							},
+							"Children": [
+								{
+									"ID": "20221026143622-7w6f6iu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026143622-7w6f6iu"
+									},
+									"Children": [
+										{
+											"ID": "20221026143622-gaxxfka",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026143622-gaxxfka",
+												"updated": "20221026143634"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以放其他类型格式的图片"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026150622-qr009j7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026150622-qr009j7",
+						"updated": "20221026151926"
+					},
+					"Children": [
+						{
+							"ID": "20221026150622-qxcd16s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026150622-qxcd16s",
+								"updated": "20221026150646"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Button按钮"
+								}
+							]
+						},
+						{
+							"ID": "20221026151116-yelj5zw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026151116-yelj5zw",
+								"updated": "20221026151926"
+							},
+							"Children": [
+								{
+									"ID": "20221026151108-3qoe8f0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026151108-3qoe8f0",
+										"updated": "20221026151926"
+									},
+									"Children": [
+										{
+											"ID": "20221026151108-goai6cl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026151108-goai6cl",
+												"updated": "20221026151911"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "OnClick添加触发事件，可以编写脚本设置触发时的操作"
+												}
+											]
+										},
+										{
+											"ID": "20221026151912-w70fl46",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026151912-w70fl46",
+												"updated": "20221026151913"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20221026151913-zzigamh.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										},
+										{
+											"ID": "20221026151913-0i7n3z1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026151913-0i7n3z1",
+												"updated": "20221026151926"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20221026151926-0gj3r9w.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026152233-ryk4ymk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026152233-ryk4ymk",
+				"updated": "20221026153810"
+			},
+			"Children": [
+				{
+					"ID": "20221026152236-lfojeh5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026152236-lfojeh5",
+						"updated": "20221026153810"
+					},
+					"Children": [
+						{
+							"ID": "20221026152236-7b6s27s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026152236-7b6s27s",
+								"updated": "20221026152243"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Slider滑动条"
+								}
+							]
+						},
+						{
+							"ID": "20221026152245-0b2b4cr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026152245-0b2b4cr",
+								"updated": "20221026153810"
+							},
+							"Children": [
+								{
+									"ID": "20221026152245-kgt905v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026152245-kgt905v"
+									},
+									"Children": [
+										{
+											"ID": "20221026152245-v4o6geq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026152245-v4o6geq",
+												"updated": "20221026152257"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以做视频进度条或音量条"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026152257-xjlb9m6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026152257-xjlb9m6",
+										"updated": "20221026153810"
+									},
+									"Children": [
+										{
+											"ID": "20221026152257-7xvurlx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026152257-7xvurlx",
+												"updated": "20221026153810"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有一个Value值，可以获取它的值来使用进度条，也可以自定义它的范围"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026163713-kgm7hyd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026163713-kgm7hyd",
+				"updated": "20221026190302"
+			},
+			"Children": [
+				{
+					"ID": "20221026163715-z6d0z9y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026163715-z6d0z9y",
+						"updated": "20221026163715"
+					},
+					"Children": [
+						{
+							"ID": "20221026163715-sv0b60g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026163715-sv0b60g",
+								"updated": "20221026163719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ScrollBar"
+								}
+							]
+						},
+						{
+							"ID": "20221026163720-funjrfc",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026163720-funjrfc"
+							},
+							"Children": [
+								{
+									"ID": "20221026163719-ymcpsv5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026163719-ymcpsv5"
+									},
+									"Children": [
+										{
+											"ID": "20221026163719-5qezpf8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026163719-5qezpf8",
+												"updated": "20221026163831"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以设置步数，结合scrollView使用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026163831-ho9vp74",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026163831-ho9vp74"
+					},
+					"Children": [
+						{
+							"ID": "20221026163831-dl8nfff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026163831-dl8nfff",
+								"updated": "20221026163835"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Toggle"
+								}
+							]
+						},
+						{
+							"ID": "20221026163841-iimvpgc",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026163841-iimvpgc"
+							},
+							"Children": [
+								{
+									"ID": "20221026163841-iawlt7v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026163841-iawlt7v"
+									},
+									"Children": [
+										{
+											"ID": "20221026163841-1990kew",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026163841-1990kew",
+												"updated": "20221026163846"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "确认框"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026164305-zsrv158",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026164305-zsrv158"
+									},
+									"Children": [
+										{
+											"ID": "20221026164305-q2lehrj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026164305-q2lehrj",
+												"updated": "20221026164311"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "toggle Group"
+												}
+											]
+										},
+										{
+											"ID": "20221026164312-7lwrdjs",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221026164312-7lwrdjs"
+											},
+											"Children": [
+												{
+													"ID": "20221026164312-gy066dr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026164312-gy066dr"
+													},
+													"Children": [
+														{
+															"ID": "20221026164312-m85yapu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026164312-m85yapu",
+																"updated": "20221026164337"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "创建父物体，为其添加ToggleGroup组件"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221026164340-p3jfh9c",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221026164340-p3jfh9c"
+													},
+													"Children": [
+														{
+															"ID": "20221026164340-zqpltjo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221026164340-zqpltjo",
+																"updated": "20221026164409"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "将这个问题附到每个Toggle的Group属性上"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026170838-e460oy9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026170838-e460oy9"
+					},
+					"Children": [
+						{
+							"ID": "20221026170838-glq3mqn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026170838-glq3mqn",
+								"updated": "20221026170845"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DropDown下拉菜单"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026171132-gqvcovn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026171132-gqvcovn"
+					},
+					"Children": [
+						{
+							"ID": "20221026171132-9uhrvdp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026171132-9uhrvdp",
+								"updated": "20221026171149"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Scroll View，配合滚动条使用"
+								}
+							]
+						},
+						{
+							"ID": "20221026171150-pojkvka",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026171150-pojkvka"
+							},
+							"Children": [
+								{
+									"ID": "20221026171149-apvejwg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026171149-apvejwg"
+									},
+									"Children": [
+										{
+											"ID": "20221026171149-cqakdwd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026171149-cqakdwd",
+												"updated": "20221026171205"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在viewpoint的content中放内容"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026171417-3ypiq86",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026171417-3ypiq86"
+									},
+									"Children": [
+										{
+											"ID": "20221026171417-al3ux76",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026171417-al3ux76",
+												"updated": "20221026171427"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "content的大小决定了可以滑动的范围"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026182346-jak407b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026182346-jak407b"
+									},
+									"Children": [
+										{
+											"ID": "20221026182346-mexo05j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026182346-mexo05j",
+												"updated": "20221026182401"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "也可以添加滑动时调用的事件方法"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221026185418-zefh6zy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026185418-zefh6zy",
+								"updated": "20221026185418"
+							},
+							"Children": [
+								{
+									"ID": "20221026182442-kqyknl8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026182442-kqyknl8"
+									},
+									"Children": [
+										{
+											"ID": "20221026182442-13w8qv9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026182442-13w8qv9",
+												"updated": "20221026182507"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以使用一些自动布局的组件进行布局如Grid Layout Group"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026185247-mhhjuzj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026185247-mhhjuzj"
+					},
+					"Children": [
+						{
+							"ID": "20221026185247-cz01mir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026185247-cz01mir",
+								"updated": "20221026185508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Text组件，TextMeshPro"
+								}
+							]
+						},
+						{
+							"ID": "20221026185304-mfk7i47",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026185304-mfk7i47"
+							},
+							"Children": [
+								{
+									"ID": "20221026185304-mb42h5o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026185304-mb42h5o"
+									},
+									"Children": [
+										{
+											"ID": "20221026185304-mxxvuv2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026185304-mxxvuv2",
+												"updated": "20221026185521"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以使用自适应的组件Content Size Fitter"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026185741-8fs8oqc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026185741-8fs8oqc"
+					},
+					"Children": [
+						{
+							"ID": "20221026185741-qu3v1g0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026185741-qu3v1g0",
+								"updated": "20221026185759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Input Field输入框"
+								}
+							]
+						},
+						{
+							"ID": "20221026185800-hnq1b3s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026185800-hnq1b3s"
+							},
+							"Children": [
+								{
+									"ID": "20221026185800-z0dtnwp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026185800-z0dtnwp"
+									},
+									"Children": [
+										{
+											"ID": "20221026185800-562wkg3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026185800-562wkg3",
+												"updated": "20221026185944"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Placeholder是提示文字"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026185953-sad1i57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026185953-sad1i57"
+									},
+									"Children": [
+										{
+											"ID": "20221026185953-pry089s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026185953-pry089s",
+												"updated": "20221026190035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Text是输入的内容"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026190043-gmz73fp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026190043-gmz73fp"
+									},
+									"Children": [
+										{
+											"ID": "20221026190043-qn5floq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026190043-qn5floq",
+												"updated": "20221026190051"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "输入框也可以添加事件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026190101-t4cbv4i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026190101-t4cbv4i",
+						"updated": "20221026190302"
+					},
+					"Children": [
+						{
+							"ID": "20221026190101-72kw2s4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026190101-72kw2s4",
+								"updated": "20221026190105"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义交互组件"
+								}
+							]
+						},
+						{
+							"ID": "20221026190106-ommud0f",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221026190106-ommud0f",
+								"updated": "20221026190302"
+							},
+							"Children": [
+								{
+									"ID": "20221026190106-40t4eb8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026190106-40t4eb8"
+									},
+									"Children": [
+										{
+											"ID": "20221026190106-qbb00xh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026190106-qbb00xh",
+												"updated": "20221026190253"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以自定义一些事件触发EventTrigger组件，比较麻烦"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221026190254-ucw54ex",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221026190254-ucw54ex",
+										"updated": "20221026190302"
+									},
+									"Children": [
+										{
+											"ID": "20221026190254-6bh6awc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221026190254-6bh6awc",
+												"updated": "20221026190302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "也可以在代码中通过继承接口实现"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026185506-4nmrk6g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221026185506-4nmrk6g",
+				"updated": "20221027100541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UGUI优化和特色方案"
+				}
+			]
+		},
+		{
+			"ID": "20221027100541-hm90rlb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221027100541-hm90rlb"
+			}
+		}
+	]
+}

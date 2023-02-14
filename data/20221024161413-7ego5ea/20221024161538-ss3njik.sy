@@ -1,0 +1,2308 @@
+{
+	"ID": "20221024161538-ss3njik",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221024161538-ss3njik",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221024161538-q9ci4q1\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221024163956-gvzx9uw\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:800}",
+		"title": "七周七语言",
+		"updated": "20221027131455"
+	},
+	"Children": [
+		{
+			"ID": "20221024161538-q9ci4q1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221024161538-q9ci4q1",
+				"updated": "20221024161556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简介"
+				}
+			]
+		},
+		{
+			"ID": "20221024162444-riuetun",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024162444-riuetun",
+				"updated": "20221024162501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习编程语言的关注点"
+				}
+			]
+		},
+		{
+			"ID": "20221024162456-6ggxcc0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024162456-6ggxcc0",
+				"updated": "20221024162659"
+			},
+			"Children": [
+				{
+					"ID": "20221024162518-8zjt7ip",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024162518-8zjt7ip",
+						"updated": "20221024162659"
+					},
+					"Children": [
+						{
+							"ID": "20221024162518-ocq8jc1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024162518-ocq8jc1",
+								"updated": "20221024162521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语言的类型模型"
+								}
+							]
+						},
+						{
+							"ID": "20221024162522-qicnrev",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024162522-qicnrev",
+								"updated": "20221024162659"
+							},
+							"Children": [
+								{
+									"ID": "20221024162537-ldekeny",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024162537-ldekeny",
+										"updated": "20221024162653"
+									},
+									"Children": [
+										{
+											"ID": "20221024162537-trzd8wt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024162537-trzd8wt",
+												"updated": "20221024162653"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "强类型（Java） or 弱类型（C语言）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024162605-jfa995w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024162605-jfa995w",
+										"updated": "20221024162659"
+									},
+									"Children": [
+										{
+											"ID": "20221024162605-1h09acn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024162605-1h09acn",
+												"updated": "20221024162659"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "静态类型（Java） or 动态类型（Ruby）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024163956-gvzx9uw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024163956-gvzx9uw",
+				"updated": "20221024164755"
+			},
+			"Children": [
+				{
+					"ID": "20221024164000-mo6mjdz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024164000-mo6mjdz",
+						"updated": "20221024164000"
+					},
+					"Children": [
+						{
+							"ID": "20221024164000-z562bwb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024164000-z562bwb",
+								"updated": "20221024164010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程范型"
+								}
+							]
+						},
+						{
+							"ID": "20221024164011-x689qek",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024164011-x689qek",
+								"updated": "20221024164013"
+							},
+							"Children": [
+								{
+									"ID": "20221024164013-5xza7c2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164013-5xza7c2",
+										"updated": "20221024164013"
+									},
+									"Children": [
+										{
+											"ID": "20221024164013-fqjk5ma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164013-fqjk5ma",
+												"updated": "20221024164232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "面向对象、函数式、过程式、综合体"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164034-r0p8fz4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164034-r0p8fz4"
+									},
+									"Children": [
+										{
+											"ID": "20221024164034-i1z2rjm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164034-i1z2rjm",
+												"updated": "20221024164249"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有的语言由多种范型组合"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164038-4uevy1s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164038-4uevy1s"
+									},
+									"Children": [
+										{
+											"ID": "20221024164038-z3cqmxv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164038-z3cqmxv",
+												"updated": "20221024164301"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "本书中的编程语言"
+												}
+											]
+										},
+										{
+											"ID": "20221024164303-s40dx3m",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221024164303-s40dx3m"
+											},
+											"Children": [
+												{
+													"ID": "20221024164043-5g5kt32",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164043-5g5kt32"
+													},
+													"Children": [
+														{
+															"ID": "20221024164043-224bns9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164043-224bns9",
+																"updated": "20221024164314"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "基于逻辑的编程语言Prolog"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221024164314-gemwbez",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164314-gemwbez"
+													},
+													"Children": [
+														{
+															"ID": "20221024164314-kz2ebas",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164314-kz2ebas",
+																"updated": "20221024164328"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "面向对象的Ruby和Scala"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221024164328-esmvfzq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164328-esmvfzq"
+													},
+													"Children": [
+														{
+															"ID": "20221024164328-8qw9abw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164328-8qw9abw",
+																"updated": "20221024164359"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "有函数式特性的编程语言Scala、Erlang、Clojure、Haskell"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221024164401-xs5r4u3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164401-xs5r4u3"
+													},
+													"Children": [
+														{
+															"ID": "20221024164401-30fcpjf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164401-30fcpjf",
+																"updated": "20221024164405"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "原型语言Io"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024164427-jfmwhdp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221024164427-jfmwhdp"
+					},
+					"Children": [
+						{
+							"ID": "20221024164427-dsislbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024164427-dsislbm",
+								"updated": "20221024164435"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "交互方式"
+								}
+							]
+						},
+						{
+							"ID": "20221024164435-fgo47xz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024164435-fgo47xz",
+								"updated": "20221024164438"
+							},
+							"Children": [
+								{
+									"ID": "20221024164438-837jmjq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164438-837jmjq",
+										"updated": "20221024164438"
+									},
+									"Children": [
+										{
+											"ID": "20221024164438-i0lpar9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164438-i0lpar9",
+												"updated": "20221024164443"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编译 or 解释"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164443-him2ues",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164443-him2ues"
+									},
+									"Children": [
+										{
+											"ID": "20221024164443-jo3ztch",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164443-jo3ztch",
+												"updated": "20221024164450"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有无虚拟机"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024164504-pdp57ij",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221024164504-pdp57ij"
+					},
+					"Children": [
+						{
+							"ID": "20221024164504-u8lbsp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024164504-u8lbsp3",
+								"updated": "20221024164512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断结构和核心的数据结构"
+								}
+							]
+						},
+						{
+							"ID": "20221024164513-d02xoce",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024164513-d02xoce",
+								"updated": "20221024164514"
+							},
+							"Children": [
+								{
+									"ID": "20221024164514-kzoq9vk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164514-kzoq9vk",
+										"updated": "20221024164514"
+									},
+									"Children": [
+										{
+											"ID": "20221024164514-w0q8ahy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164514-w0q8ahy",
+												"updated": "20221024164530"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "做判断时"
+												}
+											]
+										},
+										{
+											"ID": "20221024164534-7u6ioeg",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221024164534-7u6ioeg"
+											},
+											"Children": [
+												{
+													"ID": "20221024164534-geh7ay6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164534-geh7ay6"
+													},
+													"Children": [
+														{
+															"ID": "20221024164534-zahkoxl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164534-zahkoxl",
+																"updated": "20221024164543"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Erlang的模式匹配"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20221024164545-z0hi9q7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164545-z0hi9q7"
+													},
+													"Children": [
+														{
+															"ID": "20221024164545-fzddnul",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164545-fzddnul",
+																"updated": "20221024164557"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Prolog的合一（unification）"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164558-lk4z2d0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164558-lk4z2d0"
+									},
+									"Children": [
+										{
+											"ID": "20221024164558-89ryxau",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164558-89ryxau",
+												"updated": "20221024164608"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据结构如"
+												}
+											]
+										},
+										{
+											"ID": "20221024164608-2tbpdmi",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20221024164608-2tbpdmi"
+											},
+											"Children": [
+												{
+													"ID": "20221024164608-u2hgcu7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20221024164608-u2hgcu7"
+													},
+													"Children": [
+														{
+															"ID": "20221024164608-vicw9he",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20221024164608-vicw9he",
+																"updated": "20221024164616"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "集合"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024164621-41c7h1v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221024164621-41c7h1v",
+						"updated": "20221024164755"
+					},
+					"Children": [
+						{
+							"ID": "20221024164621-jiqxg47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024164621-jiqxg47",
+								"updated": "20221024164631"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让这门语言与众不同的核心特性"
+								}
+							]
+						},
+						{
+							"ID": "20221024164631-zojuu46",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024164631-zojuu46",
+								"updated": "20221024164755"
+							},
+							"Children": [
+								{
+									"ID": "20221024164633-9xbiemq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164633-9xbiemq",
+										"updated": "20221024164633"
+									},
+									"Children": [
+										{
+											"ID": "20221024164633-xv2hscd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164633-xv2hscd",
+												"updated": "20221024164650"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Clojure的宏和Io的消息解释"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164659-40dripm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164659-40dripm"
+									},
+									"Children": [
+										{
+											"ID": "20221024164659-jyoi4fe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164659-jyoi4fe",
+												"updated": "20221024164720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Erlang的性能强劲的虚拟机BEAM"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024164735-zow0rgn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024164735-zow0rgn",
+										"updated": "20221024164755"
+									},
+									"Children": [
+										{
+											"ID": "20221024164735-irtvm29",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024164735-irtvm29",
+												"updated": "20221024164755"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "针对特定问题的编程模型，如利用逻辑规则解决约束问题"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221025092808-jp5th6v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221025092808-jp5th6v",
+				"updated": "20221025092813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ruby"
+				}
+			]
+		},
+		{
+			"ID": "20221025092813-qswu2vd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025092813-qswu2vd",
+				"updated": "20221025092820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "day 1"
+				}
+			]
+		},
+		{
+			"ID": "20221025092820-q3q0qkb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221025092820-q3q0qkb",
+				"updated": "20221025093142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "homework"
+				}
+			]
+		},
+		{
+			"ID": "20221025095556-f0086vq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221025095556-f0086vq",
+				"updated": "20221025095559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找"
+				}
+			]
+		},
+		{
+			"ID": "20221025093143-q7xy6sg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221025093143-q7xy6sg",
+				"updated": "20221025093146"
+			},
+			"Children": [
+				{
+					"ID": "20221025093146-ibur440",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221025093146-ibur440",
+						"updated": "20221025093146"
+					},
+					"Children": [
+						{
+							"ID": "20221025093146-j23uoje",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093146-j23uoje",
+								"updated": "20221025093149"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "API doc"
+								}
+							]
+						},
+						{
+							"ID": "20221025093152-7zbqxr9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093152-7zbqxr9",
+								"updated": "20221025093155"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://rubyapi.org/3.0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025093156-pb5r05h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221025093156-pb5r05h"
+					},
+					"Children": [
+						{
+							"ID": "20221025093156-y2472si",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093156-y2472si",
+								"updated": "20221025093238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "教材"
+								}
+							]
+						},
+						{
+							"ID": "20221025093238-fhkx8hs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093238-fhkx8hs",
+								"updated": "20221025093239"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "http://ruby-doc.com/docs/ProgrammingRuby/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025093247-zmdhzpj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221025093247-zmdhzpj"
+					},
+					"Children": [
+						{
+							"ID": "20221025093247-1c48zxh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025093247-1c48zxh",
+								"updated": "20221025094248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "替换字符串某一部分的方法"
+								}
+							]
+						},
+						{
+							"ID": "20221025094249-p9dwarj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025094249-p9dwarj",
+								"updated": "20221025094250"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025094250-orna2da.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025094251-rguuosw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221025094251-rguuosw"
+					},
+					"Children": [
+						{
+							"ID": "20221025094251-2k7gcn2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025094251-2k7gcn2",
+								"updated": "20221025094255"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "正则表达式"
+								}
+							]
+						},
+						{
+							"ID": "20221025095505-0cy1bk6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095505-0cy1bk6",
+								"updated": "20221025095506"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://ruby-doc.com/core/Regexp.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025095509-nzoqiq0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221025095509-nzoqiq0"
+					},
+					"Children": [
+						{
+							"ID": "20221025095509-1mn5h7p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095509-1mn5h7p",
+								"updated": "20221025095549"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有关Range的资料"
+								}
+							]
+						},
+						{
+							"ID": "20221025095550-l3szb3n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095550-l3szb3n",
+								"updated": "20221025095551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://ruby-doc.com/core/Range.html"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221025095602-ywh6h0l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221025095602-ywh6h0l",
+				"updated": "20221025095605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "做"
+				}
+			]
+		},
+		{
+			"ID": "20221025095605-rbgvqvi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221025095605-rbgvqvi",
+				"updated": "20221025114721"
+			},
+			"Children": [
+				{
+					"ID": "20221025095606-fhhnzry",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221025095606-fhhnzry",
+						"updated": "20221025095606"
+					},
+					"Children": [
+						{
+							"ID": "20221025095606-1kyrrka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095606-1kyrrka",
+								"updated": "20221025095933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "helloworld"
+								}
+							]
+						},
+						{
+							"ID": "20221025095935-xjft8gs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095935-xjft8gs",
+								"updated": "20221025095936"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025095936-mx0n3r3.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025095936-652y7ll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221025095936-652y7ll"
+					},
+					"Children": [
+						{
+							"ID": "20221025095936-dbguesf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025095936-dbguesf",
+								"updated": "20221025100412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "找下标"
+								}
+							]
+						},
+						{
+							"ID": "20221025100413-xev69sk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025100413-xev69sk",
+								"updated": "20221025100414"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025100414-qonatx1.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025101627-eirrpbb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221025101627-eirrpbb"
+					},
+					"Children": [
+						{
+							"ID": "20221025101627-y4xlvop",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025101627-y4xlvop",
+								"updated": "20221025101631"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打印名字十遍"
+								}
+							]
+						},
+						{
+							"ID": "20221025101631-txtb0u3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025101631-txtb0u3",
+								"updated": "20221025101633"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025101633-va62c4g.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025102007-nsf1jdx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221025102007-nsf1jdx"
+					},
+					"Children": [
+						{
+							"ID": "20221025102007-s66aqgw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025102007-s66aqgw",
+								"updated": "20221025102016"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "句子序号从1变到10"
+								}
+							]
+						},
+						{
+							"ID": "20221025102017-pydxddw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025102017-pydxddw",
+								"updated": "20221025102018"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025102018-z9iyylg.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025102020-fh8ukvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221025102020-fh8ukvq",
+						"updated": "20221025114721"
+					},
+					"Children": [
+						{
+							"ID": "20221025102020-hfxj191",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025102020-hfxj191",
+								"updated": "20221025114711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从文件运行"
+								}
+							]
+						},
+						{
+							"ID": "20221025114720-wfd8y88",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025114720-wfd8y88",
+								"updated": "20221025114721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://www.ruby-lang.org/zh_cn/documentation/quickstart/3/"
+								}
+							]
+						},
+						{
+							"ID": "20221025114711-d8a9spo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025114711-d8a9spo",
+								"updated": "20221025114712"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221025114712-xdw6fth.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221025101625-dtiotny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025101625-dtiotny",
+				"updated": "20221026111726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "day 2"
+				}
+			]
+		},
+		{
+			"ID": "20221026111731-1ciwmg1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221026111731-1ciwmg1",
+				"updated": "20221026111735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "homework"
+				}
+			]
+		},
+		{
+			"ID": "20221026111735-g3o2ocn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221026111735-g3o2ocn",
+				"updated": "20221026111738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找"
+				}
+			]
+		},
+		{
+			"ID": "20221026111741-57746pd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221026111741-57746pd",
+				"updated": "20221026120447"
+			},
+			"Children": [
+				{
+					"ID": "20221026115127-z75zyfn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221026115127-z75zyfn",
+						"updated": "20221026115127"
+					},
+					"Children": [
+						{
+							"ID": "20221026115127-apwtmsr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115127-apwtmsr",
+								"updated": "20221026115139"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用代码块和不用代码块读取文件的方法"
+								}
+							]
+						},
+						{
+							"ID": "20221026115237-6m6vncf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115237-6m6vncf",
+								"updated": "20221026115617"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以看官方文档，使用代码块之后，可以直接将打开的文件作为参数传入代码块并对其进行操作，代码块结束后会自动关闭文件，而不使用代码块则等同于File.new并需要手动关闭。使用代码块的逻辑清晰且不会忘记关闭文件。"
+								}
+							]
+						},
+						{
+							"ID": "20221026115232-50x89xi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115232-50x89xi",
+								"updated": "20221026115234"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221026115234-x886gyo.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026115759-uhlbrq9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221026115759-uhlbrq9"
+					},
+					"Children": [
+						{
+							"ID": "20221026115759-4ifcyb8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115759-4ifcyb8",
+								"updated": "20221026115820"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "散列表转换为数组和数组转为散列表的方法"
+								}
+							]
+						},
+						{
+							"ID": "20221026115903-7wv6qdk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115903-7wv6qdk",
+								"updated": "20221026115904"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221026115904-c4djkvx.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221026115947-dzddexp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115947-dzddexp",
+								"updated": "20221026120209"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "散列表转为数组后每个元素都是一个key-value数组。"
+								}
+							]
+						},
+						{
+							"ID": "20221026115820-k6arxkw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026115820-k6arxkw",
+								"updated": "20221026115821"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221026115821-jiqco4v.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221026120018-v9vz2uo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026120018-v9vz2uo",
+								"updated": "20221026120206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组转为散列表有两种情况，可以给出代码块然后会传入元素经过代码块处理后返回key-value数组，还有一种就是数组中元素是key-value的数组，结果显而易见。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026120213-fjspjkl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221026120213-fjspjkl"
+					},
+					"Children": [
+						{
+							"ID": "20221026120213-4penars",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026120213-4penars",
+								"updated": "20221026120231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "循环遍历散列表"
+								}
+							]
+						},
+						{
+							"ID": "20221026120232-q2t5cfz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026120232-q2t5cfz",
+								"updated": "20221026120321"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221026120321-op7vx7t.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221026120322-qdcq0o5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221026120322-qdcq0o5",
+						"updated": "20221026120447"
+					},
+					"Children": [
+						{
+							"ID": "20221026120322-4vd6y8w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026120322-4vd6y8w",
+								"updated": "20221026120406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Ruby的数组能当作栈来用，它还能用作哪些常用的数据结构"
+								}
+							]
+						},
+						{
+							"ID": "20221026120408-aj6xzfk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026120408-aj6xzfk",
+								"updated": "20221026120447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组拥有极其丰富的API，可将其用作队列、链表、栈、集合，等等。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026122058-n4vrzdr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221026122058-n4vrzdr",
+				"updated": "20221026122102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "做"
+				}
+			]
+		},
+		{
+			"ID": "20221026122102-rz227hl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221026122102-rz227hl",
+				"updated": "20221026122232"
+			},
+			"Children": [
+				{
+					"ID": "20221026122107-lu024iw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221026122107-lu024iw",
+						"updated": "20221026122232"
+					},
+					"Children": [
+						{
+							"ID": "20221026122107-i3v857g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026122107-i3v857g",
+								"updated": "20221026122118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有一个数组，包含16个数字。仅用each方法打印数组中的内容，一次打印4个数字。然后，用可枚举模块的each_slice方法重做一遍。"
+								}
+							]
+						},
+						{
+							"ID": "20221026122120-wnqir57",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221026122120-wnqir57",
+								"updated": "20221026122232"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cnVieQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "a = Array.new([2, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16])\nt=0\na.each do\n    |x|\n   if t==4\n    t=0\n    print \"\\n\"\n   end\n    print x,' '\n    t+=1\nend\n\na.each_slice(4) {|x| p x}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026122235-1i4zwhv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221026122235-1i4zwhv",
+				"updated": "20221026124552"
+			},
+			"Children": [
+				{
+					"ID": "20221026124509-2oszru3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221026124509-2oszru3",
+						"updated": "20221026124552"
+					},
+					"Children": [
+						{
+							"ID": "20221026124509-dvhhdj3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026124509-dvhhdj3",
+								"updated": "20221026124532"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们前面实现了一个有趣的树类Tree，但它不具有简洁的用户接口，来设置一棵新树，为它写一个初始化方法，接受散列表和数组嵌套的结构。写好之后，你可以这样设置新树：{'grandpa' =\u003e { 'dad' =\u003e {'child 1' =\u003e {}, 'child 2' =\u003e {} }, 'uncle'=\u003e {'child 3' =\u003e {}, 'child 4' =\u003e {} } } }。"
+								}
+							]
+						},
+						{
+							"ID": "20221026124539-01tmag8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221026124539-01tmag8",
+								"updated": "20221026124552"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cnVieQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "class Tree\n    attr_accessor :children,:node_name\n\n    def initialize(tree)\n    tree.each do |key, value|\n      @node_name = key\n      @children = value.map {|(key,value)| Tree.new(key =\u003e value)}\n    end\n  end\n\n    def visit_all(\u0026block)\n        visit \u0026block\n        children.each {|c| c.visit_all(\u0026block)}\n    end\n\n    def visit(\u0026block)\n        block.call self\n    end\nend\n\n ruby_tree = Tree.new(\n    {'grandpa' =\u003e {'dad' =\u003e {'child 1' =\u003e {}, 'child 2' =\u003e {}}, 'uncle' =\u003e {'child 3' =\u003e {}, 'child 4' =\u003e {} }}})\n\nputs \"Visiting a node\"\nruby_tree.visit {|node| puts node.node_name}\nputs\n\nputs \"Visiting entire tree\"\nruby_tree.visit_all {|node| puts node.node_name}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026124554-y9cukpg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221026124554-y9cukpg",
+				"updated": "20221026132335"
+			},
+			"Children": [
+				{
+					"ID": "20221026132258-9znmsoo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221026132258-9znmsoo",
+						"updated": "20221026132335"
+					},
+					"Children": [
+						{
+							"ID": "20221026132258-hgg1mop",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026132258-hgg1mop",
+								"updated": "20221026132259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写一个简单的grep程序，把文件中出现某词组的行全都打印出来。这需要使用简单的正则\n表达式匹配，并从文件中读取各行。（这在Ruby中超乎想象地简单。）如果你愿意的话，\n还可以加上行号"
+								}
+							]
+						},
+						{
+							"ID": "20221026132300-k43c5zj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221026132300-k43c5zj",
+								"updated": "20221026132335"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cnVieQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "def ruby_grep(filename, word)\n    lineNum = 1\n    r = Regexp.new(word)\n    File.open(filename, 'r') do|file| \n        file.each do |line| \n            if r =~ line\n                puts \"#{lineNum}: #{line}\"\n            end\n            lineNum += 1\n        end  \n    end\nend\nruby_grep('object_60.txt','ese')\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221027131331-frt84d8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221027131331-frt84d8",
+				"updated": "20221027131343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "day 3"
+				}
+			]
+		},
+		{
+			"ID": "20221027131343-w4pm7yz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221027131343-w4pm7yz",
+				"updated": "20221027131414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "homework"
+				}
+			]
+		},
+		{
+			"ID": "20221027131415-uulm8p4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221027131415-uulm8p4",
+				"updated": "20221027131422"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "做"
+				}
+			]
+		},
+		{
+			"ID": "20221027131422-mzstdi8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221027131422-mzstdi8",
+				"updated": "20221027131455"
+			},
+			"Children": [
+				{
+					"ID": "20221027131428-e934vrr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221027131428-e934vrr",
+						"updated": "20221027131455"
+					},
+					"Children": [
+						{
+							"ID": "20221027131428-gm9825w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221027131428-gm9825w",
+								"updated": "20221027131443"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221027131443-8vrgntj.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20221027131444-q2vlaze",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221027131444-q2vlaze",
+								"updated": "20221027131455"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cnVieQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "module ActsAsCsv\n    def self.included(base)\n        base.extend ClassMethods\n    end\nend\n  \nmodule ClassMethods\n    def act_as_csv\n        include InstanceMethods\n    end\nend\n\nmodule InstanceMethods\n    def read\n        @csv_contents=[]\n        filename = self.class.to_s.downcase+'.txt'\n        file = File.open(filename)\n        @headers = file.gets.chomp.split(',')\n      \n        file.each do |row|\n            @csv_contents \u003c\u003c row.chomp.split(',')\n            @rows.push(Row.new(headers,row.chomp.split(',')))\n        end\n    end\n  \n    attr_accessor :headers, :csv_contents,:rows\n  \n    def initialize\n        @rows = []\n        read\n    end\n\n    def each\n        for row in rows do\n            yield row\n        end\n    end\n\n    class Row\n        attr_accessor :headers, :row\n        def initialize(headers, row)\n            @headers = headers\n            @row = row\n        end\n      \n        def method_missing(name)\n            @row[headers.index(name.to_s)]\n        end\n        def row\n            @row\n        end\n    end\nend\n\nclass RubyCsv\n    include ActsAsCsv\n    act_as_csv\nend\n\nm = RubyCsv.new\nputs m.headers.inspect\nputs m.csv_contents.inspect\nm.each {|row| puts row.one}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

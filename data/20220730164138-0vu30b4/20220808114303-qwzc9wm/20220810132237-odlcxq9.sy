@@ -1,0 +1,456 @@
+{
+	"ID": "20220810132237-odlcxq9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220810132237-odlcxq9",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220810132237-dnp2wr4\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220810161157-5o6mjv1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:916,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220810132237-dnp2wr4\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "损失函数",
+		"updated": "20220810161252"
+	},
+	"Children": [
+		{
+			"ID": "20220810132237-dnp2wr4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810132237-dnp2wr4",
+				"updated": "20220810133244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单记录下几种简单损失函数，首先是损失函数(loss function)和代价函数(cost function)是有差别的，损失函数是对一个点来说的，"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "L(x) = (F(x)-f(x))^{2}"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，当然损失函数不止这种，而代价函数是把集合所有点的拟合误差做平均，有如下公式，代价函数也称作"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220730164302-ez6ucvp"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "经验风险"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220810132555-sfarzeq",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810132555-sfarzeq",
+				"updated": "20220810132650"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\frac{1}{N}\\sum_{i=0}^{N}(F(x)-f(x))^{2}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810133245-saqs7mm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810133245-saqs7mm",
+				"updated": "20220810133733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0-1损失函数"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220810133734-bhrfa3k",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810133734-bhrfa3k",
+				"updated": "20220810134515"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "L(F(x),f(x)) = \n\\begin{cases}\n0\u0026\u0026if F(x)\\neq f(x)\\\\\n1\u0026\u0026if F(x)=f(x)\n\\end{cases}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810134515-2ngthw9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810134515-2ngthw9",
+				"updated": "20220810134536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用的不多，因为不能求导，但要了解。"
+				}
+			]
+		},
+		{
+			"ID": "20220810134537-ckhlfw4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810134537-ckhlfw4",
+				"updated": "20220810134545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "平方损失函数"
+				}
+			]
+		},
+		{
+			"ID": "20220810134545-qegd0s9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810134545-qegd0s9",
+				"updated": "20220810134702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "就是"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "L(x) = (F(x)-f(x))^{2}"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，有时候也加上系数1/2，是为了求导时候能跟平方项的系数约掉，是可求导的损失函数中最简单的。"
+				}
+			]
+		},
+		{
+			"ID": "20220810134703-ewsivzl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810134703-ewsivzl",
+				"updated": "20220810134853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "均方差损失函数和平均绝对误差损失函数"
+				}
+			]
+		},
+		{
+			"ID": "20220810134854-o5vukk0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810134854-o5vukk0",
+				"updated": "20220810135040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "均方误差(Mean Squared Error, MSE)是"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220730164302-sbc2gcl"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "回归问题"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "损失函数中最常用的一个。"
+				}
+			]
+		},
+		{
+			"ID": "20220810134844-av4qbyz",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810134844-av4qbyz",
+				"updated": "20220810140804"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "MSE = \\frac{\\sum_{i=1}^{n}(s_{i}-y_{i}^{p})^{2}}{n}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810151035-zneor32",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810151035-zneor32",
+				"updated": "20220810151108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "平方绝对误差损失函数(Mean Absolute Error, MAE)是另一种常用于回归问题的损失函数。"
+				}
+			]
+		},
+		{
+			"ID": "20220810151109-uat4yks",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810151109-uat4yks",
+				"updated": "20220810151214"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "MAE = \\frac{\\sum_{i=1}^{n}|y_{i}-y_{i}^{p}|}{n}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810151214-8atd9tp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810151214-8atd9tp",
+				"updated": "20220810151230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "交叉熵损失函数"
+				}
+			]
+		},
+		{
+			"ID": "20220810151230-vzmq93p",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810151230-vzmq93p",
+				"updated": "20220810160533"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "-\\sum_{i=1}^{n}p(x_{i})log(q(x_{i}))"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810160533-alhppdb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810160533-alhppdb",
+				"updated": "20220810160828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中，p(x)表示真实概率分布，q(x)表示预测概率分布。这个函数就是交叉熵损失函数(Cross entropy loss)，这个函数实际上通过衡量并不断尝试缩小两个概率分布的误差，使得预测尽可能达到真实概率分布。"
+				}
+			]
+		},
+		{
+			"ID": "20220810160835-zaw87y0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810160835-zaw87y0",
+				"updated": "20220810160847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "softmax损失函数"
+				}
+			]
+		},
+		{
+			"ID": "20220810160847-zrhn0i3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810160847-zrhn0i3",
+				"updated": "20220810160942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "某些场景下，一些数值大小范围非常广，为了方便计算，或者使得梯度更好地更新，需要把这些数值映射为0-1之间是实数且归一化后几个数和为1。"
+				}
+			]
+		},
+		{
+			"ID": "20220810161025-z1r9u5w",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810161025-z1r9u5w",
+				"updated": "20220810161118"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "S_{j} = \\frac{e^{aj}}{\\sum_{k=1}^{T}e^{a_{k}}}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810161119-kslfk2m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810161119-kslfk2m",
+				"updated": "20220810161229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把交叉熵损失函数中预测概率的q(x)换成softmax方式的表示，就成了softmax with cross-entropy loss，是交叉熵损失函数的一个特例。"
+				}
+			]
+		},
+		{
+			"ID": "20220810161230-6t8hw0l",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810161230-6t8hw0l",
+				"updated": "20220810161252"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\sum_{i=1}^{n}p(x_{i})log(S_{i})"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220810161157-5o6mjv1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810161157-5o6mjv1"
+			}
+		}
+	]
+}

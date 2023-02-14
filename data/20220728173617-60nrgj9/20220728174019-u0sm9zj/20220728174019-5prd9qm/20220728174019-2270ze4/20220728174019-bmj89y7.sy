@@ -1,0 +1,131 @@
+{
+	"ID": "20220728174019-bmj89y7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220728174019-bmj89y7",
+		"title": "2022-07-28",
+		"updated": "20220728193953"
+	},
+	"Children": [
+		{
+			"ID": "20220728174019-cyxz5pu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728174019-cyxz5pu",
+				"updated": "20220728193458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日学习html的基础，学到了html的\u003cdiv\u003e和\u003cspan\u003e块"
+				}
+			]
+		},
+		{
+			"ID": "20220728193512-x88rchx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193512-x88rchx",
+				"updated": "20220728193649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "焦虑了一天觉得学东西还是做点笔记比较好，自己学的东西太少，太浮躁，坚持记录希望能有所改观"
+				}
+			]
+		},
+		{
+			"ID": "20220728193652-swo3fp6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193652-swo3fp6",
+				"updated": "20220728193831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初次使用思源笔记感受还是不错的，只不过分屏记笔记时候顶部栏按钮太多，会把关闭和最大化的按钮给吞掉，像这个样子"
+				}
+			]
+		},
+		{
+			"ID": "20220728193839-8zkkzwy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193839-8zkkzwy",
+				"updated": "20220728193840"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220728193840-dmj49m2.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220728193842-1u8hf4v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193842-1u8hf4v",
+				"updated": "20220728193924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每次想给它关掉需要把窗口拖大到能显示全为止"
+				}
+			]
+		},
+		{
+			"ID": "20220728193924-cf04lid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193924-cf04lid",
+				"updated": "20220728193951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要是有两个显示器就好了。。。（贫穷）"
+				}
+			]
+		},
+		{
+			"ID": "20220728193953-yykljkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728193953-yykljkd"
+			}
+		}
+	]
+}

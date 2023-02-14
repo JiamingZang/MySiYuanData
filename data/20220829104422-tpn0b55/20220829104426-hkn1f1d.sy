@@ -1,0 +1,118 @@
+{
+	"ID": "20220829104426-hkn1f1d",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220829104426-hkn1f1d",
+		"title": "毛概",
+		"updated": "20220829114217"
+	},
+	"Children": [
+		{
+			"ID": "20220829104426-5wb4gi2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829104426-5wb4gi2",
+				"updated": "20220829105513"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "6C474D7968C04FAA160C9BF8365DB38E"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/6C474D7968C04FAA160C9BF8365DB38E-20220829105513-zr1b858.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829105515-7vkcmx4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829105515-7vkcmx4",
+				"updated": "20220829110240"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "ECEE2DDD64534901EDCC219A3775D2C1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/ECEE2DDD64534901EDCC219A3775D2C1-20220829110240-ud6cly7.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829110241-kzr1pn6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829110241-kzr1pn6",
+				"updated": "20220829110737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "十二、十三章不讲"
+				}
+			]
+		},
+		{
+			"ID": "20220829114217-pvmw9ml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829114217-pvmw9ml"
+			}
+		}
+	]
+}

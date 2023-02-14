@@ -1,0 +1,327 @@
+{
+	"ID": "20220729183221-i4l8an0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220729183221-i4l8an0",
+		"title": "2022-07-29",
+		"updated": "20220729185232"
+	},
+	"Children": [
+		{
+			"ID": "20220729183221-h77nd2p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183221-h77nd2p",
+				"updated": "20220729185232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天把知乎上老哥写的"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "数学要素"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.zhihu.com/question/389151826/answer/2568356964"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "这本书看了三章，打好基础"
+				}
+			]
+		},
+		{
+			"ID": "20220729183306-ane9hax",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183306-ane9hax",
+				"updated": "20220729184556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后发现之前的Dark+这个主题的编号有bug"
+				}
+			]
+		},
+		{
+			"ID": "20220729183417-qcbxpuo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183417-qcbxpuo",
+				"updated": "20220729183424"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729183418-e32osd1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729183424-e363w19.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220729183439-uf6erg0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183439-uf6erg0",
+				"updated": "20220729183504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是开始的编号，很正常，向下滑动一部分之后再上滑发现2又变成1了"
+				}
+			]
+		},
+		{
+			"ID": "20220729183505-q6lnnhc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183505-q6lnnhc",
+				"updated": "20220729183506"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729183506-b3yt9pp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220729183511-yzh5dpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183511-yzh5dpw",
+				"updated": "20220729184454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "遂换了个主题，之后发现昨天发现的"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220728193652-swo3fp6"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "那个bug"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是主题的问题（思源的这个块引用还是挺好使的）"
+				}
+			]
+		},
+		{
+			"ID": "20220729184332-axegso2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729184332-axegso2",
+				"updated": "20220729184405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "换为notion主题后无此问题，且上方按钮也变得简洁了"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729184405-ggxn0vz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220729183549-9gvdag9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729183549-9gvdag9",
+				"updated": "20220729184730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这也能充分体现出思源这个主题个性化的功能还是很强大的"
+				}
+			]
+		},
+		{
+			"ID": "20220729184732-iua7l96",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729184732-iua7l96",
+				"updated": "20220729184849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "哦对了今天下主题的时候还把siyuan搞崩了，具体是点下载按钮没反应然后点了多次，之后右侧一直弹窗显示下载完成，但是界面是卡住的状态，主题也未能自动更换。杀进程后重启解决问题，教训就是不要点太多次。。。"
+				}
+			]
+		},
+		{
+			"ID": "20220729184832-km2nk21",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729184832-km2nk21"
+			}
+		}
+	]
+}

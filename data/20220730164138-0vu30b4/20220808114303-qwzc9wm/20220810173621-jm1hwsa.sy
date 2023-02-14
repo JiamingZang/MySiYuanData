@@ -1,0 +1,99 @@
+{
+	"ID": "20220810173621-jm1hwsa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220810173621-jm1hwsa",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220810173621-o0yroqp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220811110813-bv18dwg\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:400,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220810173621-o0yroqp\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "梯度下降",
+		"updated": "20220811111022"
+	},
+	"Children": [
+		{
+			"ID": "20220810173621-o0yroqp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810173621-o0yroqp",
+				"updated": "20220811110404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "批量梯度下降(BGD)"
+				}
+			]
+		},
+		{
+			"ID": "20220811110404-pkn002z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811110404-pkn002z",
+				"updated": "20220811110554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Batch Gradient Descent，把所有的数据计算误差后做平均，其计算量非常恐怖"
+				}
+			]
+		},
+		{
+			"ID": "20220811110554-ujy2oam",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220811110554-ujy2oam",
+				"updated": "20220811110601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随机梯度下降(SGD)"
+				}
+			]
+		},
+		{
+			"ID": "20220811110602-nvyo4tg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811110602-nvyo4tg",
+				"updated": "20220811110729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Stochastic Gradient Descent，每计算一个样本后就更新一次参数，这样参数更新的频率就变高了，其问题是训练数据中可能会有一些错误样本或噪声数据，这样会导致优化方向错误吗，训练效果下降，甚至陷入局部最优。"
+				}
+			]
+		},
+		{
+			"ID": "20220811110803-qd1nitx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220811110803-qd1nitx",
+				"updated": "20220811110812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小批量梯度下降(MBGD)"
+				}
+			]
+		},
+		{
+			"ID": "20220811110813-bv18dwg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811110813-bv18dwg",
+				"updated": "20220811111022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mini-Batch Gradient Descent，使用固定数量的样本计算误差，batch size一般是2的n次方，越小更新越快，但是更新速度慢就不容易陷入局部最优。需要根据项目特点制定batch size，比如图像任务倾向于小一点，NLP可以大一点。"
+				}
+			]
+		}
+	]
+}

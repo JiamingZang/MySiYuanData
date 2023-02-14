@@ -1,0 +1,781 @@
+{
+	"ID": "20220829162307-f7xzsgz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220829162307-f7xzsgz",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220829162313-nut24ip\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220901193238-6v62mv8\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220829162313-nut24ip\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:30,\u0026amp;quot;focusEnd\u0026amp;quot;:30}",
+		"title": "Introduction",
+		"type": "doc",
+		"updated": "20220901193448"
+	},
+	"Children": [
+		{
+			"ID": "20220829162313-nut24ip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829162313-nut24ip",
+				"updated": "20220829165735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "—— 想不通一群计算机怎么工作的时候，可以想一群人怎么工作。"
+				}
+			]
+		},
+		{
+			"ID": "20220829164414-ib20enm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220829164414-ib20enm",
+				"updated": "20220829165437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Definition of distributed system"
+				}
+			]
+		},
+		{
+			"ID": "20220829164541-hcsyzew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829164541-hcsyzew",
+				"updated": "20220829164826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "计算机发展两种趋势：微处理器发展、高速网络发展。这是将大量计算机系统连接起来的基础设施。"
+				}
+			]
+		},
+		{
+			"ID": "20220829165138-9k3yl3l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829165138-9k3yl3l",
+				"updated": "20220829172218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统是一组硬件上独立计算机的集合，但用户（即应用程序）来看是一个整体的系统。分布式系统将基础设施提供的资源提供给应用程序，类似于操作系统，分布式系统是位于硬件与应用程序的中间件。程序员针对单机编程，但实际上在分布式环境中运行。Collaboration（独立但相互联系）+Single System+Autonomous（自治，能够内部协调为应用提供资源）"
+				}
+			]
+		},
+		{
+			"ID": "20220829170227-yv7o9xh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829170227-yv7o9xh",
+				"updated": "20220829171421"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特性：隐藏底层复杂性和内部组织结构，为用户提供统一和一致的接口；屏蔽多机协作的复杂性，易于扩展和scale，通常应该持续可用，也就是说无论系统中一部分是主动还是被动退出，系统都可用。"
+				}
+			]
+		},
+		{
+			"ID": "20220829172805-rigqq78",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829172805-rigqq78",
+				"updated": "20220829172806"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220829172806-ondsq81.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220829180013-6bxho7y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829180013-6bxho7y",
+				"updated": "20220901183333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统中运行的算法有串行算法、分布式算法（中心化和去中心化）"
+				}
+			]
+		},
+		{
+			"ID": "20220829173445-q7ndb4h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220829173445-q7ndb4h",
+				"updated": "20220901183718"
+			},
+			"Children": [
+				{
+					"ID": "20220901183718-t5kdei8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901183718-t5kdei8",
+						"updated": "20220901183718"
+					},
+					"Children": [
+						{
+							"ID": "20220901183718-hdciztt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901183718-hdciztt",
+								"updated": "20220901183718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并行算法：在不同设备上一次执行一小片，之后将结果结合获得最终结果。并行算法并不一定在分布式系统跑，分布式系统也不一定跑并行算法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220829175236-ab79kxd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220829175236-ab79kxd",
+				"updated": "20220901183724"
+			},
+			"Children": [
+				{
+					"ID": "20220901183724-zn0ysyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901183724-zn0ysyk",
+						"updated": "20220901183724"
+					},
+					"Children": [
+						{
+							"ID": "20220901183724-4e4pwbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901183724-4e4pwbm",
+								"updated": "20220901183724"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分布式算法：是并行算法的子类，指运行在分布式系统上的并行算法。分布式搜索、选举、互斥、资源分配。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220829175555-ht5c0i6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220829175555-ht5c0i6",
+				"updated": "20220901183726"
+			},
+			"Children": [
+				{
+					"ID": "20220901183726-r095vuy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901183726-r095vuy",
+						"updated": "20220901183726"
+					},
+					"Children": [
+						{
+							"ID": "20220901183726-3b7xnuv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901183726-3b7xnuv",
+								"updated": "20220901183726"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "去中心化算法：分布式算法的子类。一个不是中心化的分布式算法。也就是说没有一个拥有全局信息的计算机。一个节点失效并不会使整个算法失效。所有节点都知道完整信息也是去中心化算法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220829164434-y4dutla",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220829164434-y4dutla",
+				"updated": "20220901184211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "goals"
+				}
+			]
+		},
+		{
+			"ID": "20220901184212-j61x295",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220901184212-j61x295",
+				"updated": "20220901184256"
+			},
+			"Children": [
+				{
+					"ID": "20220901184256-64qtp15",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901184256-64qtp15",
+						"updated": "20220901184256"
+					},
+					"Children": [
+						{
+							"ID": "20220901184256-hdm7ufz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901184256-hdm7ufz",
+								"updated": "20220901184256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象操作系统的资源，使其更容易访问。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901184259-g6yi1kx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901184259-g6yi1kx"
+					},
+					"Children": [
+						{
+							"ID": "20220901184259-fof4duq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901184259-fof4duq",
+								"updated": "20220901184632"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "隐藏分布式的事实，表现得像一个系统——distribution transparency。"
+								}
+							]
+						},
+						{
+							"ID": "20220901184643-a1j4ss9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901184643-a1j4ss9",
+								"updated": "20220901184645"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220901184645-bn0a7us.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901184552-2qknq2r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901184552-2qknq2r"
+					},
+					"Children": [
+						{
+							"ID": "20220901184552-zaipcm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901184552-zaipcm5",
+								"updated": "20220901190602"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "open "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901190602-sid4f8v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901190602-sid4f8v"
+					},
+					"Children": [
+						{
+							"ID": "20220901190602-uw0gm1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901190602-uw0gm1x",
+								"updated": "20220901191346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scalable，包括"
+								}
+							]
+						},
+						{
+							"ID": "20220901191822-vdx4bpi",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220901191822-vdx4bpi"
+							},
+							"Children": [
+								{
+									"ID": "20220901191822-pgt4h7x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220901191822-pgt4h7x"
+									},
+									"Children": [
+										{
+											"ID": "20220901191822-i2k5ivz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220901191822-i2k5ivz",
+												"updated": "20220901191957"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "规模的scalability，面临的问题有通信瓶颈、使用单个服务器有时不可避免、时钟同步的困难性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220901191826-l04z1uk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220901191826-l04z1uk"
+									},
+									"Children": [
+										{
+											"ID": "20220901191826-fvt25l3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220901191826-fvt25l3",
+												"updated": "20220901191829"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "地理的scalability"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220901191829-l1brrvb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220901191829-l1brrvb"
+									},
+									"Children": [
+										{
+											"ID": "20220901191829-agtsw3z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220901191829-agtsw3z"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "行政伸缩性（在不同行政区域扩展）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220901192115-iwlsa2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901192115-iwlsa2g",
+				"updated": "20220901192251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统只是中间件，负责将服务透明化，并不能保证硬件及下层的操作系统提供的服务的可靠性，因此有许多假设。"
+				}
+			]
+		},
+		{
+			"ID": "20220901192252-i5m73ci",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901192252-i5m73ci",
+				"updated": "20220901192253"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901192253-phye8iu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829164441-bna8dem",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220829164441-bna8dem",
+				"updated": "20220829164447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "challenges"
+				}
+			]
+		},
+		{
+			"ID": "20220901192349-ylff1hc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901192349-ylff1hc",
+				"updated": "20220901192449"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901192349-a1v0zmn.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901192449-zh6uago.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220829164448-e0bmiye",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220829164448-e0bmiye",
+				"updated": "20220829164453"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "types"
+				}
+			]
+		},
+		{
+			"ID": "20220829173442-v8jmrll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220829173442-v8jmrll",
+				"updated": "20220901192956"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901192956-lk30cbb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901193031-finyd8g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901193031-finyd8g",
+				"updated": "20220901193149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务器层面基本就两种，一种是算，一种是存储。第三类分布式普适系统中，每个结点不是计算机，其实不算严格意义上的分布式系统。"
+				}
+			]
+		},
+		{
+			"ID": "20220901193238-6v62mv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901193238-6v62mv8",
+				"updated": "20220901193239"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901193239-wb4dv48.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

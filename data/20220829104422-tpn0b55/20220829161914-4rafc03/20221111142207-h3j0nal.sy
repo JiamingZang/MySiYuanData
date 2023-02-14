@@ -1,0 +1,696 @@
+{
+	"ID": "20221111142207-h3j0nal",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221111142207-h3j0nal",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221111142207-59tlbfx\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221119124753-cq5o87r\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:4360,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221119124446-bpd1i30\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "大作业",
+		"updated": "20221119124940"
+	},
+	"Children": [
+		{
+			"ID": "20221111142207-59tlbfx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221111142207-59tlbfx",
+				"updated": "20221111142216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进程"
+				}
+			]
+		},
+		{
+			"ID": "20221112163741-fqcp446",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112163741-fqcp446",
+				"updated": "20221112214851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的分布式云存储平台包含客户端、主服务器和块服务器，主服务器需要根据客户端提供的文件名和块索引提供对应文件所在的块服务器的联系地址，也需要向块服务器发出指令、管理块服务器的状态，而块服务器需要处理客户端的请求以及与主服务器的通信，客户端可能会同时从多个块服务器获取块数据以提高下载速率。总体而言，系统的进程需要支持高并发的请求，从而提高整体的效率。"
+				}
+			]
+		},
+		{
+			"ID": "20221112212208-49dult9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221112212208-49dult9",
+				"updated": "20221112212211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "技术需求"
+				}
+			]
+		},
+		{
+			"ID": "20221112212211-mc4g26e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112212211-mc4g26e",
+				"updated": "20221112220004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端、主服务器、块服务器都需要能够处理应对高并发、高负载的场景，因此使用多线程模型是基础的需求。但考虑到三者功能不尽相同，且以主服务器为例，既要有处理客户端请求的线程，也需要存在处理与块服务器之间交互的线程，存在此类包含多种不同职能的线程的场景，因此我们需要选取的多线程模型需要具有如下的技术特点："
+				}
+			]
+		},
+		{
+			"ID": "20221112220557-047ow7r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221112220557-047ow7r",
+				"updated": "20221112220558"
+			},
+			"Children": [
+				{
+					"ID": "20221112220558-rxl2cvg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221112220558-rxl2cvg",
+						"updated": "20221112220558"
+					},
+					"Children": [
+						{
+							"ID": "20221112220558-na249fn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221112220558-na249fn",
+								"updated": "20221112220729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "能够对线程进行高级别抽象，确保线程职能的专一与独立"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221112220743-h5wnbd8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221112220743-h5wnbd8"
+					},
+					"Children": [
+						{
+							"ID": "20221112220743-6gucgxo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221112220743-6gucgxo",
+								"updated": "20221112220900"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展性较强，能够较容易地进行扩展以支持不同程度的高并发场景"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221112220902-jxa6v2y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221112220902-jxa6v2y"
+					},
+					"Children": [
+						{
+							"ID": "20221112220902-is158o7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221112220902-is158o7",
+								"updated": "20221112220923"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对线程之间的通信有统一的处理方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221112220935-w4puat7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221112220935-w4puat7",
+				"updated": "20221112220940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概要设计"
+				}
+			]
+		},
+		{
+			"ID": "20221112220940-9jhikgp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112220940-9jhikgp",
+				"updated": "20221112222831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "综合分析上述技术需求，我们选择了使用Akka库基于Actor模型解决我们的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20221112221810-m06yqh8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112221810-m06yqh8",
+				"updated": "20221112224130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Actor 模型，代表一种异步消息模式的分布式并行计算模型。在 Actor 模型里，每个 Actor 相当于系统中的一个组件，都是基本的计算单元。与面向对象编程模型类似，每个Actor封装了自己的状态与方法，不同的Actor之间通过消息传递进行通信，Actor根据收到的不同类型的消息产生不同的行为。Actor内部也有存储消息的队列，我们称其为邮箱，会将收到的异步消息进行存储并按序执行。如下图是对Actor之间消息传递的简要展示。"
+				}
+			]
+		},
+		{
+			"ID": "20221112223804-5mn7zir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112223804-5mn7zir",
+				"updated": "20221112223834"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "未命名文件"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/未命名文件-20221112223834-ssxc6u3.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221112224013-4a0wddx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112224013-4a0wddx",
+				"updated": "20221112225845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个 Actor 只需处理本地邮箱的消息，因此多个 Actor 可以并行地工作，从而提高整个分布式系统的并行处理能力。每个 Actor 也可以创建多个 Actor，从而减轻单个 Actor 的工作负载。Actor模型抽象程度高，且易于扩展，并使用统一的消息传递来处理不同线程之间的通信，能够较好地满足我们的场景需求。下图对使用了Actor模型的系统进行了简要描述。每个端上可以运行不同类型的Actor线程，且多个同种Actor线程可以同时运行，以处理并发请求。"
+				}
+			]
+		},
+		{
+			"ID": "20221112225855-zzq2ayj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112225855-zzq2ayj",
+				"updated": "20221112225904"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "未命名文件 1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/未命名文件 1-20221112225904-89i5iln.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221111142216-3f7ansf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221111142216-3f7ansf",
+				"updated": "20221112223809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通信​"
+				}
+			]
+		},
+		{
+			"ID": "20221112170821-7dvqtpx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221112170821-7dvqtpx",
+				"updated": "20221113191901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式云存储平台需要实现主服务器与客户端之间的通信、主服务器与块服务器之间的通信、客户端与块服务器之间的通信。主服务器与客户端需要传输文件名、索引和文件所在块服务器的联系地址，主服务器和块服务器之间需要进行指令和块服务器状态的传输，而块服务器与客户端之间需要进行文件块相关信息和文件块的传输。"
+				}
+			]
+		},
+		{
+			"ID": "20221113191932-8xfcdbq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221113191932-8xfcdbq",
+				"updated": "20221113191938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "技术需求"
+				}
+			]
+		},
+		{
+			"ID": "20221113191939-w5k3cgt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113191939-w5k3cgt",
+				"updated": "20221113193535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统中存在的应用及业务逻辑较多，对于一些关键服务的调用，如客户端通过主服务器获取文件所在块服务器的通信地址时，需要能够在较短时间内返回结果，基本都属于同步的通信，且我们的云存储平台是分布式的架构，会有随着业务情况进行扩展的需求，综合上述情况分析，我们需要选取的通信方式要满足如下的技术需求："
+				}
+			]
+		},
+		{
+			"ID": "20221113193536-2qggg04",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221113193536-2qggg04",
+				"updated": "20221113193603"
+			},
+			"Children": [
+				{
+					"ID": "20221113193603-6oe4l6z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221113193603-6oe4l6z",
+						"updated": "20221113193603"
+					},
+					"Children": [
+						{
+							"ID": "20221113193603-cv1inxl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221113193603-cv1inxl",
+								"updated": "20221113194110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象层次较高，能够解耦系统中的服务，方便使用与理解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221113193823-3hay1ce",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221113193823-3hay1ce"
+					},
+					"Children": [
+						{
+							"ID": "20221113193823-37bbewp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221113193823-37bbewp",
+								"updated": "20221113194205"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "传输效率高，同步调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221113194205-wpqnbep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221113194205-wpqnbep"
+					},
+					"Children": [
+						{
+							"ID": "20221113194205-rnzwuym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221113194205-rnzwuym",
+								"updated": "20221113203623"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "能够应对需要扩展的需求"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221113203623-bdo7it0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221113203623-bdo7it0",
+				"updated": "20221113203628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概要设计"
+				}
+			]
+		},
+		{
+			"ID": "20221113203628-bnyazbz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113203628-bnyazbz",
+				"updated": "20221113205405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "综合分析上述技术需求，我们考虑使用RPC作为我们的通信方法。"
+				}
+			]
+		},
+		{
+			"ID": "20221113205118-jxpnzks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113205118-jxpnzks",
+				"updated": "20221113212523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RPC (Remote Procedure Call)即远程过程调用，是分布式系统常见的一种通信方法。RPC方法的基本原则是：以模块调用的简单性忽略通讯的具体细节，以便程序员不用关心C/S之间的通讯协议，集中精力对付实现过程。RPC的流程如下图。"
+				}
+			]
+		},
+		{
+			"ID": "20221113212523-w8m54vg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113212523-w8m54vg",
+				"updated": "20221113212524"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "未命名文件 2"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/未命名文件 2-20221113212524-9lykyy5.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221113205419-a83rr17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113205419-a83rr17",
+				"updated": "20221113213135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们考虑使用Dubbo框架实现RPC通信，Dubbo是一个高性能服务框架，致力于提供高性能和透明化的RPC远程服务调用方案。下面是Dubbo框架的组件角色。"
+				}
+			]
+		},
+		{
+			"ID": "20221113213137-14a93wk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113213137-14a93wk",
+				"updated": "20221113213137"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "未命名文件 3"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/未命名文件 3-20221113213137-ty9m521.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221113213220-gj3osrq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113213220-gj3osrq",
+				"updated": "20221113213908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的分布式云存储平台中各个部分之间的通信也就可以简化成多种远程过程调用，如图所示。"
+				}
+			]
+		},
+		{
+			"ID": "20221113213908-fckk109",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113213908-fckk109",
+				"updated": "20221113213909"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "未命名文件 4"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/未命名文件 4-20221113213909-hb1re4j.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221113180704-c7ume7l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221113180704-c7ume7l",
+				"updated": "20221119124446"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20221119124446-bpd1i30",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221119124446-bpd1i30",
+				"updated": "20221119124753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统进程方面，选择了使用Akka库基于Actor模型对系统中不同功能的线程进行高级别的抽象，系统的进程模型有较强的扩展性，能够比较容易地适应不同程度的高并发场景，且统一了进程间的通信方式。"
+				}
+			]
+		},
+		{
+			"ID": "20221119124753-cq5o87r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221119124753-cq5o87r",
+				"updated": "20221119124940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统通信方面，我们使用了RPC满足分布式云存储平台中几个部分之间的服务调用通信需求，同时，我们使用了基于TCP的Socket通信以满足客户端与文件块服务器之间的可靠的数据通信需求。"
+				}
+			]
+		}
+	]
+}

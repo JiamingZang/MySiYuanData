@@ -1,0 +1,552 @@
+{
+	"ID": "20220906083634-9fcf73b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220906083634-9fcf73b",
+		"title": "范质三角形",
+		"updated": "20220906090440"
+	},
+	"Children": [
+		{
+			"ID": "20220906083634-7n9ip51",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906083634-7n9ip51",
+				"updated": "20220906083647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三项约束"
+				}
+			]
+		},
+		{
+			"ID": "20220906084654-ee28z0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906084654-ee28z0j",
+				"updated": "20220906084655"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906084655-7ddxxs7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906083648-irajgst",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220906083648-irajgst",
+				"updated": "20220906084541"
+			},
+			"Children": [
+				{
+					"ID": "20220906083700-mwxgc2j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220906083700-mwxgc2j",
+						"updated": "20220906083700"
+					},
+					"Children": [
+						{
+							"ID": "20220906083700-y906p04",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906083700-y906p04",
+								"updated": "20220906083745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scope，每一部分工作，获得什么成果，如何确认范围"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220906083704-2ykmimg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220906083704-2ykmimg"
+					},
+					"Children": [
+						{
+							"ID": "20220906083704-vy3oo4n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906083704-vy3oo4n",
+								"updated": "20220906083722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "time，完成时间，进度安排，如何跟踪实际进程，谁有权批准进度改变"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220906083746-i7djlyq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220906083746-i7djlyq",
+						"updated": "20220906084541"
+					},
+					"Children": [
+						{
+							"ID": "20220906083746-baq6c90",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906083746-baq6c90",
+								"updated": "20220906084541"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "cost，项目预算，成本，预算应大于等于成本，剩余为利润，怎么跟踪控制成本，谁能授权"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906083948-qh6io9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906083948-qh6io9i",
+				"updated": "20220906085055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四项约束"
+				}
+			]
+		},
+		{
+			"ID": "20220906085056-4n1rova",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085056-4n1rova",
+				"updated": "20220906085138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "只考虑之前三项不够，还要满足质量，但还不是项目成功的充分条件"
+				}
+			]
+		},
+		{
+			"ID": "20220906085118-nscgoxj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085118-nscgoxj",
+				"updated": "20220906085118"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906085118-exc6ff3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906085140-ep7t3a1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906085140-ep7t3a1",
+				"updated": "20220906085351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五项约束"
+				}
+			]
+		},
+		{
+			"ID": "20220906085351-spyzwop",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085351-spyzwop",
+				"updated": "20220906085355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要考虑资源"
+				}
+			]
+		},
+		{
+			"ID": "20220906085356-oxyvt1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085356-oxyvt1i",
+				"updated": "20220906085356"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906085356-0xxdk3p.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906085356-fy1gzuj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906085356-fy1gzuj",
+				"updated": "20220906085402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "六项约束"
+				}
+			]
+		},
+		{
+			"ID": "20220906085402-uwkabid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085402-uwkabid",
+				"updated": "20220906085426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还要考虑风险，之前只考虑做成了会怎样，还要考虑做不成会怎样，有什么危害"
+				}
+			]
+		},
+		{
+			"ID": "20220906085432-b2lntc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085432-b2lntc3",
+				"updated": "20220906085433"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906085433-d6rv6au.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906085500-adnf2e9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906085500-adnf2e9",
+				"updated": "20220906085515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "范质三角形"
+				}
+			]
+		},
+		{
+			"ID": "20220906085515-flkxnv4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085515-flkxnv4",
+				"updated": "20220906085516"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906085516-nt6o52o.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906085719-6vbwybm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085719-6vbwybm",
+				"updated": "20220906090058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中风险不可控，剩下五个的优先级和弹性如下，如果优先级高的满足不了，可以适当降低优先级低的标准，如时间不足可以适当降低质量。"
+				}
+			]
+		},
+		{
+			"ID": "20220906085730-p976113",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906085730-p976113",
+				"updated": "20220906085731"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906085731-j3s5pk3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220906090433-bcud5gq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220906090433-bcud5gq",
+				"updated": "20220906090438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关联环境"
+				}
+			]
+		},
+		{
+			"ID": "20220906090439-wnhb2db",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906090439-wnhb2db",
+				"updated": "20220906090440"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906090440-4mq28de.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

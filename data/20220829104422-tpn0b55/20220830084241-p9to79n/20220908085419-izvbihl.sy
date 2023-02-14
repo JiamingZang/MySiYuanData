@@ -1,0 +1,212 @@
+{
+	"ID": "20220908085419-izvbihl",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220908085419-izvbihl",
+		"title": "五个过程组",
+		"updated": "20220908094519"
+	},
+	"Children": [
+		{
+			"ID": "20220908085419-phh0ulp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908085419-phh0ulp",
+				"updated": "20220908085440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "过程组:项目管理输入、工具与技术和输出的逻辑组合"
+				}
+			]
+		},
+		{
+			"ID": "20220908085514-tnfj2ef",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908085514-tnfj2ef",
+				"updated": "20220908090638"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908085515-m4899gv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908090638-czfgbo9.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220908093805-yu36f2c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220908093805-yu36f2c",
+				"updated": "20220908093808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动"
+				}
+			]
+		},
+		{
+			"ID": "20220908093808-qxtsm5o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908093808-qxtsm5o",
+				"updated": "20220908093832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "识别和启动一个新项目，确保为了正确的原因启动正确的项目。"
+				}
+			]
+		},
+		{
+			"ID": "20220908094252-jyuo1el",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908094252-jyuo1el",
+				"updated": "20220908094252"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908094252-q4oztif.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220908094518-6ncxrpm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908094518-6ncxrpm",
+				"updated": "20220908094519"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908094518-sfzre3s.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

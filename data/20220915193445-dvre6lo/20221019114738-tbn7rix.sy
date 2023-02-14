@@ -1,0 +1,151 @@
+{
+	"ID": "20221019114738-tbn7rix",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019114738-tbn7rix",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221019114738-r4v8my9\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221019114932-m6au9g1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221019114937-vf3m0jz\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
+		"title": "草稿",
+		"updated": "20221019114940"
+	},
+	"Children": [
+		{
+			"ID": "20221019114738-r4v8my9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019114738-r4v8my9",
+				"updated": "20221019114754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "买了个蓝牙键盘，测试一下效果。"
+				}
+			]
+		},
+		{
+			"ID": "20221019114754-ru62pkt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221019114754-ru62pkt",
+				"updated": "20221019114755"
+			},
+			"Children": [
+				{
+					"ID": "20221019114755-tw4n7t8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221019114755-tw4n7t8",
+						"updated": "20221019114755"
+					},
+					"Children": [
+						{
+							"ID": "20221019114755-z8uzrjk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019114755-z8uzrjk",
+								"updated": "20221019114756"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "哈哈哈哈哈哈"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019114757-iq0ulh8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221019114757-iq0ulh8"
+					},
+					"Children": [
+						{
+							"ID": "20221019114757-bq2cxg9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019114757-bq2cxg9",
+								"updated": "20221019114759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "呵呵呵呵呵呵呵"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019114800-xmmyc76",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20221019114800-xmmyc76",
+				"updated": "20221019114932"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\gamma = \\alpha \\times(1-sin\\theta)"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20221019114932-m6au9g1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221019114932-m6au9g1",
+				"updated": "20221019114940"
+			},
+			"Children": [
+				{
+					"ID": "20221019114937-vknqhcx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221019114937-vknqhcx",
+						"updated": "20221019114940"
+					},
+					"Children": [
+						{
+							"ID": "20221019114937-vf3m0jz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019114937-vf3m0jz",
+								"updated": "20221019114940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "行，"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

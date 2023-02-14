@@ -1,0 +1,746 @@
+{
+	"ID": "20220901083441-tn27xxg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220901083441-tn27xxg",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220901083441-rbxzaq6\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220901095231-069x9js\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1858,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220901083454-woe9q1j\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "三个基础概念",
+		"updated": "20220901095629"
+	},
+	"Children": [
+		{
+			"ID": "20220901083441-rbxzaq6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901083441-rbxzaq6",
+				"updated": "20220901083454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目"
+				}
+			]
+		},
+		{
+			"ID": "20220901084706-mqphxkr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901084706-mqphxkr",
+				"updated": "20220901085434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义一"
+				}
+			]
+		},
+		{
+			"ID": "20220901083512-0b6z70g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901083512-0b6z70g",
+				"updated": "20220901085947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一种构建独特的的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "产品、服务或结果"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "临时"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "过程。——PMBOK"
+				}
+			]
+		},
+		{
+			"ID": "20220901083810-e5w06d9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901083810-e5w06d9",
+				"updated": "20220901084130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里的临时指的是非持久的，有始有终的，有明确的起点和终点，临时并非短时。项目的成果并不随项目结束而失效。"
+				}
+			]
+		},
+		{
+			"ID": "20220901084403-2rlz9gy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901084403-2rlz9gy",
+				"updated": "20220901084700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "达成项目目标是项目结束的一个条件，这种项目叫成功的项目。不能正常地完成的项目在不会或不能达到目标、资金缺乏或没有可分配的资金时、项目需求不复存在时、无法获得所需的人力或物力资源、出于法律或便利原因时也会结束。"
+				}
+			]
+		},
+		{
+			"ID": "20220901085523-t38imqj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901085523-t38imqj",
+				"updated": "20220901085527"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义二"
+				}
+			]
+		},
+		{
+			"ID": "20220901085528-1fh4i4h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901085528-1fh4i4h",
+				"updated": "20220901085944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在一定"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "时间"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "预算"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、按照"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规约"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "完成的有相同的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "目标"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的独特的、复杂的、相关联的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "活动的序列"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220901085950-csvk6wp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901085950-csvk6wp",
+				"updated": "20220901090010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目的属性"
+				}
+			]
+		},
+		{
+			"ID": "20220901090010-le49713",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901090010-le49713",
+				"updated": "20220901091549"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901091549-d9lj1ai.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901093310-7wymcxm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901093310-7wymcxm",
+				"updated": "20220901093315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目管理"
+				}
+			]
+		},
+		{
+			"ID": "20220901093315-9701qp7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901093315-9701qp7",
+				"updated": "20220901093405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在项目活动中应用专门的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "知识"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "技能"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "工具"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "技术"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "满足项目的需求，促使项目成功。"
+				}
+			]
+		},
+		{
+			"ID": "20220901093839-6mp1mew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901093839-6mp1mew",
+				"updated": "20220901093841"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901093841-dzq3xsw.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901083454-woe9q1j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901083454-woe9q1j",
+				"updated": "20220901083459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目群"
+				}
+			]
+		},
+		{
+			"ID": "20220901094510-tnmv2zr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901094510-tnmv2zr",
+				"updated": "20220901094511"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901094511-spw923j.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901083459-4pxyaov",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901083459-4pxyaov",
+				"updated": "20220901083505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目组合"
+				}
+			]
+		},
+		{
+			"ID": "20220901095228-y31af0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901095228-y31af0h",
+				"updated": "20220901095229"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901095229-pgp61h6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901083505-hjha70y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901083505-hjha70y",
+				"updated": "20220901083509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三者比较"
+				}
+			]
+		},
+		{
+			"ID": "20220901095231-069x9js",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901095231-069x9js",
+				"updated": "20220901095629"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901095341-imi4xng.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901095456-3iy68qy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901095520-wbe48lq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220901095629-tbtm8s2.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

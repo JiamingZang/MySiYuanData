@@ -1,0 +1,886 @@
+{
+	"ID": "20221024170425-8b2tz1b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221024170425-8b2tz1b",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221024170425-d7enbph\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221024183356-ik507ub\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1355.199951171875,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221024170425-d7enbph\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "七周七并发模型",
+		"updated": "20221024183813"
+	},
+	"Children": [
+		{
+			"ID": "20221024170425-d7enbph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221024170425-d7enbph",
+				"updated": "20221024173500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概述"
+				}
+			]
+		},
+		{
+			"ID": "20221024173501-dtdonzs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024173501-dtdonzs",
+				"updated": "20221024173506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发与并行"
+				}
+			]
+		},
+		{
+			"ID": "20221024180742-9ndwov2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024180742-9ndwov2",
+				"updated": "20221024180746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "区别"
+				}
+			]
+		},
+		{
+			"ID": "20221024173506-i1ocm53",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024173506-i1ocm53",
+				"updated": "20221024173547"
+			},
+			"Children": [
+				{
+					"ID": "20221024173547-5e62c3u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024173547-5e62c3u",
+						"updated": "20221024173547"
+					},
+					"Children": [
+						{
+							"ID": "20221024173547-q1mcapy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024173547-q1mcapy",
+								"updated": "20221024173933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并发程序含有多个逻辑上的独立执行块，可以独立执行也可以串行执行；并行程序解决问题速度往往比串行快，可以同时执行一个任务的多个部分，并行程序可能有多个独立执行块也可能只有一个。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024173613-xx1hmw4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024173613-xx1hmw4"
+					},
+					"Children": [
+						{
+							"ID": "20221024173613-f8r72px",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024173613-f8r72px",
+								"updated": "20221024174206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并发是问题域中的概念：程序需要被设计成能够处理多个同时或几乎同时发生的事件；并行是方法域中的概念，通过将问题中多个部分并行执行来加速解决问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024174207-m5r1qen",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221024174207-m5r1qen"
+					},
+					"Children": [
+						{
+							"ID": "20221024174207-ulpkl0g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024174207-ulpkl0g",
+								"updated": "20221024174222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Rob Pike的经典论述"
+								}
+							]
+						},
+						{
+							"ID": "20221024180300-qa6pdho",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024180300-qa6pdho",
+								"updated": "20221024180321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并发是同一时间应对多件事情的能力，"
+								}
+							]
+						},
+						{
+							"ID": "20221024180322-cc7s2by",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024180322-cc7s2by",
+								"updated": "20221024180333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并行是同一时间动手做多件事情的能力。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024180751-uzxkhcz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024180751-uzxkhcz",
+				"updated": "20221024180757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子"
+				}
+			]
+		},
+		{
+			"ID": "20221024180356-vuypbft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180356-vuypbft",
+				"updated": "20221024180359"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024180359-zv6m3du.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024173849-qw0141m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024173849-qw0141m",
+				"updated": "20221024180815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "超越串行编程模型"
+				}
+			]
+		},
+		{
+			"ID": "20221024180816-x0c2tso",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180816-x0c2tso",
+				"updated": "20221024181111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t并行与并发常被混淆，原因之一是传统的线程与锁模型没有显式支持并行，如果用线程与锁模型为多核进行开发，唯一的选择是写一个并发的程序，并行地运行在多核上。"
+				}
+			]
+		},
+		{
+			"ID": "20221024181238-c06xwlr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024181238-c06xwlr",
+				"updated": "20221024181507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t然而，并发程序的执行通常是不确定的，会随着事件时序的改变产生不同的结果，对于真正的并发程序，不确定性是与生俱来的。并行程序可能是确定的，用支持并行的编程语言可以写出并行程序而不引入不确定性。"
+				}
+			]
+		},
+		{
+			"ID": "20221024181514-ujw98tq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024181514-ujw98tq",
+				"updated": "20221024181528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并行架构"
+				}
+			]
+		},
+		{
+			"ID": "20221024181528-n7v4onu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024181528-n7v4onu",
+				"updated": "20221024181658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现代计算机在多个层次上都使用了并行技术。"
+				}
+			]
+		},
+		{
+			"ID": "20221024181659-d0mke30",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221024181659-d0mke30",
+				"updated": "20221024182253"
+			},
+			"Children": [
+				{
+					"ID": "20221024181700-r356z5p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024181700-r356z5p",
+						"updated": "20221024181700"
+					},
+					"Children": [
+						{
+							"ID": "20221024181700-45kvaxv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024181700-45kvaxv",
+								"updated": "20221024181800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "位级并行：32位计算机比8位快，对于两个32位数的加法，8位计算机要计算多次，而32位计算机可以一步完成，相当于并行处理32位数的4字节。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024181801-mk22ioh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024181801-mk22ioh"
+					},
+					"Children": [
+						{
+							"ID": "20221024181801-g3b77fv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024181801-g3b77fv",
+								"updated": "20221024181914"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指令级并行：现代处理器内部并行度很高，只是经过设计，外部看上去所有处理像是串行的。多核时代，无论表面还是实质上，指令都不再串行执行了。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024181914-izfsjv7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024181914-izfsjv7"
+					},
+					"Children": [
+						{
+							"ID": "20221024181914-fqy8q1u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024181914-fqy8q1u",
+								"updated": "20221024182031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据级并行：也称为单指令多数据（SIMD）架构，可以并行地在大量数据上施加同一操作，在适合的场景比较好用，如图像处理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024182031-p3lgwfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024182031-p3lgwfr",
+						"updated": "20221024182253"
+					},
+					"Children": [
+						{
+							"ID": "20221024182031-pmgp44s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024182031-pmgp44s",
+								"updated": "20221024182131"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "任务级并行：这是通常以为的并行形式——多处理器架构"
+								}
+							]
+						},
+						{
+							"ID": "20221024182131-t8vdgmg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221024182131-t8vdgmg",
+								"updated": "20221024182253"
+							},
+							"Children": [
+								{
+									"ID": "20221024182131-lcyl973",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024182131-lcyl973"
+									},
+									"Children": [
+										{
+											"ID": "20221024182131-e2iqvar",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024182131-e2iqvar",
+												"updated": "20221024182133"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "共享内存的多处理器系统"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024182134-s73zqy9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024182134-s73zqy9"
+									},
+									"Children": [
+										{
+											"ID": "20221024182134-vf31t94",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024182134-vf31t94",
+												"updated": "20221024182151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "分布式内存的多处理器系统，每个处理器有自己的内存，处理器之间通过网络通信"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221024182230-6gkcerq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221024182230-6gkcerq",
+										"updated": "20221024182253"
+									},
+									"Children": [
+										{
+											"ID": "20221024182230-rv4sy0s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221024182230-rv4sy0s",
+												"updated": "20221024182253"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "共享内存编程容易，但是个数多时会遭遇瓶颈，转向分布式内存"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024182256-gf48f2i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024182256-gf48f2i",
+				"updated": "20221024182305"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发：不只是多核"
+				}
+			]
+		},
+		{
+			"ID": "20221024182305-317jhsi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024182305-317jhsi",
+				"updated": "20221024182415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发不只是为了发挥多核的优势，还有其他优点："
+				}
+			]
+		},
+		{
+			"ID": "20221024182425-1jhsph5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221024182425-1jhsph5",
+				"updated": "20221024183329"
+			},
+			"Children": [
+				{
+					"ID": "20221024182426-a84itat",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024182426-a84itat",
+						"updated": "20221024182426"
+					},
+					"Children": [
+						{
+							"ID": "20221024182426-51p98mh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024182426-51p98mh",
+								"updated": "20221024182529"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "及时响应：世界是并发的，软件也应是并发的，如文件下载可以在后台进行，web服务器可以并发处理多个连接请求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024182529-lho53rz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024182529-lho53rz"
+					},
+					"Children": [
+						{
+							"ID": "20221024182529-dbj5fcs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024182529-dbj5fcs",
+								"updated": "20221024183212"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高效、容错性强：可以解决地理分布问题，一部分的故障也不会造成软件整体不可用。并发代码增强软件容错性的关键是独立性和故障检测，独立性是指一个故障不会影响故障任务以外的任务，故障检测是指一个任务失败时，需要通知负责故障处理的其他任务来处理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183213-a0ai8m8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221024183213-a0ai8m8",
+						"updated": "20221024183329"
+					},
+					"Children": [
+						{
+							"ID": "20221024183213-9az4vrj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183213-9az4vrj",
+								"updated": "20221024183329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单：选对了编程语言和工具的情况下，比起串行的等价方案，并发的解决方案可能会更简洁清晰，如果处理现实世界的并发问题时，解决方案有与问题类似的并发结构会简单很多"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024183103-luu1yl6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024183103-luu1yl6",
+				"updated": "20221024183354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "七个模型"
+				}
+			]
+		},
+		{
+			"ID": "20221024183356-ik507ub",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024183356-ik507ub",
+				"updated": "20221024183813"
+			},
+			"Children": [
+				{
+					"ID": "20221024183400-1yts3qz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024183400-1yts3qz",
+						"updated": "20221024183400"
+					},
+					"Children": [
+						{
+							"ID": "20221024183400-qlskekq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183400-qlskekq",
+								"updated": "20221024183411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线程与锁：技术基础"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183413-btbd1v5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024183413-btbd1v5"
+					},
+					"Children": [
+						{
+							"ID": "20221024183413-3p72ye7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183413-3p72ye7",
+								"updated": "20221024183435"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "函数式编程：消除了可变状态，根本上线程安全，易于并行执行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183722-we2jr84",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221024183722-we2jr84",
+						"updated": "20221024183813"
+					},
+					"Children": [
+						{
+							"ID": "20221024183722-yvo260v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183722-yvo260v",
+								"updated": "20221024183813"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Clojure之道——分离标识和状态：Clojure是一种指令式编程和函数式编程混搭的编程语言，发挥两者的优势"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183435-bfpfjfk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221024183435-bfpfjfk"
+					},
+					"Children": [
+						{
+							"ID": "20221024183435-nf0oij7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183435-nf0oij7",
+								"updated": "20221024183511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "actor模型：适用于共享内存和分布式内存模型，也适合解决地理分布问题，容错性强"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183512-w2f3pup",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221024183512-w2f3pup"
+					},
+					"Children": [
+						{
+							"ID": "20221024183512-vjx6nmp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183512-vjx6nmp",
+								"updated": "20221024183617"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通信顺序进程（Communicating Sequential Processes，CSP）：与actor类似基于消息传递，CSP侧重于传递消息的通道，actor侧重于通道两端的实体"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183619-01mo5j8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221024183619-01mo5j8"
+					},
+					"Children": [
+						{
+							"ID": "20221024183619-e6mmrr5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183619-e6mmrr5",
+								"updated": "20221024183630"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据级并行：如GPU"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221024183630-89ckvco",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221024183630-89ckvco"
+					},
+					"Children": [
+						{
+							"ID": "20221024183630-x406cht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024183630-x406cht",
+								"updated": "20221024183719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lambda架构：综合MapReduce和流式处理的特点，可以处理多种大数据问题"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

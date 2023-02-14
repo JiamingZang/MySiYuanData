@@ -1,0 +1,1050 @@
+{
+	"ID": "20220908190437-shx1l71",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220908190437-shx1l71",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220908190630-idz6n2p\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220915200738-h680sh3\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3486.39990234375,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220915200738-h680sh3\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:3,\u0026amp;quot;focusEnd\u0026amp;quot;:3}",
+		"title": "Processes",
+		"updated": "20220915200743"
+	},
+	"Children": [
+		{
+			"ID": "20220908190630-idz6n2p",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220908190630-idz6n2p",
+				"updated": "20220908191233"
+			},
+			"Children": [
+				{
+					"ID": "20220908190632-4ujgrcd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908190632-4ujgrcd",
+						"updated": "20220908190658"
+					},
+					"Children": [
+						{
+							"ID": "20220908190632-95skwsa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908190632-95skwsa",
+								"updated": "20220908190658"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对操作系统来说进程是可执行的应用程序，是管理的最小单元"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220908190621-ya770m4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220908190621-ya770m4",
+				"updated": "20220908190626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Thread"
+				}
+			]
+		},
+		{
+			"ID": "20220908191244-28i63pb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220908191244-28i63pb"
+			},
+			"Children": [
+				{
+					"ID": "20220908190642-ng75l1c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908190642-ng75l1c"
+					},
+					"Children": [
+						{
+							"ID": "20220908190642-me0bp8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908190642-me0bp8l",
+								"updated": "20220908191302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对操作系统来说，分布式系统是一堆相互通信的进程，如果也采用进程管理，粒度有些大，所以进程将资源分给其创建的线程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220908191802-6gifzm7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908191802-6gifzm7"
+					},
+					"Children": [
+						{
+							"ID": "20220908191802-fp6biek",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908191802-fp6biek",
+								"updated": "20220908191841"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "进程保证并发透明性，不需要考虑操作系统和其他应用程序，线程最小化了这种透明性，需要开发人员做一些能控制的事情如互斥、同步等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220908191850-85amzee",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908191850-85amzee"
+					},
+					"Children": [
+						{
+							"ID": "20220908191850-4osxqc8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908191850-4osxqc8",
+								"updated": "20220908191913"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个cpu只能同时执行一个进程，多个线程只是在多个小时间片中切换执行。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220908192018-8mtdc4e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908192018-8mtdc4e"
+					},
+					"Children": [
+						{
+							"ID": "20220908192018-mjaef17",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908192018-mjaef17",
+								"updated": "20220908192116"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个多线程应用程序可能会比其单线程版本好不了多少，但尽管没有得到真正的并发性能，但是能得到并发控制，也就是可以做一些单线程做不了的事情。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220908192119-xfp2wv2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220908192119-xfp2wv2"
+					},
+					"Children": [
+						{
+							"ID": "20220908192119-slfg1ba",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220908192119-slfg1ba",
+								"updated": "20220908192121"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "什么事情？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220908192133-zft61a0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220908192133-zft61a0",
+				"updated": "20220908192154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPC进程间通信"
+				}
+			]
+		},
+		{
+			"ID": "20220908192155-v3gcz42",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908192155-v3gcz42",
+				"updated": "20220908192202"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908192202-o9nwkyc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220908200716-zqxh5yx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220908200716-zqxh5yx",
+				"updated": "20220908200735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Virtulization"
+				}
+			]
+		},
+		{
+			"ID": "20220908200735-2od6j2o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908200735-2od6j2o",
+				"updated": "20220908200811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用一个进程模拟另一个进程，如硬件、桌面、操作系统、应用。"
+				}
+			]
+		},
+		{
+			"ID": "20220908201441-e80h5if",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908201441-e80h5if",
+				"updated": "20220908201441"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220908201441-w0nqycp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915185040-w99vmgh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220915185040-w99vmgh",
+				"updated": "20220915185049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Clients"
+				}
+			]
+		},
+		{
+			"ID": "20220915185121-wq3frae",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915185121-wq3frae",
+				"updated": "20220915185124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个进程"
+				}
+			]
+		},
+		{
+			"ID": "20220915185134-bbnhps7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915185134-bbnhps7",
+				"updated": "20220915185140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Fat Client"
+				}
+			]
+		},
+		{
+			"ID": "20220915185653-vi9t37x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915185653-vi9t37x",
+				"updated": "20220915190254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统中，如果使用了应用程序层面的通信协议，就算胖客户端，提供更多的功能。简单点说，胖客户端有更多业务逻辑。"
+				}
+			]
+		},
+		{
+			"ID": "20220915185140-2h06838",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915185140-2h06838",
+				"updated": "20220915185417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Thin Client"
+				}
+			]
+		},
+		{
+			"ID": "20220915185045-szy08ho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915185045-szy08ho",
+				"updated": "20220915190328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以来别人做运算，使用应用程序无关的协议。"
+				}
+			]
+		},
+		{
+			"ID": "20220915191259-u4xva2d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915191259-u4xva2d",
+				"updated": "20220915191309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子"
+				}
+			]
+		},
+		{
+			"ID": "20220915191310-vzkp0dh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915191310-vzkp0dh",
+				"updated": "20220915191310"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915191310-974bbmd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915191311-nrmuz69",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915191311-nrmuz69",
+				"updated": "20220915191322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "application是客户端，是fat的"
+				}
+			]
+		},
+		{
+			"ID": "20220915191607-yitlhop",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220915191607-yitlhop",
+				"updated": "20220915191611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Server"
+				}
+			]
+		},
+		{
+			"ID": "20220915191611-o14ajdo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915191611-o14ajdo",
+				"updated": "20220915191631"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "等待请求，返回响应，不断监听。"
+				}
+			]
+		},
+		{
+			"ID": "20220915191743-m5wrb97",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915191743-m5wrb97",
+				"updated": "20220915191753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "迭代服务器Iterative Server"
+				}
+			]
+		},
+		{
+			"ID": "20220915191753-h2628se",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915191753-h2628se",
+				"updated": "20220915191918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "只做一件事并且会反复做。处理请求，返回响应（如果需要）。"
+				}
+			]
+		},
+		{
+			"ID": "20220915192011-glgl2h5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915192011-glgl2h5",
+				"updated": "20220915192027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发服务器Concurrent Server"
+				}
+			]
+		},
+		{
+			"ID": "20220915192027-6orgh3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192027-6orgh3n",
+				"updated": "20220915192035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并发是同时来了，并行是同时做。"
+				}
+			]
+		},
+		{
+			"ID": "20220915192537-np0hbgb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192537-np0hbgb",
+				"updated": "20220915192537"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915192537-yom13ht.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915192330-4oevhrt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220915192330-4oevhrt",
+				"updated": "20220915192340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Client-to-server binging"
+				}
+			]
+		},
+		{
+			"ID": "20220915192340-2o8pbak",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192340-2o8pbak",
+				"updated": "20220915192348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端找到服务器使用端口。"
+				}
+			]
+		},
+		{
+			"ID": "20220915192412-7u9f9nn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915192412-7u9f9nn",
+				"updated": "20220915192417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用守护进程"
+				}
+			]
+		},
+		{
+			"ID": "20220915192420-7onk7z6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192420-7onk7z6",
+				"updated": "20220915192517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端会问默认端口的守护进程并获得服务端的端口号，server在守护进程注册即可。"
+				}
+			]
+		},
+		{
+			"ID": "20220915192417-1r8oqba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192417-1r8oqba",
+				"updated": "20220915192417"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915192417-2umm7lb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915192710-mo99037",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915192710-mo99037",
+				"updated": "20220915192720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建超级服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220915192722-f0vf52j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192722-f0vf52j",
+				"updated": "20220915192747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上是一个concurrent server再由它转发。"
+				}
+			]
+		},
+		{
+			"ID": "20220915192720-yv8spe7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915192720-yv8spe7",
+				"updated": "20220915192721"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915192721-lokpc4s.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915194713-gxrizrd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220915194713-gxrizrd",
+				"updated": "20220915194719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "状态"
+				}
+			]
+		},
+		{
+			"ID": "20220915194719-g1sdqkl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915194719-g1sdqkl",
+				"updated": "20220915194722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "stateless"
+				}
+			]
+		},
+		{
+			"ID": "20220915194724-3bccatw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915194724-3bccatw",
+				"updated": "20220915194738"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915194738-9wktc4c.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915195647-hdyg25n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915195647-hdyg25n",
+				"updated": "20220915195653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "soft state"
+				}
+			]
+		},
+		{
+			"ID": "20220915195654-mnfm1ow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915195654-mnfm1ow",
+				"updated": "20220915195700"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915195700-i93unwl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915195928-4hzmp1a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915195928-4hzmp1a",
+				"updated": "20220915195932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "stateful"
+				}
+			]
+		},
+		{
+			"ID": "20220915195932-76jsurm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915195932-76jsurm",
+				"updated": "20220915195937"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915195937-7ggh1bf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220915200734-kf9ui8s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220915200734-kf9ui8s",
+				"updated": "20220915200738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Session"
+				}
+			]
+		},
+		{
+			"ID": "20220915200738-h680sh3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220915200738-h680sh3",
+				"updated": "20220915200743"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220915200743-jhq7j2m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

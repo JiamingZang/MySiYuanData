@@ -1,0 +1,2824 @@
+{
+	"ID": "20220730164234-v1niq1x",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f527",
+		"id": "20220730164234-v1niq1x",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220730164302-ud6bjdi\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220730164302-c2cgd2w\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:5034.39990234375,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220730164302-wshegtd\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:71,\u0026amp;quot;focusEnd\u0026amp;quot;:71}",
+		"title": "机器学习基础",
+		"updated": "20220730164302"
+	},
+	"Children": [
+		{
+			"ID": "20220730164302-rmevudj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730164302-rmevudj",
+				"updated": "20220810123754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此乃实验室开会做的汇报，ppt在这-\u003e"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "2022.7.22汇报-臧家明.pptx"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/2022.7.22汇报-臧家明-20220810123627-fi1r8qn.pptx"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220810123631-7k97lun",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810123631-7k97lun",
+				"updated": "20220810123644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "机器学习"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-pd0za2h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-pd0za2h",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "机器学习是什么"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-dbgo9ix",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-dbgo9ix",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-xn3kot4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-xn3kot4",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-aby6qw7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-aby6qw7",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过已知数据找一个函数，对未知新数据进行预测和分析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-mo82dfd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-mo82dfd",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-jbimkdd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-jbimkdd",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "统计学习和机器学习差不多吧orz"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-1q90ftz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-1q90ftz",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-qxoevaa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-qxoevaa",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "深度学习可以看做机器学习的子集"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-gm14ad6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-gm14ad6",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "机器学习的分类"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-0nz16e2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-0nz16e2",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基本分类"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-br3dl5b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-br3dl5b",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-wkprqod",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-wkprqod",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-6bjlaus",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-6bjlaus",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "监督学习：给出输入输出对应关系的标注，学习输入到输出的映射的规律"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-c0zoesw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-c0zoesw",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-hfzfub4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-hfzfub4",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无监督学习：提供无标注的数据，让机器自己学习数据中的统计规律或潜在结构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-5vi6re1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-5vi6re1",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-e67bsqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-e67bsqw",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "强化学习：处理的数据仅包含有模型打分值，而不知道模型到底应该输出什么，靠算法去不断的探索，找出最好的模型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-zw254fu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-zw254fu",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-93tqdkg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-93tqdkg",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "半监督学习、主动学习。。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-ey25emf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-ey25emf",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按模型分"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-i8f520u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-i8f520u",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-gbingxp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-gbingxp",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-2ytvljc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-2ytvljc",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概率模型和非概率模型：使用概率的形式和使用函数的形式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-n8ar3ya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-n8ar3ya",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-zhbdrhz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-zhbdrhz",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线性模型和非线性模型：非概率模型可以分线性和非线性，线性函数就是线性模型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-8hlqa8r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-8hlqa8r",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "机器学习的流程/三要素"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-wgy78db",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-wgy78db",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-3ue1gez",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-3ue1gez",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-ia5abii",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ia5abii",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-zz50g1h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-zz50g1h",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "先确定要找什么样的函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-yk92l8g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-yk92l8g",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-g2ia5te",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-g2ia5te",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模型的假设空间包含所有可能的条件概率分布或决策函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-i790j7i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-i790j7i",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-fyv7lc6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-fyv7lc6",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "比如靶子的靶心是目标点，模型的假设空间只有左上角一块区域"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-ykvxt0z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ykvxt0z",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-m92z14h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-m92z14h",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "假设空间可以定义为函数的集合或条件概率的集合，条件概率表示的模型叫概率模型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-cwyqo0v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-cwyqo0v",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "策略"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-9u9vc4n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-9u9vc4n",
+				"updated": "20220730164415"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-hhx8502",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-hhx8502",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-083j4a0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-083j4a0",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要找出最好的函数，需要定义函数的好坏（损失函数）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-ez6ucvp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ez6ucvp",
+						"updated": "20220730164400"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-yottpyf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-yottpyf",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经验风险"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-8isoeti",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-8isoeti",
+								"updated": "20220730164400"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164400-x7nq8iv.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-67k706u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-67k706u",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-tu0j3og",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-tu0j3og",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经验风险最小化策略认为经验风险最小就是最优的模型，样本容量大时候学习效果较好"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-7ft0xnl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-7ft0xnl",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-4rvyixe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-4rvyixe",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是样本容量小的时候容易过拟合：对已知的数据拟合的太好了，在未知的数据上可能表现不好，模型的复杂度可能比实际的高，如果是函数的话可以理解成参数更多"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-7co89pk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-7co89pk",
+						"updated": "20220730164415"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-1572g1l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-1572g1l",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了防止过拟合提出结构风险最小化的策略，也就是正则化，加入了一个正则化项或罚项，认为结构风险最小就是最优的模型"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-4kd4o87",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-4kd4o87",
+								"updated": "20220730164415"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164415-wom6zrc.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-89fi0uq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-89fi0uq",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "算法"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-xtfo6rr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-xtfo6rr",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-fno6qma",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-fno6qma",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-rpfi0sp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-rpfi0sp",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "求解最优模型的计算方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-y5uzfnp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-y5uzfnp",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型评估与选择"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-j6c66jg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-j6c66jg",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "训练误差和测试误差"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-48lsh30",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-48lsh30",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-1du1ptf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-1du1ptf",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-e437ons",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-e437ons",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在训练集和测试集上的误差"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-k5stgte",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-k5stgte",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-p5avssh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-p5avssh",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试误差小的方法具有更好的预测能力"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-ud6bjdi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-ud6bjdi",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "过拟合与模型选择"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-a9l1wor",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-a9l1wor",
+				"updated": "20220730164436"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-y9xgppl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-y9xgppl",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-zq76oa9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-zq76oa9",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "假设空间有不同复杂度的模型时要进行选择"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-ne6qs6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ne6qs6h",
+						"updated": "20220730164436"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-nxg54nb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-nxg54nb",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一味追求对训练数据的预测能力会导致过拟合，模型往往比真实的复杂度高"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-cr8hbe2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-cr8hbe2",
+								"updated": "20220730164436"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164429-njl6ow0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164436-80aylb7.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-o9fwk8y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-o9fwk8y",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "正则化和交叉验证"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-dyrukb6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-dyrukb6",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "正则化"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-eubpjqb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-eubpjqb",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-shheuhk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-shheuhk",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-e1om17z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-e1om17z",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加入惩罚项"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-7kdz6pp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-7kdz6pp",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "交叉验证"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-z0r1g5b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-z0r1g5b",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-5mgafwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-5mgafwo",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-djt60f1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-djt60f1",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将已知数据分成训练集、验证集、测试集"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-bye6cnd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-bye6cnd",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-h4z43yb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-h4z43yb",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "训练集用来训练确定模型参数，验证集用来选择模型确定比较好的超参数，测试集用来最终进行模型的评估"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-9lqgwdy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-9lqgwdy",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-24k14yo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-24k14yo",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一般数据不充足使用交叉验证，将数据集分成训练集和测试集（我的理解是进行模型选择的，验证集）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-aup4h3h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-aup4h3h",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-j3jlk9k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-j3jlk9k",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单交叉验证（留出法）：训练集分两部分，在一部分上以各种不同条件（比如参数）训练得到不同模型，剩下一部分进行验证选出最好的模型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-b1rjd17",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-b1rjd17",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-sfruhnk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-sfruhnk",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "k折交叉验证：训练集分k份，分别让每一份作为验证的，其他部分进行训练。算k次的平均"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-6s5pbxh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-6s5pbxh",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-52llobq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-52llobq",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "留一交叉验证：k折交叉验证的k=N，在数据缺乏的情况下使用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-sbc2gcl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-sbc2gcl",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "监督学习的应用"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-v617d6z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-v617d6z",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分类"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-5omvj4w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-5omvj4w",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-ehmsnx7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ehmsnx7",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-56qvh7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-56qvh7x",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出是几个离散的取值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-r4kiks2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-r4kiks2",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-5l4b70e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-5l4b70e",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "学习一个分类器对新的输入进行预测"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-i1xi4kq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-i1xi4kq",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "回归"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-vr6vv6p",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-vr6vv6p",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-0dhpstr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-0dhpstr",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-gkul694",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-gkul694",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预测输入变量与输出变量之间的关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-8i3ytnz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-8i3ytnz",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-ydedvsm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-ydedvsm",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "回归模型是输入到输出的函数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-gbq8pf4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-gbq8pf4",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "线性模型"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-wa0bx7t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-wa0bx7t",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-vlkgcvl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-vlkgcvl",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-colhfne",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-colhfne",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线性模型是线性函数，通过一组属性的线性组合进行预测"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-dn1d7af",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-dn1d7af",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "线性回归"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-151vymp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-151vymp",
+				"updated": "20220730164459"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-sy34365",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-sy34365",
+						"updated": "20220730164453"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-x16qww2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-x16qww2",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模型"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-lt2thct",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-lt2thct",
+								"updated": "20220730164453"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164453-rrd3gcl.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-rrq4bbp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-rrq4bbp",
+						"updated": "20220730164459"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-fhgkfr0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-fhgkfr0",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用均方误差来度量线性回归的性能，需要让均方误差最小化"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-8s1atfu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-8s1atfu",
+								"updated": "20220730164459"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164459-15mtt54.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-g4mvl5d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-g4mvl5d",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-zcdvlvp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-zcdvlvp",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "存在显式解，将w和b求导令其为0就行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-qruzrc6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-qruzrc6",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基础优化算法"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-k6mpdt0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-k6mpdt0",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-xm60u9a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-xm60u9a",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-xn7e7qy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-xn7e7qy",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "梯度下降：不断沿着梯度反方向更新参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-92su6gu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-92su6gu",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-haqlg0i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-haqlg0i",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小批量随机梯度下降：采样一部分样本近似损失，批量不能太大也不能太小"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-4g423lo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-4g423lo",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逻辑回归"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-zggoi78",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-zggoi78",
+				"updated": "20220730164533"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-3d3p91n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-3d3p91n",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-bs2xssk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-bs2xssk",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决二分类问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-rv67zdn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-rv67zdn",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-wshegtd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-wshegtd",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要把线性模型连续的输出转化为0/1的离散值，可以使用单位阶跃函数，但是它不连续，因此找到了单调可微的对数几率函数（Logistic函数）来近似"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-chcgp6a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-chcgp6a",
+								"updated": "20220730164509"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164509-s2ubugd.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-ik2bwvg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-ik2bwvg",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-xzsd9q9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-xzsd9q9",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "它是一种sigmoid函数，形似s的函数"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-4jrirut",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-4jrirut",
+								"updated": "20220730164515"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164515-5otkh44.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-lujum1o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-lujum1o",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-0g4bp71",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-0g4bp71",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用极大似然估计来估计模型参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-gbr7k9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-gbr7k9o",
+						"updated": "20220730164533"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-bwul3eq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-bwul3eq",
+								"updated": "20220730164517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以写出损失函数"
+								}
+							]
+						},
+						{
+							"ID": "20220730164521-9580a8p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164521-9580a8p",
+								"updated": "20220730164533"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164533-mc51r1s.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-8chkzly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-8chkzly",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "softmax回归"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-74e611t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-74e611t",
+				"updated": "20220730164619"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-qwdedwi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-qwdedwi",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-9zf70pp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-9zf70pp",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决多分类的问题，softmax运算输出每个类别的置信度，把置信度最大的类作为预测输出"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-69rz548",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-69rz548",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-7wwldf5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-7wwldf5",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后输出所有类别的概率和为1"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-t6ah16l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-t6ah16l",
+								"updated": "20220730164547"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164547-q77cibj.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-6svz2rv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-6svz2rv",
+								"updated": "20220730164558"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164558-b0nsjuw.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-frfb62t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-frfb62t",
+						"updated": "20220730164619"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-u7mniw2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-u7mniw2",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "交叉熵损失，衡量真实概率和预测概率之间的差异"
+								}
+							]
+						},
+						{
+							"ID": "20220730164618-ietw2jh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164618-ietw2jh",
+								"updated": "20220730164619"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164619-655n90y.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-f3li0bo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730164302-f3li0bo",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "神经网络"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-d0qo5cb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-d0qo5cb",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "神经元模型"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-bhimi02",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-bhimi02",
+				"updated": "20220730164629"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-a3j3nsg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-a3j3nsg",
+						"updated": "20220730164629"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-pmvk952",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-pmvk952",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "神经元接收到来自几个其他神经元传递过来的输入信号，这些输入信号通过带权重的连接(connection)进行传递，神经元接收到的总输入值将与神经元的阈值进行比较，然后通过激活函数处理产生神经元输出"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-j5vptyd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-j5vptyd",
+								"updated": "20220730164629"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164629-dhve78t.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-jjnxpcl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-jjnxpcl",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-787ustc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-787ustc",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实际常用sigmoid函数作为激活函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-v6vwibu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-v6vwibu",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-4xs4n2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-4xs4n2p",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多个神经元连在一起就是神经网络"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-3k0i1xc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730164302-3k0i1xc",
+				"updated": "20220730164302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "感知机"
+				}
+			]
+		},
+		{
+			"ID": "20220730164302-c2cgd2w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730164302-c2cgd2w",
+				"updated": "20220730164702"
+			},
+			"Children": [
+				{
+					"ID": "20220730164302-nr4ascr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-nr4ascr",
+						"updated": "20220730164302"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-lrwvitx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-lrwvitx",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "两层神经元组成，一层接受输入传递给输出层，输出层是MP神经元"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-lua34v6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-lua34v6",
+						"updated": "20220730164640"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-xmw0bfd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-xmw0bfd",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只能解决与、或、非等线性可分问题，不能解决异或这种非线性可分问题"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-5csnvc1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-5csnvc1",
+								"updated": "20220730164640"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164640-x2zpb9t.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730164302-658dfcf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730164302-658dfcf",
+						"updated": "20220730164702"
+					},
+					"Children": [
+						{
+							"ID": "20220730164302-q2fm02q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-q2fm02q",
+								"updated": "20220730164302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多层感知机，在softmax基础上中间加一层隐藏层转换为非线性"
+								}
+							]
+						},
+						{
+							"ID": "20220730164302-wmolp3g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730164302-wmolp3g",
+								"updated": "20220730164702"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164654-eoz1lu4.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220730164702-ybsmh89.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

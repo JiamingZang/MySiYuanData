@@ -1,0 +1,6895 @@
+{
+	"ID": "20220808113717-mvh78z5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808113717-mvh78z5",
+		"title": "PyTorch",
+		"updated": "20220811135409"
+	},
+	"Children": [
+		{
+			"ID": "20220808113717-c9xvvzv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808113717-c9xvvzv",
+				"updated": "20220808130859"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Tensor",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121515-yiwf72e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808121515-yiwf72e",
+				"updated": "20220808154215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tensor 张量可以理解成标量、向量、矩阵的一种统一的数据形式，在 Tensor 中用秩 Rank 的概念表示维度，标量即为 Rank 为 0 的 Tensor。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808154215-khyvlis.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121635-iomrfy2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808121635-iomrfy2",
+				"updated": "20220808130917"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Tensor 的类型、创建以及转换",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121651-00ij2gx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808121651-00ij2gx",
+				"updated": "20220808121655"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类型",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121655-4mic2lu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808121655-4mic2lu",
+				"updated": "20220808121701"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808121701-mv6k1ee.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121722-k8pr0xu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808121722-k8pr0xu",
+				"updated": "20220808121727"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "创建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121727-xzdfenj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808121727-xzdfenj",
+				"updated": "20220808121731"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "直接创建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121905-f74t0hp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808121905-f74t0hp",
+				"updated": "20220808121938"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "torch.tenser(data, dtype = None, device = None,requires_grad = False)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808121940-twr1wf3",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808121940-twr1wf3",
+				"updated": "20220808121949"
+			},
+			"Children": [
+				{
+					"ID": "20220808121949-zr6erc1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808121949-zr6erc1",
+						"updated": "20220808121949"
+					},
+					"Children": [
+						{
+							"ID": "20220808121949-wwjuvtr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808121949-wwjuvtr",
+								"updated": "20220808122017"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "data 可以是 list、tuple、numpy array 或 scalar 多种形式",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808122017-rr0khh8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122017-rr0khh8",
+						"updated": "20220808122017"
+					},
+					"Children": [
+						{
+							"ID": "20220808122017-8v9p8kp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122017-8v9p8kp",
+								"updated": "20220808122029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dtype 声明了 tensor 的类型",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808122029-k10p904",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122029-k10p904",
+						"updated": "20220808122029"
+					},
+					"Children": [
+						{
+							"ID": "20220808122029-1ue7peo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122029-1ue7peo",
+								"updated": "20220808122037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "device 指定设备",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808122039-uofj6i9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122039-uofj6i9",
+						"updated": "20220808122039"
+					},
+					"Children": [
+						{
+							"ID": "20220808122039-pqmtf7j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122039-pqmtf7j",
+								"updated": "20220808122248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "requires_grad 声明 tensor 是否需要保存对应的梯度信息，设置为 True 可以用这个 Tensor 和由它计算出的 Tensor 求导，记录在 grad 属性中。训练过程中设置为 True，如果是检查模型泛化能力设置为 False 就行",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808122248-en3kym8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808122248-en3kym8",
+				"updated": "20220808122300"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "从 numpy 创建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808122300-lijt9yj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808122300-lijt9yj",
+				"updated": "20220808122312"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "torch.from_numpy(ndarray)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808122329-xt3m5nl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808122329-xt3m5nl",
+				"updated": "20220808122341"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "创建特殊形式的 Tensor",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808122341-j3ivnq0",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808122341-j3ivnq0",
+				"updated": "20220808122535"
+			},
+			"Children": [
+				{
+					"ID": "20220808122347-wkwte4s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122347-wkwte4s",
+						"updated": "20220808122535"
+					},
+					"Children": [
+						{
+							"ID": "20220808122347-tanrsdc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122347-tanrsdc",
+								"updated": "20220808122510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "零矩阵",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220808122535-nrhh4tp",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20220808122535-nrhh4tp",
+								"updated": "20220808122535"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"ID": "20220808122354-txi7rv7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220808122354-txi7rv7",
+										"updated": "20220808122535"
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpan",
+											"CodeMarkerLen": 2,
+											"Properties": {
+												"id": ""
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker",
+													"Data": "``",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "python torch.zeros(*size, dtype = None, ...) ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker",
+													"Data": "``",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808122531-1jlw8or",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220808122531-1jlw8or",
+										"updated": "20220808122535"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808122427-qqkumf2",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808122427-qqkumf2",
+				"updated": "20220808122512"
+			},
+			"Children": [
+				{
+					"ID": "20220808122512-b8r3zbn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122512-b8r3zbn",
+						"updated": "20220808122512"
+					},
+					"Children": [
+						{
+							"ID": "20220808122512-rdxq68k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122512-rdxq68k",
+								"updated": "20220808122516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单位矩阵",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220808122518-gap1tlm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122518-gap1tlm",
+								"updated": "20220808122557"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "python torch.eye(size,dtype = None,...) ",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808122559-427eeg7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122559-427eeg7",
+						"updated": "20220808122559"
+					},
+					"Children": [
+						{
+							"ID": "20220808122559-8sky4v4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122559-8sky4v4",
+								"updated": "20220808122606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全一矩阵",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220808122607-i4l4czw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122607-i4l4czw",
+								"updated": "20220808122616"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "python torch.ones(...) ",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808122617-iaye3zp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808122617-iaye3zp",
+						"updated": "20220808122617"
+					},
+					"Children": [
+						{
+							"ID": "20220808122617-83lemnv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122617-83lemnv",
+								"updated": "20220808122623"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "随机矩阵",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220808122624-371ilir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808122624-371ilir",
+								"updated": "20220808122731"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "python torch.rand(size) torch.randn(size) torch.normal(size, mean, std) torch.randint(low, high, size) ",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "``",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220808122753-dizr3es",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220808122753-dizr3es",
+								"updated": "20220808122753"
+							},
+							"Children": [
+								{
+									"ID": "20220808122750-ja24dhi",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808122750-ja24dhi",
+										"updated": "20220808122750"
+									},
+									"Children": [
+										{
+											"ID": "20220808122750-pg9yws3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808122750-pg9yws3",
+												"updated": "20220808122813"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "torch.rand",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 是浮点型，在 0-1 区间均匀分布",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808122813-5wmwfan",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808122813-5wmwfan",
+										"updated": "20220808122813"
+									},
+									"Children": [
+										{
+											"ID": "20220808122813-k804amw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808122813-k804amw",
+												"updated": "20220808122845"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "torch.randn",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 浮点型，均值为 0，方差为 1 的标准正态分布",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808122845-vek4lh6",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808122845-vek4lh6",
+										"updated": "20220808122845"
+									},
+									"Children": [
+										{
+											"ID": "20220808122845-awxnnvc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808122845-awxnnvc",
+												"updated": "20220808122909"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "torch.normal",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 浮点型，可以指定均值和标准差",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808122909-41iwg02",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220808122909-41iwg02",
+										"updated": "20220808122909"
+									},
+									"Children": [
+										{
+											"ID": "20220808122909-hffemeh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808122909-hffemeh",
+												"updated": "20220808122945"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "torch.randint",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 生成在[low, high)之间均匀生成的随机整数",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808123712-a32nbqg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808123712-a32nbqg",
+				"updated": "20220808123716"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "转换",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808123716-d0q8gb3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808123716-d0q8gb3",
+				"updated": "20220808124137"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "a = torch.Tensor(1)\nb = a.item()\n\na = [1, 2, 3]\nb = torch.Tensor(a)\nc = b.numpy().tolist()\n\ncpu-\u003egpu: data.cuda()\ngpu-\u003ecpu: data.cpu()\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808124106-vhhxw5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808124106-vhhxw5s",
+				"updated": "20220808124200"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NumPy 与 Tensor 转换也可以通过 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torch.Tensor()",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 进行",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808130836-zutkdsz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808130836-zutkdsz",
+				"updated": "20220808130851"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Tensor 常用操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808130942-qitd4w9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808130942-qitd4w9",
+				"updated": "20220808130949"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "获取形状",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808130959-vjj045o",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808130959-vjj045o",
+				"updated": "20220808131054"
+			},
+			"Children": [
+				{
+					"ID": "20220808131000-98qraek",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131000-98qraek",
+						"updated": "20220808131000"
+					},
+					"Children": [
+						{
+							"ID": "20220808131000-i7e7xi7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131000-i7e7xi7",
+								"updated": "20220808131034"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "shape",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 属性或 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "size()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 方法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808131044-cqs8a2x",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131044-cqs8a2x",
+						"updated": "20220808131054"
+					},
+					"Children": [
+						{
+							"ID": "20220808131044-bkv3oa5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131044-bkv3oa5",
+								"updated": "20220808131054"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numel()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 统计元素数量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808131103-nujlo1t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808131103-nujlo1t",
+				"updated": "20220808131111"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "转置（维度转换）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808131112-d2lbd4j",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808131112-d2lbd4j",
+				"updated": "20220808131419"
+			},
+			"Children": [
+				{
+					"ID": "20220808131242-f33dxyi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131242-f33dxyi",
+						"updated": "20220808131419"
+					},
+					"Children": [
+						{
+							"ID": "20220808131242-q5etbrf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131242-q5etbrf",
+								"updated": "20220808131419"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "permute()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 可以对任意维度的高位矩阵进行转置或交换维度，参数是各个轴的新位置",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808173605-7zzu2kk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808173605-7zzu2kk",
+				"updated": "20220808173610"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "x = torch.rand(2, 3, 5)\nx.shape\n# torch.Size([2, 3, 5])\nx = x.permute(2, 1, 0)\nx.shape\n# torch.Size([5, 3, 2])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808131421-2vscuc3",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808131421-2vscuc3",
+				"updated": "20220808131422"
+			},
+			"Children": [
+				{
+					"ID": "20220808131422-vnzjbh6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131422-vnzjbh6",
+						"updated": "20220808131422"
+					},
+					"Children": [
+						{
+							"ID": "20220808131422-2a9k4t9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131422-2a9k4t9",
+								"updated": "20220808131446"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "transpose()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 每次只能交换两个维度",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808131454-9843qob",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131454-9843qob",
+						"updated": "20220808131454"
+					},
+					"Children": [
+						{
+							"ID": "20220808131454-q6x0k53",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131454-q6x0k53",
+								"updated": "20220808131520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经过 permute 和 transpose 处理后的数据在内存中不再连续",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808131529-u6tzjli",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808131529-u6tzjli",
+				"updated": "20220808131534"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "形状变换",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808131535-ytp981z",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808131535-ytp981z",
+				"updated": "20220808131558"
+			},
+			"Children": [
+				{
+					"ID": "20220808131558-eq3hl32",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131558-eq3hl32",
+						"updated": "20220808131558"
+					},
+					"Children": [
+						{
+							"ID": "20220808131558-x7w7ong",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131558-x7w7ong",
+								"updated": "20220808131644"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "view()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 可以改变形状，但如果变换过维度之后就不能再使用 view 处理了，因为内存变得不连续",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808131645-xw467lp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131645-xw467lp",
+						"updated": "20220808131645"
+					},
+					"Children": [
+						{
+							"ID": "20220808131645-ocdm8mk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131645-ocdm8mk",
+								"updated": "20220808131708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "reshape()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，相当于在内存中捋顺了再进行 view 操作",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808131716-ar1x2i8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808131716-ar1x2i8",
+				"updated": "20220808131723"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "增减维度",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808131724-a7yilaf",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808131724-a7yilaf",
+				"updated": "20220808173445"
+			},
+			"Children": [
+				{
+					"ID": "20220808131724-g6wgsu9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131724-g6wgsu9",
+						"updated": "20220808131724"
+					},
+					"Children": [
+						{
+							"ID": "20220808131724-junls2q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131724-junls2q",
+								"updated": "20220808131758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "squeeze()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "unsqueeze()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 对 Tensor 增减维度",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808131804-qy8xddf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808131804-qy8xddf",
+						"updated": "20220808173445"
+					},
+					"Children": [
+						{
+							"ID": "20220808131804-wcnd4v0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808131804-wcnd4v0",
+								"updated": "20220808173445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "squeeze()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 时，只有指定的 dim 的维度的值为 1，才会删除这个维度",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808173419-wwod65j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808173419-wwod65j",
+				"updated": "20220808173448"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "torch.rand(2,1,3).squeeze(2).shape\n# torch.Size([2, 1, 3])\ntorch.rand(2,1,3).squeeze(1).shape\n# torch.Size([2, 3])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808132041-lfb7hzi",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808132041-lfb7hzi",
+				"updated": "20220808172920"
+			},
+			"Children": [
+				{
+					"ID": "20220808132042-yt31czk",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808132042-yt31czk",
+						"updated": "20220808172920"
+					},
+					"Children": [
+						{
+							"ID": "20220808132042-9okvn9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808132042-9okvn9g",
+								"updated": "20220808132109"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "unsqueeze()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 对指定位置扩充一个值为 1 的维度",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808172650-it0pw2r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808172650-it0pw2r",
+				"updated": "20220808173457"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "torch.rand(2,1,3).unsqueeze(1).shape\n#torch.Size([2, 1, 1, 3])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808132922-7edpeyw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808132922-7edpeyw",
+				"updated": "20220808151450"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "连接操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808151450-p3f2j1j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808151450-p3f2j1j",
+				"updated": "20220808151503"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "cat",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808151504-slzccav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808151504-slzccav",
+				"updated": "20220808151528"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torch.cat(tensors, dim = 0, out = None)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151538-tdsjrk1",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808151538-tdsjrk1",
+				"updated": "20220808151539"
+			},
+			"Children": [
+				{
+					"ID": "20220808151539-3j0iqzb",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151539-3j0iqzb",
+						"updated": "20220808151539"
+					},
+					"Children": [
+						{
+							"ID": "20220808151539-2kkylu7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151539-2kkylu7",
+								"updated": "20220808151554"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tensors 是若干个要连接的张量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151555-q1q6how",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151555-q1q6how",
+						"updated": "20220808151555"
+					},
+					"Children": [
+						{
+							"ID": "20220808151555-slk1nis",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151555-slk1nis",
+								"updated": "20220808151612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dim 是连接的轴",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808151612-xufqb8j.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151604-ot8htws",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151604-ot8htws",
+						"updated": "20220808151604"
+					},
+					"Children": [
+						{
+							"ID": "20220808151604-fg0xvd6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151604-fg0xvd6",
+								"updated": "20220808151634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "cat 之后维度不变",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151634-zxfvwcq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808151634-zxfvwcq",
+				"updated": "20220808151642"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "stack",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808151643-trgjyul",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808151643-trgjyul",
+				"updated": "20220808151709"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torch.stack(inputs, dim = 0)",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151711-fkp5imo",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808151711-fkp5imo",
+				"updated": "20220808151712"
+			},
+			"Children": [
+				{
+					"ID": "20220808151712-l0v19l6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151712-l0v19l6",
+						"updated": "20220808151712"
+					},
+					"Children": [
+						{
+							"ID": "20220808151712-sv9t6d2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151712-sv9t6d2",
+								"updated": "20220808151805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "stack 会提高一个维度进行拼接",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808151805-add0lr6.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151813-dt0t1p5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151813-dt0t1p5",
+				"updated": "20220808151818"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "切分操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808151818-dohouhp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808151818-dohouhp",
+				"updated": "20220808151845"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "chunk",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808151900-k24lxdm",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808151900-k24lxdm",
+				"updated": "20220808151930"
+			},
+			"Children": [
+				{
+					"ID": "20220808151901-lguiy38",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151901-lguiy38",
+						"updated": "20220808151930"
+					},
+					"Children": [
+						{
+							"ID": "20220808151901-chbrw7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151901-chbrw7w",
+								"updated": "20220808151930"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "torch.chunk(input, chunks, dim = 0)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151845-m84t76r",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808151845-m84t76r",
+				"updated": "20220808152220"
+			},
+			"Children": [
+				{
+					"ID": "20220808151847-96np3qe",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808151847-96np3qe",
+						"updated": "20220808152220"
+					},
+					"Children": [
+						{
+							"ID": "20220808151847-8ope4ph",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151847-8ope4ph",
+								"updated": "20220808152220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按照声明的 dim 尽可能平均划分，chunks 是整型，表示块的数量，划分的块中每块的数量会通过轴上的元素数量除以 chunks，再向上取整，如 17 位长度，chunks = 4，划分的块为 5、5、5、2",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808152242-80dnus4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808152242-80dnus4",
+				"updated": "20220808152247"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "split",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808152248-1de469t",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808152248-1de469t",
+				"updated": "20220808173045"
+			},
+			"Children": [
+				{
+					"ID": "20220808152249-d3dc1mm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808152249-d3dc1mm",
+						"updated": "20220808152249"
+					},
+					"Children": [
+						{
+							"ID": "20220808152249-7bwzqxn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808152249-7bwzqxn",
+								"updated": "20220808152319"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "torch.split(tensor, split_size_or_sections, dim = 0)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808152320-jhel9v4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808152320-jhel9v4",
+						"updated": "20220808173045"
+					},
+					"Children": [
+						{
+							"ID": "20220808152320-0mgh8pd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808152320-0mgh8pd",
+								"updated": "20220808152443"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其中 split_size_or_sections 参数为整数时，则每块就是这个数目的元素，如果为列表，则将 tensor 切割成列表中元素大小的块",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808173039-hobywlr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808173039-hobywlr",
+				"updated": "20220808173503"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "A = torch.rand(10,4)\ntorch.split(A, (2,3,4,1), 0)\n# (tensor([[0.6980, 0.5806, 0.0761, 0.0154],\n#          [0.0059, 0.1046, 0.3594, 0.2420]]),\n#  tensor([[0.4086, 0.3942, 0.0011, 0.7520],\n#          [0.2164, 0.4930, 0.6056, 0.2068],\n#          [0.6874, 0.2573, 0.2267, 0.9638]]),\n#  tensor([[0.1284, 0.6471, 0.6576, 0.8821],\n#          [0.4505, 0.8661, 0.3105, 0.6839],\n#          [0.7959, 0.6556, 0.5220, 0.8866],\n#          [0.7641, 0.2878, 0.5055, 0.4266]]),\n#  tensor([[0.5467, 0.4477, 0.8936, 0.8002]]))\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808152915-pwr1xbj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808152915-pwr1xbj",
+				"updated": "20220808152922"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "unbind",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808152922-n0guzxs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808152922-n0guzxs",
+				"updated": "20220808153050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果有很多个 channel，要取每个 channel 中的数据，chunk 和 split 虽然能达到相同目的，但是数量大时候比较折腾。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153054-yi1pdqi",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808153054-yi1pdqi",
+				"updated": "20220808173110"
+			},
+			"Children": [
+				{
+					"ID": "20220808153055-gondwti",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808153055-gondwti",
+						"updated": "20220808173110"
+					},
+					"Children": [
+						{
+							"ID": "20220808153055-d020nvo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153055-d020nvo",
+								"updated": "20220808153109"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "torch.unbind(input, dim = 0)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808153109-rmtwy18",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808153109-rmtwy18",
+				"updated": "20220808173509"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "A = torch.rand(3,4)\ntorch.unbind(A, 0)\n# (tensor([0.9518, 0.1000, 0.2708, 0.6869]),\n#  tensor([0.1979, 0.3746, 0.9946, 0.2094]),\n#  tensor([0.7849, 0.7959, 0.9194, 0.9608]))\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153243-hgf16ja",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808153243-hgf16ja",
+				"updated": "20220808153253"
+			},
+			"Children": [
+				{
+					"ID": "20220808153244-y1gf9im",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808153244-y1gf9im",
+						"updated": "20220808153253"
+					},
+					"Children": [
+						{
+							"ID": "20220808153244-l9ng3vj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153244-l9ng3vj",
+								"updated": "20220808153253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一种降维切分的方式",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808153305-8ezhlmz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808153305-8ezhlmz",
+				"updated": "20220808153309"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "索引操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153310-o6gk4jb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808153310-o6gk4jb",
+				"updated": "20220808153321"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "index_select",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153322-zyp9crg",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808153322-zyp9crg",
+				"updated": "20220808173205"
+			},
+			"Children": [
+				{
+					"ID": "20220808153333-ius0x9i",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808153333-ius0x9i",
+						"updated": "20220808153333"
+					},
+					"Children": [
+						{
+							"ID": "20220808153333-3bh581l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153333-3bh581l",
+								"updated": "20220808153346"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "torch.index_select(tensor, dim, index)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808153349-bqvmb9v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808153349-bqvmb9v",
+						"updated": "20220808173205"
+					},
+					"Children": [
+						{
+							"ID": "20220808153349-efgsej3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153349-efgsej3",
+								"updated": "20220808153407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "index 是一个 tensor 类型",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808173135-h7t0lgc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808173135-h7t0lgc",
+				"updated": "20220808173513"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "A = torch.rand(3,4)\nA\n# tensor([[0.1943, 0.3358, 0.8097, 0.8263],\n#         [0.4842, 0.8847, 0.7486, 0.2328],\n#         [0.4001, 0.5728, 0.6300, 0.4909]])\ntorch.index_select(A, dim = 0, index = torch.tensor([0,2]))\n# tensor([[0.1943, 0.3358, 0.8097, 0.8263],\n#         [0.4001, 0.5728, 0.6300, 0.4909]])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153715-uqfwx92",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220808153715-uqfwx92",
+				"updated": "20220808153729"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "masked_select",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808153731-xdpwtcy",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808153731-xdpwtcy",
+				"updated": "20220808173312"
+			},
+			"Children": [
+				{
+					"ID": "20220808153736-cf6jpsf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808153736-cf6jpsf",
+						"updated": "20220808153736"
+					},
+					"Children": [
+						{
+							"ID": "20220808153736-yk23xrg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153736-yk23xrg",
+								"updated": "20220808153755"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "torch.masked_select(input, mask, out = None)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808153756-ni38701",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220808153756-ni38701",
+						"updated": "20220808173312"
+					},
+					"Children": [
+						{
+							"ID": "20220808153756-2f4o3hi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808153756-2f4o3hi",
+								"updated": "20220808153827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mask 代表掩码张量，要与 input 有相同数量的元素数目，但形状或维度不必相同",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808173306-6ehfsca",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808173306-6ehfsca",
+				"updated": "20220808173516"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "A = torch.rand(5)\nA\n# tensor([0.1088, 0.7045, 0.6046, 0.9210, 0.4523])\nC = torch.masked_select(A, A\u003e0.3)\nC\n# tensor([0.7045, 0.6046, 0.9210, 0.4523])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163531-wm42go3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808163531-wm42go3",
+				"updated": "20220808163538"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据读取",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163553-wvi813y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808163553-wvi813y",
+				"updated": "20220808163626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PyTorch 使用 Dataset 类和 DataLoader 类组合，得到数据迭代器，进行数据读取。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163633-ubfsuiw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808163633-ubfsuiw",
+				"updated": "20220808163641"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Dataset 类",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163642-fj3jrms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808163642-fj3jrms",
+				"updated": "20220808163742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是一个抽象类，用来表示数据集。可以通过继承 Dataset 类自定义数据集的格式、大小和其他属性，之后供 DataLoader 类直接使用。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163752-1mlnkp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808163752-1mlnkp5",
+				"updated": "20220808163813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "继承 Dataset 类时，至少要重写以下方法：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808163813-x5f5l3f",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808163813-x5f5l3f",
+				"updated": "20220808164031"
+			},
+			"Children": [
+				{
+					"ID": "20220808163815-18tmiuu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808163815-18tmiuu",
+						"updated": "20220808163815"
+					},
+					"Children": [
+						{
+							"ID": "20220808163815-70uqo8n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163815-70uqo8n",
+								"updated": "20220808164005"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "__init__()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 构造函数，自定义数据读取方法以及数据预处理",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164005-c3qzos8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808164005-c3qzos8",
+						"updated": "20220808164005"
+					},
+					"Children": [
+						{
+							"ID": "20220808164005-n6ajjap",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164005-n6ajjap",
+								"updated": "20220808164017"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "__len__()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 返回数据集大小",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164017-4jsct0t",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808164017-4jsct0t",
+						"updated": "20220808164031"
+					},
+					"Children": [
+						{
+							"ID": "20220808164017-yz2tthc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164017-yz2tthc",
+								"updated": "20220808164031"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "__getitem()__",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 索引数据集中某一个数据",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808164951-an5tzmu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808164951-an5tzmu",
+				"updated": "20220808170011"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torch\nfrom torch.utils.data import Dataset\nclass MyData(Dataset):\n    def __init__(self, data_tensor, target_tensor):\n        self.data_tensor = data_tensor\n        self.target_tensor = target_tensor\n    def __len__(self):\n        return self.data_tensor.size(0)\n    def __getitem__(self,index):\n        return self.data_tensor[index],self.target_tensor[index]\n\ndata_tensor = torch.randn(10, 3)\ntarget_tensor = torch.randint(2, (10,))\nmy_dataset = MyData(data_tensor, target_tensor)\nmy_dataset[0]\nlen(my_dataset)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808165148-790irfr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808165148-790irfr",
+				"updated": "20220808165156"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "DataLoader 类",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808165156-qa0pnw2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808165156-qa0pnw2",
+				"updated": "20220808165340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际项目中，数据量很大的情况下，训练时不可能一次性将所有数据加载到内存中，也不能只用一个线程加载，所以需要多线程迭代加载，基于此设计了 DataLoader 类。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808165341-znksm0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808165341-znksm0q",
+				"updated": "20220808165428"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DataLoader 是一个迭代器，传入 Dataset 后，可以根据参数 batch_size 的值生成一个 batch 的数据，还可以做打乱等处理。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808165428-zv5eny7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808165428-zv5eny7",
+				"updated": "20220808170300"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "from torch.utils.data import DataLoader\ntensor_dataloader = DataLoader(dataset =my_dataset,batch_size =2,shuffle = True,num_workers =0)\nfor data, target in tensor_dataloader:\n    print(data, target)\n# tensor([[-1.9578, -1.1036, -0.0848],\n#         [ 1.7526, -1.1662,  0.3354]]) tensor([1, 0])\n# tensor([[-1.7462,  0.3737, -2.7475],\n#         [-0.8850,  0.1285,  0.5343]]) tensor([1, 1])\n# tensor([[-1.4922, -0.2662,  0.8220],\n#         [-1.3262,  2.0493,  1.0737]]) tensor([0, 0])\n# tensor([[-0.8444,  0.1187, -0.4664],\n#         [-0.2353,  0.1562,  1.4299]]) tensor([0, 0])\n# tensor([[ 0.6099,  0.3075,  0.5700],\n#         [-0.4379,  1.1330,  1.0898]]) tensor([1, 0])\nprint('one batch:',iter(tensor_dataloader).next())\n# one batch: [tensor([[-0.8850,  0.1285,  0.5343],\n#        [-1.7462,  0.3737, -2.7475]]), tensor([1, 1])]\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808170308-gxzsxc9",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808170308-gxzsxc9",
+				"updated": "20220808170429"
+			},
+			"Children": [
+				{
+					"ID": "20220808170309-sbc3zjz",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808170309-sbc3zjz",
+						"updated": "20220808170309"
+					},
+					"Children": [
+						{
+							"ID": "20220808170309-lxqnbpv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808170309-lxqnbpv",
+								"updated": "20220808170323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "batch_size 是 int 类型，每个 batch 中多少个样本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808170332-jfaihi3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808170332-jfaihi3",
+						"updated": "20220808170332"
+					},
+					"Children": [
+						{
+							"ID": "20220808170332-xbinz8c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808170332-xbinz8c",
+								"updated": "20220808170349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "shuffle 是 bool 类型，每个 epoch 开始时是否打乱",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808170350-6wdxz27",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808170350-6wdxz27",
+						"updated": "20220808170429"
+					},
+					"Children": [
+						{
+							"ID": "20220808170350-uya6d14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808170350-uya6d14",
+								"updated": "20220808170429"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "num_workers 是 int 类型，加载数据的进程数，0 意味着所有数据加载进主线程，默认为 0",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808170548-fgkzsj3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808170548-fgkzsj3",
+				"updated": "20220808170551"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Torchvision",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808170552-oc8cu3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808170552-oc8cu3n",
+				"updated": "20220808170659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与 PyTorch 配合使用的包，提供常用数据集 + 常见网络模型 + 常用图像处理方法。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808170742-biwt4az",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808170742-biwt4az",
+				"updated": "20220808170802"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认图像加载器是 PIL，因此需要安装 Pillow 库。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808170817-kcmlv8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808170817-kcmlv8y",
+				"updated": "20220808170905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "torchvision.datasets 包提供的数据集如下",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808170829-tz5smq4.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808170906-5kx66wo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808170906-5kx66wo",
+				"updated": "20220808170951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用时从网络上把数据集下载到指定目录，再使用加载器把数据集加载到内存中，最后把加载后数据集作为对象返回给用户。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171010-3x42ors",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808171010-3x42ors",
+				"updated": "20220808171016"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "以 MINST 为例",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171017-r0y405k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808171017-r0y405k",
+				"updated": "20220808171108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MNIST 数据集是一个手写数字数据集，是 NIST 数据集的一个子集，包含四个部分，以 ubyte 格式存储：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808171052-av47r8c.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171122-ve24poh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808171122-ve24poh",
+				"updated": "20220808171126"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据读取",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171126-tzwpupw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808171126-tzwpupw",
+				"updated": "20220808171353"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torchvision\nmnist_dataset = torchvision.datasets.MNIST(root='./data',\n\t\t\t\t\t   train=True,\n\t\t\t\t\t   transform=None,\n\t\t\t\t           target_transform=None,\n\t\t\t\t\t   download=True)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171329-bve48rh",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220808171329-bve48rh",
+				"updated": "20220808171416"
+			},
+			"Children": [
+				{
+					"ID": "20220808171416-1i6gmiw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808171416-1i6gmiw",
+						"updated": "20220808171416"
+					},
+					"Children": [
+						{
+							"ID": "20220808171416-t2d0uu0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171416-t2d0uu0",
+								"updated": "20220808171517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "train 是布尔类型，表示是否加载训练集数据，True 只加载训练数据，False 只加载测试数据。并不是所有数据集都做了训练集和测试集，这个参数是否有效要看官方接口文档。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171521-ffcc36r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808171521-ffcc36r",
+						"updated": "20220808171521"
+					},
+					"Children": [
+						{
+							"ID": "20220808171521-mvkz5oc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171521-mvkz5oc",
+								"updated": "20220808171530"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "transform 对图像进行预处理",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171531-xt59m35",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808171531-xt59m35",
+						"updated": "20220808171531"
+					},
+					"Children": [
+						{
+							"ID": "20220808171531-w7mzyfs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171531-w7mzyfs",
+								"updated": "20220808171543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "target_transforn 对标签进行预处理",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171558-4ws9m7f",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220808171558-4ws9m7f",
+						"updated": "20220808171558"
+					},
+					"Children": [
+						{
+							"ID": "20220808171558-zmi5nua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171558-zmi5nua",
+								"updated": "20220808171707"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mnist_dataset 是 torchvision.datasets.minst.MNIST，是 Dataset 的派生类，可以直接使用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808171718-g16df8c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808171718-g16df8c",
+				"updated": "20220808171728"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据预览",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171728-5m17n66",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808171728-5m17n66",
+				"updated": "20220808171746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要转化为列表",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808171749-6k6687u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220808171749-6k6687u",
+				"updated": "20220808171909"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mnist_dataset_list = list(mnist_dataset)\ndisplay(mnist_dataset_list[0][0])\n# 得到一个图像\nprint(mnist_dataset_list[0][1])\n#得到图像对应的标签\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220808174106-wyib5ih",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808174106-wyib5ih",
+				"updated": "20220809072250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据增强"
+				}
+			]
+		},
+		{
+			"ID": "20220809072250-7flfq8w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809072250-7flfq8w",
+				"updated": "20220809072409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "工具进行数据的预处理，如将PIL格式的数据转换为神经网络接受的Tensor，或进行图像变换与增强。"
+				}
+			]
+		},
+		{
+			"ID": "20220809072409-bogvyyt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809072409-bogvyyt",
+				"updated": "20220809085011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据类型转换"
+				}
+			]
+		},
+		{
+			"ID": "20220809085011-fumrxe7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809085011-fumrxe7",
+				"updated": "20220809085149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PIL.Image或Numpy.ndarray转换为Tensor使用"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "transforms.ToTensor()"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809085150-g1abbon",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809085150-g1abbon",
+				"updated": "20220809085352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tensor或Numpy.ndarray转换为PILImage使用"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "transforms.ToPILImage(mode = None)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中mode为None则自动推断，3通道为'RGB'，4通道为"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220730150853-xp7lbkb"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "'RGBA'"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，2通道为'LA'"
+				}
+			]
+		},
+		{
+			"ID": "20220809085421-2c6fnbd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809085421-2c6fnbd",
+				"updated": "20220809091805"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "from PIL import Image\nfrom torchvision import transforms\nimg = Image.open('jk.jpg')\ndisplay(img)\nprint(type(img))\n# \u003cclass 'PIL.JpegImagePlugin.JpegImageFile'\u003e\nimg1 = transforms.ToTensor()(img)\nprint(type(img1))\n# \u003cclass 'torch.Tensor'\u003e\nimg2 = transforms.ToPILImage()(img1)\nprint(type(img2))\ndisplay(img2)\n# \u003cclass 'PIL.Image.Image'\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809091835-fqcjv4l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809091835-fqcjv4l",
+				"updated": "20220809091856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对PILImage或Tensor变换"
+				}
+			]
+		},
+		{
+			"ID": "20220809092444-7dsfp9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220809092444-7dsfp9i",
+				"updated": "20220809092452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缩放"
+				}
+			]
+		},
+		{
+			"ID": "20220809091900-ffzbnwn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809091900-ffzbnwn",
+				"updated": "20220809091925"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.Resize(size, interpolation =2)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809091927-4s8y4kw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809091927-4s8y4kw",
+				"updated": "20220809091935"
+			},
+			"Children": [
+				{
+					"ID": "20220809091935-8b8d1e4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809091935-8b8d1e4",
+						"updated": "20220809091935"
+					},
+					"Children": [
+						{
+							"ID": "20220809091935-weumlu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809091935-weumlu2",
+								"updated": "20220809092039"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "size是期望输出的尺寸，若是(h, w)元组，则输出尺寸与它相同，若是int型整数，则较小的边与之匹配，另一条边按比例缩放"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809092040-58vmrwc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809092040-58vmrwc"
+					},
+					"Children": [
+						{
+							"ID": "20220809092040-slassec",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809092040-slassec",
+								"updated": "20220809092104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "interpolation是插值算法，int类型，默认2，PIL.Image.BILINEAR"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809092455-qaxagqc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220809092455-qaxagqc",
+				"updated": "20220809092510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "剪裁"
+				}
+			]
+		},
+		{
+			"ID": "20220809092152-il6udev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809092152-il6udev",
+				"updated": "20220809092229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "resize之后会接一个crop操作，宽高差距较大时可能会crop掉一部分信息"
+				}
+			]
+		},
+		{
+			"ID": "20220809092523-qb13gxp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220809092523-qb13gxp",
+				"updated": "20220809100842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中心剪裁"
+				}
+			]
+		},
+		{
+			"ID": "20220809100840-3tfc14o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809100840-3tfc14o",
+				"updated": "20220809100913"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.CenterCrop(size)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在中心剪裁指定的PIL Image或Tensor。"
+				}
+			]
+		},
+		{
+			"ID": "20220809100929-0nb9858",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809100929-0nb9858",
+				"updated": "20220809101009"
+			},
+			"Children": [
+				{
+					"ID": "20220809100932-yr76q0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809100932-yr76q0t",
+						"updated": "20220809101009"
+					},
+					"Children": [
+						{
+							"ID": "20220809100932-s6f1b60",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809100932-s6f1b60",
+								"updated": "20220809101009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "size可以是(h, w)元组，也可以是int型的边长，剪裁出正方形"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809101021-i6bszxk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220809101021-i6bszxk",
+				"updated": "20220809101026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随机剪裁"
+				}
+			]
+		},
+		{
+			"ID": "20220809101026-1pkd7s2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809101026-1pkd7s2",
+				"updated": "20220809101051"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.RandomCrop(size, padding = None)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809101052-k4eb3np",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809101052-k4eb3np",
+				"updated": "20220809101100"
+			},
+			"Children": [
+				{
+					"ID": "20220809101100-8tl0ecd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809101100-8tl0ecd",
+						"updated": "20220809101100"
+					},
+					"Children": [
+						{
+							"ID": "20220809101100-iy6bf2y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809101100-iy6bf2y",
+								"updated": "20220809101111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "padding是填充，通常不用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809101111-dslv26b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220809101111-dslv26b",
+				"updated": "20220809101121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "FiveCrop"
+				}
+			]
+		},
+		{
+			"ID": "20220809101122-8lfm3go",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809101122-8lfm3go",
+				"updated": "20220809101141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "torchvision.transforms.FiveCrop(size)"
+				}
+			]
+		},
+		{
+			"ID": "20220809101141-qrg6564",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809101141-qrg6564",
+				"updated": "20220809101157"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分别从四角和中心进行剪裁"
+				}
+			]
+		},
+		{
+			"ID": "20220809101713-cnxurw8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809101713-cnxurw8",
+				"updated": "20220809101717"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "imgs = transforms.FiveCrop(200)(img2)\nfor i in imgs:\n    display(i)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809101719-mz7nsfk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220809101719-mz7nsfk",
+				"updated": "20220809101825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "翻转"
+				}
+			]
+		},
+		{
+			"ID": "20220809101825-cqacz1x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809101825-cqacz1x",
+				"updated": "20220809101926"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.RandomHorizontalFlip(p = 0.5)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "以概率p随机水平翻转"
+				}
+			]
+		},
+		{
+			"ID": "20220809101927-6hnx8ri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809101927-6hnx8ri",
+				"updated": "20220809101949"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.RandomVerticalFlip(p = 0.5)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "以概率p随机垂直翻转"
+				}
+			]
+		},
+		{
+			"ID": "20220809102412-uo7o8zr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809102412-uo7o8zr",
+				"updated": "20220809102438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "只能对Tensor进行的变换"
+				}
+			]
+		},
+		{
+			"ID": "20220809102438-jd4tf0l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809102438-jd4tf0l",
+				"updated": "20220809102550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "LinearTransformation线性变换，Normalize标准化，RandomErasing随机擦除，ConvertImageDtype格式转换"
+				}
+			]
+		},
+		{
+			"ID": "20220809102551-2qgef1a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220809102551-2qgef1a",
+				"updated": "20220809102559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标准化"
+				}
+			]
+		},
+		{
+			"ID": "20220809102559-ofmpqx2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809102559-ofmpqx2",
+				"updated": "20220809102739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对一个通道来说，"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "output = （input - mean）/std"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n"
+				}
+			]
+		},
+		{
+			"ID": "20220809102754-aeig8kg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809102754-aeig8kg",
+				"updated": "20220809102836"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进行了正则化，保证数据集中所有图像分布都相似，训练容易收敛，加快训练速度，提高了训练效果。"
+				}
+			]
+		},
+		{
+			"ID": "20220809102837-9lh58sg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809102837-9lh58sg",
+				"updated": "20220809102933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.Normalize(mean, std, inplace= False)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中inplace代表是否原地操作，默认为否"
+				}
+			]
+		},
+		{
+			"ID": "20220809103409-xp34z8t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809103409-xp34z8t",
+				"updated": "20220809103412"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nimg3 = transforms.ToPILImage()(transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5))(img1))\ndisplay(img3)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809105003-jo46yjx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809105003-jo46yjx",
+				"updated": "20220809105013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "变换的组合"
+				}
+			]
+		},
+		{
+			"ID": "20220809105014-617vzn6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809105014-617vzn6",
+				"updated": "20220809105053"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.transforms.Compose(transforms)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中，参数是一个Transform对象的列表"
+				}
+			]
+		},
+		{
+			"ID": "20220809105054-3m4iur7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809105054-3m4iur7",
+				"updated": "20220809105240"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "composed = transforms.Compose([transforms.Resize((200,200)),transforms.RandomCrop(80)])\ndisplay(composed(img))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809105242-h9fz00d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809105242-h9fz00d",
+				"updated": "20220809105352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结合datasets使用"
+				}
+			]
+		},
+		{
+			"ID": "20220809105352-6frmivo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809105352-6frmivo",
+				"updated": "20220809105355"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "from torchvision import transforms\nfrom torchvision import datasets\n# 定义一个transform\nmy_transform = transforms.Compose([transforms.ToTensor(),\n                                   transforms.Normalize((0.5), (0.5))\n                                  ])\n# 读取MNIST数据集 同时做数据变换\nmnist_dataset = datasets.MNIST(root='./data',\n                               train=False,\n                               transform=my_transform,\n                               target_transform=None,\n                               download=True)\n# 查看变换后的数据类型\nitem = mnist_dataset.__getitem__(0)\nprint(type(item[0]))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809105602-3razpdq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809105602-3razpdq",
+				"updated": "20220809105622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个实际的transform"
+				}
+			]
+		},
+		{
+			"ID": "20220809105623-5ki2jbz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809105623-5ki2jbz",
+				"updated": "20220809105625"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "transform = transforms.Compose([\n    transforms.RandomResizedCrop(dest_image_size),\n    transforms.RandomHorizontalFlip(),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n    ])\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809112031-hlub9zu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809112031-hlub9zu",
+				"updated": "20220809112039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见网络模型"
+				}
+			]
+		},
+		{
+			"ID": "20220809112040-vke06p2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809112040-vke06p2",
+				"updated": "20220809112144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "torchvision.models提供了各种经典网络模型和预训练好的模型，可以解决图像分类、图像分割、物体检测和视频分类等问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220809112205-lw24pyk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809112205-lw24pyk",
+				"updated": "20220809112214"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以GoogLeNet为例"
+				}
+			]
+		},
+		{
+			"ID": "20220809112215-6i8170m",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809112215-6i8170m",
+				"updated": "20220809115434"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torchvision.models as models\ngooglenet = models.googlenet(pretrained = True)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809115437-ip61ock",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809115437-ip61ock",
+				"updated": "20220809115749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加载预训练过的模型，可以基于它做模型微调(fine-tuning)，将在一个比较宽泛的数据集上训练的模型的网络和参数，在自己的任务和数据集上训练，效果更好、容易收敛、速度更快，原因是我们相信处理图像分类任务的两个模型，网络的参数有某种相似性。需要根据具体问题对模型参数进行调整，通常是调整输出的类别。GoogLeNet是1000类，可以改成10类。"
+				}
+			]
+		},
+		{
+			"ID": "20220809115930-qomkx1x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809115930-qomkx1x",
+				"updated": "20220809115944"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torchvision.models as models\nimport torch\ngooglenet = models.googlenet(pretrained = True)\nfc_in_features = googlenet.fc.in_features\nprint(fc_in_features)\nfc_out_features = googlenet.fc.out_features\nprint(fc_out_features)\ngooglenet.fc = torch.nn.Linear(fc_in_features, 10)\n# 1024\n# 1000\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809115958-mosx14x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809115958-mosx14x",
+				"updated": "20220809120005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他常用函数"
+				}
+			]
+		},
+		{
+			"ID": "20220809120005-mimqvc0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809120005-mimqvc0",
+				"updated": "20220809120012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "make_grid"
+				}
+			]
+		},
+		{
+			"ID": "20220809120012-2rhaavg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809120012-2rhaavg",
+				"updated": "20220809120032"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将若干张图像拼在一个图片中"
+				}
+			]
+		},
+		{
+			"ID": "20220809120032-2bkk0tp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809120032-2bkk0tp",
+				"updated": "20220809120100"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.utils.make_grid(tensor, nrow=8, padding=2)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809120103-fpn8y2l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809120103-fpn8y2l",
+				"updated": "20220809120107"
+			},
+			"Children": [
+				{
+					"ID": "20220809120107-cl0jubl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809120107-cl0jubl",
+						"updated": "20220809120107"
+					},
+					"Children": [
+						{
+							"ID": "20220809120107-a00nhtm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809120107-a00nhtm",
+								"updated": "20220809120150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tensor：类型是Tensor或列表，Tensor形状是(BxCxHxW)，如果是列表，其中的元素是相同大小的图片"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809120150-hgqdtnm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809120150-hgqdtnm"
+					},
+					"Children": [
+						{
+							"ID": "20220809120150-8pmakno",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809120150-8pmakno",
+								"updated": "20220809120203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nrow一行放入的图片数，默认是8"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809120203-s54xsua",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809120203-s54xsua"
+					},
+					"Children": [
+						{
+							"ID": "20220809120203-vdyp2vf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809120203-vdyp2vf",
+								"updated": "20220809120216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "padding是子图像之间的边框宽，默认为2"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809121647-09n5ups",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809121647-09n5ups",
+				"updated": "20220809121653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "save_img"
+				}
+			]
+		},
+		{
+			"ID": "20220809121653-uglutbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809121653-uglutbc",
+				"updated": "20220809121726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "直接将模型输出的Tensor保存为图片，即使数据在gpu上也会移动到cpu中保存"
+				}
+			]
+		},
+		{
+			"ID": "20220809121726-zmgww1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809121726-zmgww1r",
+				"updated": "20220809121754"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torchvision.utils.save_img(tensor, fp, **kwargs)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809121834-qao0a2f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809121834-qao0a2f",
+				"updated": "20220809121859"
+			},
+			"Children": [
+				{
+					"ID": "20220809121835-ca1hgww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809121835-ca1hgww",
+						"updated": "20220809121835"
+					},
+					"Children": [
+						{
+							"ID": "20220809121835-yipofgc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809121835-yipofgc",
+								"updated": "20220809121843"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fp是保存图片的文件名"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809121844-26fcuuc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809121844-26fcuuc",
+						"updated": "20220809121859"
+					},
+					"Children": [
+						{
+							"ID": "20220809121844-dwod2pz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809121844-dwod2pz",
+								"updated": "20220809121859"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "**kwargs是make_grid中的参数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809163644-5jr3dus",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809163644-5jr3dus",
+				"updated": "20220811112905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "构建模型"
+				}
+			]
+		},
+		{
+			"ID": "20220811112905-70a5rad",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811112905-70a5rad",
+				"updated": "20220811131034"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import numpy as np\nimport random\nfrom matplotlib import pyplot as plt\nw = 2\nb = 3\nxlim = [-10, 10]\nx_train = np.random.randint(low=xlim[0], high=xlim[1], size=30)\ny_train = [w * x + b + random.randint(0,2) for x in x_train]\nplt.plot(x_train, y_train, 'bo')\n\nimport torch \nfrom torch import nn\nclass LinearModel(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.weight = nn.Parameter(torch.randn(1))\n        self.bias = nn.Parameter(torch.randn(1))\n\n    def forward(self, input):\n        return (input * self.weight) + self.bias\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811113202-jzyitde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811113202-jzyitde",
+				"updated": "20220811113239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上述代码构建了一个线性回归模型的例子，构建一个网络模型，需要满足以下要求"
+				}
+			]
+		},
+		{
+			"ID": "20220811113241-t53uee0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811113241-t53uee0",
+				"updated": "20220811113458"
+			},
+			"Children": [
+				{
+					"ID": "20220811113242-vlamy00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811113242-vlamy00",
+						"updated": "20220811113242"
+					},
+					"Children": [
+						{
+							"ID": "20220811113242-2nwmncu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811113242-2nwmncu",
+								"updated": "20220811113256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "必须继承"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "nn.Module"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811113257-0zirjmi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811113257-0zirjmi"
+					},
+					"Children": [
+						{
+							"ID": "20220811113257-j3qnz1s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811113257-j3qnz1s",
+								"updated": "20220811113345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重新"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "__init__()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "方法，通常把有需要学习的参数的层放在构造函数中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220811113406-dmlbrno",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811113406-dmlbrno",
+						"updated": "20220811113458"
+					},
+					"Children": [
+						{
+							"ID": "20220811113406-3pvd9l7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811113406-3pvd9l7",
+								"updated": "20220811113458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "必须重写"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "forward()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "方法，对于不需要学习参数的层可以放到这里，如BN层，激活函数和Dropout"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811113621-1a4ffdi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811113621-1a4ffdi",
+				"updated": "20220811113630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "nn.Module模块"
+				}
+			]
+		},
+		{
+			"ID": "20220811113630-kcglpys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811113630-kcglpys",
+				"updated": "20220811113724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该模块是所有神经网络模块的基类。模块本身是callable的，调用它时就是调用forward函数，也就是前向传播。"
+				}
+			]
+		},
+		{
+			"ID": "20220811113813-n277fc7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811113813-n277fc7",
+				"updated": "20220811113852"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "model = LinearModel()\nx = torch.tensor(3)\ny = model(x)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811113710-1196sfw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811113710-1196sfw",
+				"updated": "20220811113909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中调用model(x)就是前向传播的过程。"
+				}
+			]
+		},
+		{
+			"ID": "20220811113910-fcqieal",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811113910-fcqieal",
+				"updated": "20220811113954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在构建自己的网络时，还要调用父类的初始化方法"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "super().__init__()"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220811130513-qyc044k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811130513-qyc044k",
+				"updated": "20220811130518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型训练"
+				}
+			]
+		},
+		{
+			"ID": "20220811130519-wtt1zxh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811130519-wtt1zxh",
+				"updated": "20220811131235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要用到之前提到的损失函数和优化方法。这里使用了MSE损失和SGD优化方法。对于一个模型可训练的参数可以通过named_parameters查看。"
+				}
+			]
+		},
+		{
+			"ID": "20220811130531-joj6689",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811130531-joj6689",
+				"updated": "20220811131108"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "model = LinearModel()\noptimizer = torch.optim.SGD(model.parameters(),lr = 1e-4,weight_decay=1e-2,momentum=0.9)\ny_train = torch.tensor(y_train,dtype=torch.float32)\nfor _ in range(1000):\n    input = torch.from_numpy(x_train)\n    output = model(input)\n    loss = nn.MSELoss()(output, y_train)\n    model.zero_grad()\n    loss.backward()\n    optimizer.step()\n\nfor parameter in model.named_parameters():\n    print(parameter)\n# ('weight', Parameter containing:\n# tensor([2.0240], requires_grad=True))\n# ('bias', Parameter containing:\n# tensor([3.0060], requires_grad=True))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811131237-mfvnm2j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220811131237-mfvnm2j",
+				"updated": "20220811131542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型的保存和加载"
+				}
+			]
+		},
+		{
+			"ID": "20220811131542-frbvu74",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220811131542-frbvu74",
+				"updated": "20220811131603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式一：只保存训练好的参数"
+				}
+			]
+		},
+		{
+			"ID": "20220811131604-bva5sow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811131604-bva5sow",
+				"updated": "20220811131706"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torch.save(model.state_dict(), './linear_model.pth')"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，第一个参数是模型可训练的参数，第二个参数是保存位置，加载模型时要先加载网络结构再把参数赋予网络。"
+				}
+			]
+		},
+		{
+			"ID": "20220811131720-53lsr5h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811131720-53lsr5h",
+				"updated": "20220811131730"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 先定义网络结构\nlinear_model = LinearModel()\n# 加载保存的参数\nlinear_model.load_state_dict(torch.load('./linear_model.pth'))\nlinear_model.eval()\nfor parameter in linear_model.named_parameters():\n  print(parameter)\n输出：\n('weight', Parameter containing:\ntensor([[2.0071]], requires_grad=True))\n('bias', Parameter containing:\ntensor([3.1690], requires_grad=True))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811131731-h4ufrl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811131731-h4ufrl2",
+				"updated": "20220811131747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里有个 model.eval() 需要你注意一下，因为有些层（例如，Dropout 与 BN）在训练时与评估时的状态是不一样的，当进入评估时要执行 model.eval()，模型才能进入评估状态。这里说的评估不光光指代评估模型，也包括模型上线时候时的状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220811131750-oobqztl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220811131750-oobqztl",
+				"updated": "20220811131805"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方式二：保存网络结构和参数"
+				}
+			]
+		},
+		{
+			"ID": "20220811131805-u5ad2li",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220811131805-u5ad2li",
+				"updated": "20220811131821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 保存整个模型\ntorch.save(model, './linear_model_with_arc.pth')\n# 加载模型，不需要创建网络了\nlinear_model_2 = torch.load('./linear_model_with_arc.pth')\nlinear_model_2.eval()\nfor parameter in linear_model_2.named_parameters():\n  print(parameter)\n# 输出：\n('weight', Parameter containing:\ntensor([[2.0071]], requires_grad=True))\n('bias', Parameter containing:\ntensor([3.1690], requires_grad=True))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220811131822-2798aaw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220811131822-2798aaw",
+				"updated": "20220811135409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

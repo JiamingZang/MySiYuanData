@@ -1,0 +1,186 @@
+{
+	"ID": "20220730115639-fu048aj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220730115639-fu048aj",
+		"title": "js",
+		"updated": "20220730120018"
+	},
+	"Children": [
+		{
+			"ID": "20220730115639-9nhpkmk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730115639-9nhpkmk",
+				"updated": "20220730115811"
+			},
+			"Children": [
+				{
+					"ID": "20220730115747-ou0p9sd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730115747-ou0p9sd",
+						"updated": "20220730115811"
+					},
+					"Children": [
+						{
+							"ID": "20220730115747-3gcq7yp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730115747-3gcq7yp",
+								"updated": "20220730115811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选取HTML元素，常用"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "document.getElementById()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730115825-b9xyten",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730115825-b9xyten",
+				"updated": "20220730115926"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cscript\u003e\ndocument.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\";\ndocument.getElementById(\"demo\").style.fontSize = \"25px\";\ndocument.getElementById(\"demo\").style.color = \"red\";\ndocument.getElementById(\"demo\").style.backgroundColor = \"yellow\";\ndocument.getElementById(\"image\").src = \"picture.gif\";\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730115941-5k3hvda",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730115941-5k3hvda",
+				"updated": "20220730115947"
+			},
+			"Children": [
+				{
+					"ID": "20220730115947-5uvc3nk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730115947-5uvc3nk",
+						"updated": "20220730115947"
+					},
+					"Children": [
+						{
+							"ID": "20220730115947-8fkrh80",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730115947-8fkrh80",
+								"updated": "20220730120010"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u003cnoscript\u003e"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "定义了替代内容，显示禁用脚本的替代内容"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730120011-oghd1on",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730120011-oghd1on",
+				"updated": "20220730120016"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cnoscript\u003e抱歉，您的浏览器不支持 JavaScript！\u003c/noscript\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730120018-yzwvxdx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730120018-yzwvxdx"
+			}
+		}
+	]
+}

@@ -1,0 +1,1017 @@
+{
+	"ID": "20221025102737-7yu780g",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221025102737-7yu780g",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221025103348-sobgcql\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221025103348-sobgcql\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:500,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221025104942-4lmcb4e\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:7,\u0026amp;quot;focusEnd\u0026amp;quot;:7}",
+		"title": "商业模式画布",
+		"updated": "20221025110553"
+	},
+	"Children": [
+		{
+			"ID": "20221025103348-sobgcql",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221025103348-sobgcql",
+				"updated": "20221025110553"
+			},
+			"Children": [
+				{
+					"ID": "20221025103349-vjr6euq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221025103349-vjr6euq",
+						"updated": "20221025110225"
+					},
+					"Children": [
+						{
+							"ID": "20221025103349-w914jy5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103349-w914jy5",
+								"updated": "20221025103355"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目标客户细分"
+								}
+							]
+						},
+						{
+							"ID": "20221025103356-mscljjv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103356-mscljjv",
+								"updated": "20221025110225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有在互联网发布问卷并进行数据分析需求的用户"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025103415-bp3zvng",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221025103415-bp3zvng",
+						"updated": "20221025110403"
+					},
+					"Children": [
+						{
+							"ID": "20221025103415-y2zmko1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103415-y2zmko1",
+								"updated": "20221025103424"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需求、问题、机会"
+								}
+							]
+						},
+						{
+							"ID": "20221025103425-gjrfna4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025103425-gjrfna4",
+								"updated": "20221025110403"
+							},
+							"Children": [
+								{
+									"ID": "20221025103441-ucbz36b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103441-ucbz36b",
+										"updated": "20221025110337"
+									},
+									"Children": [
+										{
+											"ID": "20221025103441-1a0aj0g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103441-1a0aj0g",
+												"updated": "20221025110337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "问卷制作、发布、回答流程不便，体验不佳"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025103450-xsl54gn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103450-xsl54gn",
+										"updated": "20221025110354"
+									},
+									"Children": [
+										{
+											"ID": "20221025103450-cprsq9n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103450-cprsq9n",
+												"updated": "20221025110354"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结果查看不直观、数据分析不方便，难以发挥数据价值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025105750-kc4k3ci",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025105750-kc4k3ci",
+										"updated": "20221025110403"
+									},
+									"Children": [
+										{
+											"ID": "20221025105750-po3mayw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025105750-po3mayw",
+												"updated": "20221025110403"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "增值服务报价高，个体用户难以承受"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025103503-c6v42ct",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221025103503-c6v42ct",
+						"updated": "20221025110433"
+					},
+					"Children": [
+						{
+							"ID": "20221025103503-1qsy7qh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103503-1qsy7qh",
+								"updated": "20221025103510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案\\产品"
+								}
+							]
+						},
+						{
+							"ID": "20221025103510-aqep16f",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025103510-aqep16f",
+								"updated": "20221025110433"
+							},
+							"Children": [
+								{
+									"ID": "20221025103519-2zkaw59",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103519-2zkaw59",
+										"updated": "20221025110433"
+									},
+									"Children": [
+										{
+											"ID": "20221025103519-nea6f0u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103519-nea6f0u",
+												"updated": "20221025110433"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提供人性化、简便的流程，优化用户体验"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025103522-vtoqi7e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103522-vtoqi7e",
+										"updated": "20221025110241"
+									},
+									"Children": [
+										{
+											"ID": "20221025103522-9c6aiyt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103522-9c6aiyt",
+												"updated": "20221025110241"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提供更直观丰富的结果数据分析"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025105814-xwz4qnw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025105814-xwz4qnw"
+									},
+									"Children": [
+										{
+											"ID": "20221025105814-ftqzec6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025105814-ftqzec6",
+												"updated": "20221025105841"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优化成本降低报价"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025103545-ux0pnuq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221025103545-ux0pnuq",
+						"updated": "20221025110531"
+					},
+					"Children": [
+						{
+							"ID": "20221025103545-h52hacc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103545-h52hacc",
+								"updated": "20221025103550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "独特价值定位"
+								}
+							]
+						},
+						{
+							"ID": "20221025103550-yxsdm1j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025103550-yxsdm1j",
+								"updated": "20221025110531"
+							},
+							"Children": [
+								{
+									"ID": "20221025103553-kc7ffyu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103553-kc7ffyu",
+										"updated": "20221025110531"
+									},
+									"Children": [
+										{
+											"ID": "20221025103553-tb5d400",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103553-tb5d400",
+												"updated": "20221025110531"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "简便、直观、便宜"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025103932-qadk3ag",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025103932-qadk3ag"
+									},
+									"Children": [
+										{
+											"ID": "20221025103932-6cnab6x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025103932-6cnab6x",
+												"updated": "20221025103946"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "传播点Slogan：？"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025103603-rwkzs0v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221025103603-rwkzs0v",
+						"updated": "20221025110553"
+					},
+					"Children": [
+						{
+							"ID": "20221025103603-n9nbbsi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025103603-n9nbbsi",
+								"updated": "20221025103607"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "竞争优势"
+								}
+							]
+						},
+						{
+							"ID": "20221025104940-lgmu6dp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104940-lgmu6dp",
+								"updated": "20221025110553"
+							},
+							"Children": [
+								{
+									"ID": "20221025104942-pg0l25f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104942-pg0l25f",
+										"updated": "20221025104942"
+									},
+									"Children": [
+										{
+											"ID": "20221025104942-4lmcb4e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104942-4lmcb4e",
+												"updated": "20221025110056"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更好的用户体验"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025110549-d1g9go6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025110549-d1g9go6",
+										"updated": "20221025110553"
+									},
+									"Children": [
+										{
+											"ID": "20221025110549-zn5mzgq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025110549-zn5mzgq",
+												"updated": "20221025110553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更优秀的数据分析"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025105844-r97psc3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025105844-r97psc3"
+									},
+									"Children": [
+										{
+											"ID": "20221025105844-h07kxbb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025105844-h07kxbb",
+												"updated": "20221025110059"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更低的服务报价"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025104323-llf18rg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221025104323-llf18rg"
+					},
+					"Children": [
+						{
+							"ID": "20221025104323-y387yi1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025104323-y387yi1",
+								"updated": "20221025104325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "推广"
+								}
+							]
+						},
+						{
+							"ID": "20221025104326-gy60ke4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104326-gy60ke4",
+								"updated": "20221025104327"
+							},
+							"Children": [
+								{
+									"ID": "20221025104327-cgod9fv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104327-cgod9fv",
+										"updated": "20221025104327"
+									},
+									"Children": [
+										{
+											"ID": "20221025104327-8xk2usr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104327-8xk2usr",
+												"updated": "20221025104333"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "广告推广"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025104338-b8xwyxc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221025104338-b8xwyxc",
+						"updated": "20221025105855"
+					},
+					"Children": [
+						{
+							"ID": "20221025104338-7jikzrg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025104338-7jikzrg",
+								"updated": "20221025104343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成本结构"
+								}
+							]
+						},
+						{
+							"ID": "20221025104344-6qmbcuv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104344-6qmbcuv",
+								"updated": "20221025105855"
+							},
+							"Children": [
+								{
+									"ID": "20221025104345-31rnkp2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104345-31rnkp2",
+										"updated": "20221025104345"
+									},
+									"Children": [
+										{
+											"ID": "20221025104345-8kowk0j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104345-8kowk0j",
+												"updated": "20221025104351"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开发成本"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025104351-uvosh6r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104351-uvosh6r"
+									},
+									"Children": [
+										{
+											"ID": "20221025104351-ur9b6k2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104351-ur9b6k2",
+												"updated": "20221025104358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "运营维护成本"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025105852-cerl1cc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025105852-cerl1cc",
+										"updated": "20221025105855"
+									},
+									"Children": [
+										{
+											"ID": "20221025105852-0kjqydk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025105852-0kjqydk",
+												"updated": "20221025105855"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务成本"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025104516-3zs4fug",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221025104516-3zs4fug"
+					},
+					"Children": [
+						{
+							"ID": "20221025104516-q9n9ot3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025104516-q9n9ot3",
+								"updated": "20221025104520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "收入来源"
+								}
+							]
+						},
+						{
+							"ID": "20221025104523-8ehobsq",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104523-8ehobsq",
+								"updated": "20221025104525"
+							},
+							"Children": [
+								{
+									"ID": "20221025104525-rddemfa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104525-rddemfa",
+										"updated": "20221025104525"
+									},
+									"Children": [
+										{
+											"ID": "20221025104525-uro8kvs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104525-uro8kvs",
+												"updated": "20221025104534"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "广告"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025104535-dkbpdfr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104535-dkbpdfr"
+									},
+									"Children": [
+										{
+											"ID": "20221025104535-1vq8w2w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104535-1vq8w2w",
+												"updated": "20221025105354"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务费"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025104358-2we20it",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20221025104358-2we20it",
+						"updated": "20221025105916"
+					},
+					"Children": [
+						{
+							"ID": "20221025104358-tzujpng",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025104358-tzujpng",
+								"updated": "20221025104404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关键指标"
+								}
+							]
+						},
+						{
+							"ID": "20221025104404-najeqky",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104404-najeqky",
+								"updated": "20221025105916"
+							},
+							"Children": [
+								{
+									"ID": "20221025104406-40qfr8h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104406-40qfr8h",
+										"updated": "20221025104406"
+									},
+									"Children": [
+										{
+											"ID": "20221025104406-1384sh4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104406-1384sh4",
+												"updated": "20221025104458"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "月用户使用量（包括制作、发布、回答）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025104448-pl88vl7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104448-pl88vl7"
+									},
+									"Children": [
+										{
+											"ID": "20221025104448-7khk6t1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104448-7khk6t1",
+												"updated": "20221025104510"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "广告观看数"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221025105910-088tv8l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025105910-088tv8l",
+										"updated": "20221025105916"
+									},
+									"Children": [
+										{
+											"ID": "20221025105910-u12tjvk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025105910-u12tjvk",
+												"updated": "20221025105916"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务盈利"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221025104641-g98tia5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221025104641-g98tia5"
+					},
+					"Children": [
+						{
+							"ID": "20221025104641-hbym99t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221025104641-hbym99t",
+								"updated": "20221025104716"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "战略目标和举措"
+								}
+							]
+						},
+						{
+							"ID": "20221025104716-zij6ne8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221025104716-zij6ne8",
+								"updated": "20221025104717"
+							},
+							"Children": [
+								{
+									"ID": "20221025104717-oim3t3u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221025104717-oim3t3u",
+										"updated": "20221025104717"
+									},
+									"Children": [
+										{
+											"ID": "20221025104717-hoz903r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221025104717-hoz903r",
+												"updated": "20221025105521"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "月活跃用户使用量达到xxx，广告和服务盈利达到xxx"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1320 @@
+{
+	"ID": "20220901194928-e6gfmf3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220901194928-e6gfmf3",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220901194928-a8fzyhg\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905164712-cn9bbr0\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:5172.7998046875,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905175734-wztumxq\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:3,\u0026amp;quot;focusEnd\u0026amp;quot;:3}",
+		"title": "Architectures",
+		"updated": "20220905175735"
+	},
+	"Children": [
+		{
+			"ID": "20220901194928-a8fzyhg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901194928-a8fzyhg",
+				"updated": "20220901195245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Software Architecture and its styles"
+				}
+			]
+		},
+		{
+			"ID": "20220901195316-vh8flqa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901195316-vh8flqa",
+				"updated": "20220901195339"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么把软件化成模块然后把它们连接在一起。"
+				}
+			]
+		},
+		{
+			"ID": "20220901195343-73ymwpx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901195343-73ymwpx",
+				"updated": "20220901195345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "术语"
+				}
+			]
+		},
+		{
+			"ID": "20220901195346-38z9lgk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220901195346-38z9lgk",
+				"updated": "20220901195352"
+			},
+			"Children": [
+				{
+					"ID": "20220901195352-gx7u5bq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901195352-gx7u5bq",
+						"updated": "20220901195352"
+					},
+					"Children": [
+						{
+							"ID": "20220901195352-bqu7oy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901195352-bqu7oy7",
+								"updated": "20220901195357"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件Component"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901195357-0a1c82j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901195357-0a1c82j"
+					},
+					"Children": [
+						{
+							"ID": "20220901195357-fa6s6zm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901195357-fa6s6zm",
+								"updated": "20220901195405"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接器Connector"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901195405-wo88ngy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901195405-wo88ngy"
+					},
+					"Children": [
+						{
+							"ID": "20220901195405-zyp2xs9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901195405-zyp2xs9",
+								"updated": "20220901195422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "结构风格Architects style"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220901195817-mvwhqni",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901195817-mvwhqni",
+				"updated": "20220901195821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常用结构"
+				}
+			]
+		},
+		{
+			"ID": "20220901195821-4n8798i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220901195821-4n8798i",
+				"updated": "20220901200608"
+			},
+			"Children": [
+				{
+					"ID": "20220901195823-grvi3ad",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901195823-grvi3ad",
+						"updated": "20220901195823"
+					},
+					"Children": [
+						{
+							"ID": "20220901195823-zpphz0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901195823-zpphz0a",
+								"updated": "20220901195837"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分层结构"
+								}
+							]
+						},
+						{
+							"ID": "20220901200008-b4evj4o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200008-b4evj4o"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220901195837-10fmink.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901195839-c3uxde4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901195839-c3uxde4"
+					},
+					"Children": [
+						{
+							"ID": "20220901195839-8mspt7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901195839-8mspt7q",
+								"updated": "20220901200018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象结构Objected-based"
+								}
+							]
+						},
+						{
+							"ID": "20220901200002-3mcof3d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200002-3mcof3d"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220901195954-tjq4oay.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901200119-pblm50l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901200119-pblm50l"
+					},
+					"Children": [
+						{
+							"ID": "20220901200119-mvvc5a9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200119-mvvc5a9",
+								"updated": "20220901200144"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于事件的（事件总线）"
+								}
+							]
+						},
+						{
+							"ID": "20220901200137-54s8lae",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200137-54s8lae"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220901200131-rte7dlm.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901200132-sk039i9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901200132-sk039i9",
+						"updated": "20220901200608"
+					},
+					"Children": [
+						{
+							"ID": "20220901200132-wipxeo1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200132-wipxeo1",
+								"updated": "20220901200608"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "共享数据空间结构Shared Data-space Architecture"
+								}
+							]
+						},
+						{
+							"ID": "20220901200548-sb57bnn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901200548-sb57bnn",
+								"updated": "20220901200550"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220901200550-v68py5n.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220901195246-rahqdxn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220901195246-rahqdxn",
+				"updated": "20220901195259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "System Architectures"
+				}
+			]
+		},
+		{
+			"ID": "20220901200814-vhb4xy4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901200814-vhb4xy4",
+				"updated": "20220901201224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "软件体系结构不用考虑部署，而系统体系结构要考虑部署。系统体系结构是软件体系结构的一种实例，就是怎么部署软件体系结构，也就是从logical-\u003ephysical的过程。"
+				}
+			]
+		},
+		{
+			"ID": "20220901201810-wc2uy5e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901201810-wc2uy5e",
+				"updated": "20220901201826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Centralized architecture集中式"
+				}
+			]
+		},
+		{
+			"ID": "20220901201826-are03xt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901201826-are03xt",
+				"updated": "20220901201852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单一服务器实现大部分功能，但是其他服务器只是访问该服务器完成简单的通信。"
+				}
+			]
+		},
+		{
+			"ID": "20220905163555-msyftq6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905163555-msyftq6",
+				"updated": "20220905164556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端-服务器模型"
+				}
+			]
+		},
+		{
+			"ID": "20220905163604-jlusyvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905163604-jlusyvv",
+				"updated": "20220905164319"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统中进程分为两种，server和client，client是一个向server发请求的process，server会响应。这个图中斜线代表有延迟，但是分布式系统中，角度的大小不会影响结果。"
+				}
+			]
+		},
+		{
+			"ID": "20220905163720-2ectif6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905163720-2ectif6",
+				"updated": "20220905164319"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905163715-zgkywet.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905164406-aql22um",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220905164406-aql22um",
+				"updated": "20220905164657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三层软件体系结构"
+				}
+			]
+		},
+		{
+			"ID": "20220905164427-mu4izyk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905164427-mu4izyk",
+				"updated": "20220905164427"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905164427-3aj416m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905164446-4k6nr5g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905164446-4k6nr5g",
+				"updated": "20220905164654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两层系统体系结构two tiered system architecture"
+				}
+			]
+		},
+		{
+			"ID": "20220905164521-zrdjftl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905164521-zrdjftl",
+				"updated": "20220905164845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分为服务器机器和客户端机器，可以把三层软件体系结构部署在两层系统体系结构上。"
+				}
+			]
+		},
+		{
+			"ID": "20220905164845-4a4svcs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905164845-4a4svcs",
+				"updated": "20220905164846"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905164846-hu0u4we.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901201939-1wdy7q9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901201939-1wdy7q9",
+				"updated": "20220901202025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Decentralized architecture非集中式"
+				}
+			]
+		},
+		{
+			"ID": "20220901201947-5o5mavy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901201947-5o5mavy",
+				"updated": "20220901202033"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个逻辑上的服务器被物理地分为多个部分。"
+				}
+			]
+		},
+		{
+			"ID": "20220905165038-669gzvs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905165038-669gzvs",
+				"updated": "20220905165058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "垂直分布vertical distribution"
+				}
+			]
+		},
+		{
+			"ID": "20220905165049-kt4fyny",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165049-kt4fyny",
+				"updated": "20220905165314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把一个处理等分成C-S的应用部署在多层的结构上。"
+				}
+			]
+		},
+		{
+			"ID": "20220905165348-ubtgox5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165348-ubtgox5",
+				"updated": "20220905165348"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905165348-4n8xh09.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905165044-1ugcvnq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905165044-1ugcvnq",
+				"updated": "20220905165110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "水平分布horizontal distribution"
+				}
+			]
+		},
+		{
+			"ID": "20220905165434-3ws1fql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165434-3ws1fql",
+				"updated": "20220905165707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个client或server被分成逻辑相等的模块。"
+				}
+			]
+		},
+		{
+			"ID": "20220905165611-nwm4ma8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165611-nwm4ma8",
+				"updated": "20220905165612"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905165612-t1b4hej.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905165659-8dbgizz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165659-8dbgizz",
+				"updated": "20220905165700"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905165700-pdb88gf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905165926-sb2evuj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905165926-sb2evuj",
+				"updated": "20220905165934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同时用"
+				}
+			]
+		},
+		{
+			"ID": "20220905165938-3j0k0lx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165938-3j0k0lx",
+				"updated": "20220905165947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以轻松地扩展。"
+				}
+			]
+		},
+		{
+			"ID": "20220905165934-3fhr40p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905165934-3fhr40p",
+				"updated": "20220905165935"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905165935-6vjredb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905171332-ceanlgp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905171332-ceanlgp",
+				"updated": "20220905171341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "peer-to-peer"
+				}
+			]
+		},
+		{
+			"ID": "20220905171344-whkasod",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905171344-whkasod",
+				"updated": "20220905173229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完全分散，Servent是造出来的词，overlay network是覆盖网络，p2p网络结构不同就看覆盖网络是否相同。覆盖网络是一个构建在物理网络上的应用层网络。"
+				}
+			]
+		},
+		{
+			"ID": "20220905171358-ops7kdj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905171358-ops7kdj",
+				"updated": "20220905171405"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905171405-5hj9qvy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905173523-g8ek4no",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905173523-g8ek4no",
+				"updated": "20220905173944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如下图，物理网络是总线型，覆盖网络是环状。分布式系统都有覆盖网络，此后均考虑覆盖网络。"
+				}
+			]
+		},
+		{
+			"ID": "20220905173509-esd0jr5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905173509-esd0jr5",
+				"updated": "20220905173510"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905173510-3yypjuc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905175246-pbh28lf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905175246-pbh28lf",
+				"updated": "20220905175250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "superpeers"
+				}
+			]
+		},
+		{
+			"ID": "20220905175251-wu5kenj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905175251-wu5kenj",
+				"updated": "20220905175311"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905175311-w3miq0k.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901200830-vj9hubl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220901200830-vj9hubl",
+				"updated": "20220901202441"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Hybrid architecture混合式"
+				}
+			]
+		},
+		{
+			"ID": "20220905175431-v68sj6a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905175431-v68sj6a",
+				"updated": "20220905175457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "边界服务器edge-server system"
+				}
+			]
+		},
+		{
+			"ID": "20220905175526-wsyxcno",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905175526-wsyxcno",
+				"updated": "20220905175531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分组织内和组织外。"
+				}
+			]
+		},
+		{
+			"ID": "20220905175516-xd4k7f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905175516-xd4k7f3",
+				"updated": "20220905175525"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905175525-euix5tv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905175442-o2be6oq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905175442-o2be6oq",
+				"updated": "20220905175510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "协作服务器collaborative system"
+				}
+			]
+		},
+		{
+			"ID": "20220905175734-wztumxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905175734-wztumxq",
+				"updated": "20220905175735"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220905175735-sk2042d.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905164712-cn9bbr0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220905164712-cn9bbr0",
+				"updated": "20220905164719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实例"
+				}
+			]
+		}
+	]
+}

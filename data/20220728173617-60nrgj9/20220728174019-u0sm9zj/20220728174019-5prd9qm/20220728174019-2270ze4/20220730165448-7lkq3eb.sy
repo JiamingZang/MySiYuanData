@@ -1,0 +1,53 @@
+{
+	"ID": "20220730165448-7lkq3eb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220730165448-7lkq3eb",
+		"title": "2022-07-30",
+		"updated": "20220730165604"
+	},
+	"Children": [
+		{
+			"ID": "20220730165448-ukichjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730165448-ukichjf",
+				"updated": "20220730165513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天把html基础给过完了（其实没完，只是大概差不多）"
+				}
+			]
+		},
+		{
+			"ID": "20220730165514-02c3rdi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730165514-02c3rdi",
+				"updated": "20220730165557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后看了一些css的内容，到css边框部分"
+				}
+			]
+		},
+		{
+			"ID": "20220730165558-sh4fvhr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730165558-sh4fvhr",
+				"updated": "20220730165604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其实看的很少emm"
+				}
+			]
+		}
+	]
+}

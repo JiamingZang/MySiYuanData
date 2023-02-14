@@ -1,0 +1,68 @@
+{
+    "theme": {
+        "toolbar": {
+            "custom-toolbar-more": {
+                "default": true,
+                "state": true
+            },
+            "toolbar-theme-location-record": {
+                "default": false
+            },
+            "toolbar-theme-menu-block": {
+                "default": false
+            },
+            "toolbar-theme-style-tabbar": {
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-style-guides": {
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-style-mark": {
+                "default": false
+            },
+            "toolbar-theme-invert": {
+                "default": false
+            },
+            "toolbar-theme-typewriter-switch": {
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-dock-fold": {
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-readonly": {
+                "default": false
+            }
+        },
+        "location": {},
+        "dock": {
+            "file": {
+                "fold": false
+            },
+            "outline": {
+                "fold": false
+            },
+            "inbox": {
+                "fold": false
+            },
+            "bookmark": {
+                "fold": false
+            },
+            "tag": {
+                "fold": false
+            },
+            "graph": {
+                "fold": false
+            },
+            "globalGraph": {
+                "fold": false
+            },
+            "backlink": {
+                "fold": false
+            }
+        }
+    }
+}

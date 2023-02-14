@@ -1,0 +1,3692 @@
+{
+	"ID": "20220806135851-lpidnxj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806135851-lpidnxj",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220807081111-f2vkt56\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220807084903-oiqhw6k\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3247}",
+		"title": "哈希算法",
+		"updated": "20220807085038"
+	},
+	"Children": [
+		{
+			"ID": "20220806144849-w5c8k3d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806144849-w5c8k3d",
+				"updated": "20220806144900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单向散列函数"
+				}
+			]
+		},
+		{
+			"ID": "20220806135852-cvl3p0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806135852-cvl3p0j",
+				"updated": "20220806140058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用来保证数据完整性"
+				}
+			]
+		},
+		{
+			"ID": "20220806140114-cfqitet",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806140114-cfqitet",
+				"updated": "20220806140144"
+			},
+			"Children": [
+				{
+					"ID": "20220806140144-xgqwoim",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140144-xgqwoim",
+						"updated": "20220806140144"
+					},
+					"Children": [
+						{
+							"ID": "20220806140144-a97vtq7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140144-a97vtq7",
+								"updated": "20220806140213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单向函数(One-way Function)是正向计算容易，逆向运算困难的函数"
+								}
+							]
+						},
+						{
+							"ID": "20220806141047-3osko23",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806141047-3osko23"
+							},
+							"Children": [
+								{
+									"ID": "20220806140218-smd8ree",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140218-smd8ree"
+									},
+									"Children": [
+										{
+											"ID": "20220806140218-h4772va",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140218-h4772va",
+												"updated": "20220806140326"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实用的单向函数，正向计算更容易，容易程度是它的计算性能；逆向运算会更困难，困难程度是它的破解强度。二者要均衡考量。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806140327-9ahr3n0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140327-9ahr3n0"
+					},
+					"Children": [
+						{
+							"ID": "20220806140327-uk5jej0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140327-uk5jej0",
+								"updated": "20220806140401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "散列函数(Hash Function)可以把任意大小数据转换成固定长度的数据"
+								}
+							]
+						},
+						{
+							"ID": "20220806141049-7vs7uc2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806141049-7vs7uc2"
+							},
+							"Children": [
+								{
+									"ID": "20220806140402-s8etbmt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140402-s8etbmt"
+									},
+									"Children": [
+										{
+											"ID": "20220806140402-irkazyo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140402-irkazyo",
+												"updated": "20220806140436"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "好的散列函数，其散列值应该均匀分布"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806140440-npun7y6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140440-npun7y6"
+					},
+					"Children": [
+						{
+							"ID": "20220806140440-fu1f939",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140440-fu1f939",
+								"updated": "20220806140455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单向散列函数同时满足上述要求"
+								}
+							]
+						},
+						{
+							"ID": "20220806140501-obbleeu",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806140501-obbleeu"
+							},
+							"Children": [
+								{
+									"ID": "20220806140500-in71nrp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140500-in71nrp"
+									},
+									"Children": [
+										{
+											"ID": "20220806140500-rc3drye",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140500-rc3drye",
+												"updated": "20220806140508"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "逆向运算困难"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806140508-2uj1pn6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140508-2uj1pn6"
+									},
+									"Children": [
+										{
+											"ID": "20220806140508-7ejipso",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140508-7ejipso",
+												"updated": "20220806140512"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构造碰撞困难"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806140512-q4scx5i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140512-q4scx5i"
+					},
+					"Children": [
+						{
+							"ID": "20220806140512-4wn2kaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140512-4wn2kaj",
+								"updated": "20220806140621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于被篡改的数据，即使修改了一位，输出数据变化也应该巨大"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806140621-ufyyzq9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140621-ufyyzq9"
+					},
+					"Children": [
+						{
+							"ID": "20220806140621-pjvzt9k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140621-pjvzt9k",
+								"updated": "20220806140655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "雪崩效应(Avalanche Effect)是密码学算法常见特点，输入数据的微小变化，可以导致输出数据的巨大变化"
+								}
+							]
+						},
+						{
+							"ID": "20220806141054-fkooj46",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806141054-fkooj46"
+							},
+							"Children": [
+								{
+									"ID": "20220806140658-ao7vuos",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140658-ao7vuos"
+									},
+									"Children": [
+										{
+											"ID": "20220806140658-qkje8oh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140658-qkje8oh",
+												"updated": "20220806140749"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "严格雪崩效应是雪崩效应的一个形式化指标，常用来衡量均匀分布，指输入数据的一位发生反转，输出数据每一位都有50%概率发生改变"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806140749-rc2za10",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806140749-rc2za10",
+				"updated": "20220806140829"
+			},
+			"Children": [
+				{
+					"ID": "20220806140829-it4mrim",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140829-it4mrim",
+						"updated": "20220806140829"
+					},
+					"Children": [
+						{
+							"ID": "20220806140829-i55jdjt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140829-i55jdjt",
+								"updated": "20220806140829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "完整性的核心是：数据未经授权，不得更改。"
+								}
+							]
+						},
+						{
+							"ID": "20220806141058-rpz26bt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806141058-rpz26bt"
+							},
+							"Children": [
+								{
+									"ID": "20220806140832-k4k56q5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140832-k4k56q5"
+									},
+									"Children": [
+										{
+											"ID": "20220806140832-6g83q63",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140832-6g83q63",
+												"updated": "20220806140927"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合单向散列函数的特点，我们可以认为如果计算出数据的散列值和发送者计算的散列值相等，那么数据就未经篡改，是完整的"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806140932-jp814my",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806140932-jp814my"
+					},
+					"Children": [
+						{
+							"ID": "20220806140932-up84sc3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806140932-up84sc3",
+								"updated": "20220806140934"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "两个问题"
+								}
+							]
+						},
+						{
+							"ID": "20220806140935-6qdu3xh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806140935-6qdu3xh"
+							},
+							"Children": [
+								{
+									"ID": "20220806140935-akqn6z4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806140935-akqn6z4"
+									},
+									"Children": [
+										{
+											"ID": "20220806140935-3heck9u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806140935-3heck9u",
+												"updated": "20220806141008"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用什么样的函数破解难度才足够，才能够有根据散列值判断数据完整性的信心"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806141010-w4zqo9p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806141010-w4zqo9p"
+									},
+									"Children": [
+										{
+											"ID": "20220806141010-wdznu2n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806141010-wdznu2n",
+												"updated": "20220806141028"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如何安全获得发送者计算的散列值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806144905-cnuiwb0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806144905-cnuiwb0",
+				"updated": "20220806144909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安全强度"
+				}
+			]
+		},
+		{
+			"ID": "20220806144905-g65bsm8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806144905-g65bsm8",
+				"updated": "20220806144905"
+			},
+			"Children": [
+				{
+					"ID": "20220806144917-h19tlqy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806144917-h19tlqy"
+					},
+					"Children": [
+						{
+							"ID": "20220806144917-p7xow8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806144917-p7xow8l",
+								"updated": "20220806145008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现代单向散列函数在算法意义上的破解，都是通过宣布找到一对散列值碰撞的数据的形式来发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806144831-w3dr97i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806144831-w3dr97i"
+					},
+					"Children": [
+						{
+							"ID": "20220806144831-yzfqatf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806144831-yzfqatf",
+								"updated": "20220806145134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于上述第一个问题，一个常用的指标是使用安全强度来定义困难有多难，让我们直观感受到一个算法的的安全性或脆弱性"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145231-2lx87tc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145231-2lx87tc"
+					},
+					"Children": [
+						{
+							"ID": "20220806145231-6ghkbx7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145231-6ghkbx7",
+								"updated": "20220806145329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全强度一般使用多少字节位来描述，N位的安全强度表示破解一个密码需要"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "2^N"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "次运算"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145342-vdh9cu8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145342-vdh9cu8"
+					},
+					"Children": [
+						{
+							"ID": "20220806145342-klshcsq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145342-klshcsq",
+								"updated": "20220806145416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如MD5算法安全强度不大于18位，1024位RSA密钥的安全强度是80位，SHA-256的安全强度是128位"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145416-mb7inby",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145416-mb7inby"
+					},
+					"Children": [
+						{
+							"ID": "20220806145416-rjxgkny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145416-rjxgkny",
+								"updated": "20220806145457"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "密码组合的强度由最弱的密码来决定，实践中应选择安全强度尽量高的算法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145507-hnhdapa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145507-hnhdapa"
+					},
+					"Children": [
+						{
+							"ID": "20220806145507-ywmpq6g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145507-ywmpq6g",
+								"updated": "20220806145536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全强度是会变的，在诞生时，算法有个理论上的设计安全强度"
+								}
+							]
+						},
+						{
+							"ID": "20220806145653-fv2rfmh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806145653-fv2rfmh"
+							},
+							"Children": [
+								{
+									"ID": "20220806145651-gr8ifc1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145651-gr8ifc1"
+									},
+									"Children": [
+										{
+											"ID": "20220806145651-7ds8xv9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145651-7ds8xv9",
+												"updated": "20220806145724"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如SHA-1，1993发布，设计安全强度80位"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806145727-5ba3d22",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145727-5ba3d22"
+									},
+									"Children": [
+										{
+											"ID": "20220806145727-rxs277u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145727-rxs277u"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806145724-kxxgdgh.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145627-v9m8gel",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145627-v9m8gel"
+					},
+					"Children": [
+						{
+							"ID": "20220806145627-6h0n8qt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145627-6h0n8qt",
+								"updated": "20220806145649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算法的安全强度不是一成不变的，随着安全分析的进步，几乎所有密码学算法的安全强度都会衰减"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145756-x4f5ajm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145756-x4f5ajm"
+					},
+					"Children": [
+						{
+							"ID": "20220806145756-6a039y4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145756-6a039y4",
+								"updated": "20220806145809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用多大的安全强度可以遵循常用的推荐的安全指标"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145814-25haf3w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145814-25haf3w"
+					},
+					"Children": [
+						{
+							"ID": "20220806145814-sbfk4ah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145814-sbfk4ah",
+								"updated": "20220806145824"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三个常用指标"
+								}
+							]
+						},
+						{
+							"ID": "20220806145824-5js03ea",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806145824-5js03ea"
+							},
+							"Children": [
+								{
+									"ID": "20220806145824-9v3b3wx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145824-9v3b3wx"
+									},
+									"Children": [
+										{
+											"ID": "20220806145824-sueuf7b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145824-sueuf7b",
+												"updated": "20220806145838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "美国NIST(国家标准技术研究所)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806145838-y5d0dgi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145838-y5d0dgi"
+									},
+									"Children": [
+										{
+											"ID": "20220806145838-6q5jdup",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145838-6q5jdup",
+												"updated": "20220806145848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "德国BSI(联邦信息安全办公室)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806145849-okri70o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145849-okri70o"
+									},
+									"Children": [
+										{
+											"ID": "20220806145849-ge0t9zd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145849-ge0t9zd",
+												"updated": "20220806145910"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "欧洲ECRYPT-CSA(欧洲卓越密码网络)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806145920-tgw1lln",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806145920-tgw1lln"
+									},
+									"Children": [
+										{
+											"ID": "20220806145920-717gvco",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806145920-717gvco",
+												"updated": "20220806145921"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806145921-yx156ot.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806145948-zlmhgm0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806145948-zlmhgm0"
+					},
+					"Children": [
+						{
+							"ID": "20220806145948-mqmmp8y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806145948-mqmmp8y",
+								"updated": "20220806150022"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若是长期系统，性能瓶颈不是问题，可以考虑使用安全强度256位的算法了"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806151221-jzfr84e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806151221-jzfr84e",
+				"updated": "20220806151229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择算法考虑的因素"
+				}
+			]
+		},
+		{
+			"ID": "20220806151308-wlkdgrg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806151308-wlkdgrg",
+				"updated": "20220806151320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "算法目前是否可用"
+				}
+			]
+		},
+		{
+			"ID": "20220806151321-3i1kxn4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806151321-3i1kxn4",
+				"updated": "20220806151330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见算法分为三类："
+				}
+			]
+		},
+		{
+			"ID": "20220806151330-s9gzsvo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806151330-s9gzsvo",
+				"updated": "20220806151332"
+			},
+			"Children": [
+				{
+					"ID": "20220806151332-pulepag",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151332-pulepag",
+						"updated": "20220806151332"
+					},
+					"Children": [
+						{
+							"ID": "20220806151332-8wuf41g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151332-8wuf41g",
+								"updated": "20220806151338"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "退役的算法"
+								}
+							]
+						},
+						{
+							"ID": "20220806151349-ynge1ua",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806151349-ynge1ua"
+							},
+							"Children": [
+								{
+									"ID": "20220806151349-jile3bb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806151349-jile3bb"
+									},
+									"Children": [
+										{
+											"ID": "20220806151349-8bgip18",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806151349-8bgip18",
+												"updated": "20220806151359"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "退出历史舞台，安全强度很弱"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806151338-7nih1vr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151338-7nih1vr"
+					},
+					"Children": [
+						{
+							"ID": "20220806151338-yofl3z1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151338-yofl3z1",
+								"updated": "20220806151343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "遗留的算法"
+								}
+							]
+						},
+						{
+							"ID": "20220806151400-njnp0ai",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806151400-njnp0ai"
+							},
+							"Children": [
+								{
+									"ID": "20220806151400-24ou1r2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806151400-24ou1r2"
+									},
+									"Children": [
+										{
+											"ID": "20220806151400-y12tcdb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806151400-y12tcdb",
+												"updated": "20220806151421"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "存在明显安全性问题，不要用在新的系统中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806151343-yasss6e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151343-yasss6e"
+					},
+					"Children": [
+						{
+							"ID": "20220806151343-ogz94mu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151343-ogz94mu",
+								"updated": "20220806151347"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现行的算法"
+								}
+							]
+						},
+						{
+							"ID": "20220806151429-wz99ke4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806151429-wz99ke4"
+							},
+							"Children": [
+								{
+									"ID": "20220806151429-fhmmn21",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806151429-fhmmn21"
+									},
+									"Children": [
+										{
+											"ID": "20220806151429-32v9hqz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806151429-32v9hqz",
+												"updated": "20220806151440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "没有明显安全性问题，可以使用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806151452-pwien34",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806151452-pwien34",
+				"updated": "20220806151505"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220806151453-r9hfbax.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220806151500-yalwv8i.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220806151505-a0o68an.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220806151529-z3sj38h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806151529-z3sj38h",
+				"updated": "20220806151530"
+			},
+			"Children": [
+				{
+					"ID": "20220806151530-dagws1u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151530-dagws1u",
+						"updated": "20220806151530"
+					},
+					"Children": [
+						{
+							"ID": "20220806151530-qtemc0q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151530-qtemc0q",
+								"updated": "20220806151609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表格中计算性能参考ECRYPT在2020年7月和2019年10月对4096字节数据的基准性能测试结果"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806151624-eq2lycp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151624-eq2lycp"
+					},
+					"Children": [
+						{
+							"ID": "20220806151624-6j3xvpz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151624-6j3xvpz",
+								"updated": "20220806151738"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算性能表示运算时处理每个字节需要的微处理器的时钟周期数，度量单位是每字节周期数(CPB,Cycle Per Byte)，越小性能越好"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806151820-xo2fl6n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806151820-xo2fl6n",
+				"updated": "20220806151827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "处理能力限制"
+				}
+			]
+		},
+		{
+			"ID": "20220806151849-5880jgl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806151849-5880jgl",
+				"updated": "20220806153332"
+			},
+			"Children": [
+				{
+					"ID": "20220806151852-5rimq02",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151852-5rimq02",
+						"updated": "20220806151852"
+					},
+					"Children": [
+						{
+							"ID": "20220806151852-2mgnudf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151852-2mgnudf",
+								"updated": "20220806151910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图中的数据处理能力是单向散列函数能够处理的最大的输入数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806151922-1dh9yit",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151922-1dh9yit"
+					},
+					"Children": [
+						{
+							"ID": "20220806151922-jsdbkjb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151922-jsdbkjb",
+								"updated": "20220806151931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有的函数没有这种限制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806151931-ib390z2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806151931-ib390z2"
+					},
+					"Children": [
+						{
+							"ID": "20220806151931-b2pwre5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806151931-b2pwre5",
+								"updated": "20220806152012"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个典型的单向散列函数由四个部分组成：数据分组、链接模式、单向压缩函数和终结函数"
+								}
+							]
+						},
+						{
+							"ID": "20220806152023-8u98645",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806152023-8u98645"
+							},
+							"Children": [
+								{
+									"ID": "20220806152022-de9hjjc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152022-de9hjjc"
+									},
+									"Children": [
+										{
+											"ID": "20220806152022-j6xz95i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152022-j6xz95i"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806152012-chlddys.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806152025-ws24j1z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152025-ws24j1z"
+									},
+									"Children": [
+										{
+											"ID": "20220806152025-5h90fjl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152025-5h90fjl",
+												"updated": "20220806152116"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般压缩函数能够接受的块大小是固定的，如SHA-256只能处理512位数据，若输入数据不是整数倍，需要填充补齐"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806152240-gyg7ylh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152240-gyg7ylh"
+									},
+									"Children": [
+										{
+											"ID": "20220806152240-vljua5m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152240-vljua5m",
+												"updated": "20220806152450"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-1和SHA-2的数据补齐方案中，补充的数据中有固定位数要存储数据的长度，SHA-1、SHA-224、SHA-256使用64位表示，SHA-384、SHA-512、SHA-512/224和SHA-512/256使用128位来表示，如果输入数据的长度超过这个位数的限制，就没办法分组了"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806152450-gubqhw8.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806152509-gwrnja6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152509-gwrnja6"
+									},
+									"Children": [
+										{
+											"ID": "20220806152509-vbf3c1a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152509-vbf3c1a",
+												"updated": "20220806152529"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-3的设计放弃了这种限制，所以没有输入长度的限制了"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153308-9q72l4s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153308-9q72l4s",
+						"updated": "20220806153332"
+					},
+					"Children": [
+						{
+							"ID": "20220806153308-6yt92vi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153308-6yt92vi",
+								"updated": "20220806153332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据补齐方案选择是一大难题，很多对密码算法的攻击是从补齐方案下手的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806152806-5qqya4r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806152806-5qqya4r",
+				"updated": "20220806152811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "算法的性能"
+				}
+			]
+		},
+		{
+			"ID": "20220806152811-9jiyt6u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806152811-9jiyt6u",
+				"updated": "20220806153405"
+			},
+			"Children": [
+				{
+					"ID": "20220806152845-ck6mu23",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806152845-ck6mu23",
+						"updated": "20220806152845"
+					},
+					"Children": [
+						{
+							"ID": "20220806152845-9foavm9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806152845-9foavm9",
+								"updated": "20220806152854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "理论上说，算法性能由复杂度决定"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806152854-timt2o8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806152854-timt2o8"
+					},
+					"Children": [
+						{
+							"ID": "20220806152854-yb8bwe9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806152854-yb8bwe9",
+								"updated": "20220806152902"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实际上还与实现细节有关"
+								}
+							]
+						},
+						{
+							"ID": "20220806152902-mcdd34k",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806152902-mcdd34k"
+							},
+							"Children": [
+								{
+									"ID": "20220806152902-j5tjjt2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152902-j5tjjt2"
+									},
+									"Children": [
+										{
+											"ID": "20220806152902-sh1kq1l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152902-sh1kq1l",
+												"updated": "20220806152911"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "算法实现的内存使用影响"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806152914-el1iwjo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152914-el1iwjo"
+									},
+									"Children": [
+										{
+											"ID": "20220806152914-5iexxxx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152914-5iexxxx",
+												"updated": "20220806152937"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "算法实现是否使用优化步骤，如并行计算或预运算"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806152937-59alzhi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806152937-59alzhi"
+									},
+									"Children": [
+										{
+											"ID": "20220806152937-ayiiefd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806152937-ayiiefd",
+												"updated": "20220806153000"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "算法实现是否使用硬件加速，如使用CPU关于算法的扩展指令"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153010-3s4df40",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153010-3s4df40"
+					},
+					"Children": [
+						{
+							"ID": "20220806153010-4ap9540",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153010-4ap9540",
+								"updated": "20220806153032"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "规规矩矩的算法实现，性能一般落后有扩展指令的10倍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153035-ur1563e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153035-ur1563e"
+					},
+					"Children": [
+						{
+							"ID": "20220806153035-stblx9l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153035-stblx9l",
+								"updated": "20220806153051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但并不是每个算法或实现都有CPU扩展指令"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153101-d1fo9qr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153101-d1fo9qr"
+					},
+					"Children": [
+						{
+							"ID": "20220806153101-209yf9v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153101-209yf9v",
+								"updated": "20220806153112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算机指令集架构也会有影响"
+								}
+							]
+						},
+						{
+							"ID": "20220806153112-bbz7kbi",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806153112-bbz7kbi"
+							},
+							"Children": [
+								{
+									"ID": "20220806153112-jq3bhx2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153112-jq3bhx2"
+									},
+									"Children": [
+										{
+											"ID": "20220806153112-82yjema",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153112-82yjema",
+												"updated": "20220806153151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-512使用64位计算，在现在一般使用64位的计算机上，比SHA-256使用32位计算要快"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153203-ykbi2a3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153203-ykbi2a3"
+					},
+					"Children": [
+						{
+							"ID": "20220806153203-dili572",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153203-dili572",
+								"updated": "20220806153225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一般而言，使用现行的、流行的算法。"
+								}
+							]
+						},
+						{
+							"ID": "20220806153225-190is7a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806153225-190is7a"
+							},
+							"Children": [
+								{
+									"ID": "20220806153225-5s8qurb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153225-5s8qurb"
+									},
+									"Children": [
+										{
+											"ID": "20220806153225-vnitthn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153225-vnitthn",
+												"updated": "20220806153234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "现行推荐算法，保证安全性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806153234-3hew425",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153234-3hew425"
+									},
+									"Children": [
+										{
+											"ID": "20220806153234-oraglil",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153234-oraglil",
+												"updated": "20220806153250"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流行算法，成熟的实现会考虑优化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806153335-pzueq2d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806153335-pzueq2d",
+						"updated": "20220806153405"
+					},
+					"Children": [
+						{
+							"ID": "20220806153335-7hs920h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806153335-7hs920h",
+								"updated": "20220806153350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单向散列函数目前现行的、流行的算法有"
+								}
+							]
+						},
+						{
+							"ID": "20220806153351-5g46jsu",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806153351-5g46jsu",
+								"updated": "20220806153405"
+							},
+							"Children": [
+								{
+									"ID": "20220806153350-vqwaflp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153350-vqwaflp"
+									},
+									"Children": [
+										{
+											"ID": "20220806153350-10anea4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153350-10anea4",
+												"updated": "20220806153353"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-256"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806153354-27dnwkp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153354-27dnwkp",
+										"updated": "20220806153405"
+									},
+									"Children": [
+										{
+											"ID": "20220806153354-w2ca0ue",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153354-w2ca0ue",
+												"updated": "20220806153405"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-384"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806153358-xpnf0sr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806153358-xpnf0sr",
+										"updated": "20220806153403"
+									},
+									"Children": [
+										{
+											"ID": "20220806153358-vzv93fb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806153358-vzv93fb",
+												"updated": "20220806153403"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-512"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807081111-f2vkt56",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220807081111-f2vkt56",
+				"updated": "20220807081121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "长度延展攻击"
+				}
+			]
+		},
+		{
+			"ID": "20220807084307-2k5ht0a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220807084307-2k5ht0a",
+				"updated": "20220807084310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原理"
+				}
+			]
+		},
+		{
+			"ID": "20220807081121-ir3ib09",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807081121-ir3ib09",
+				"updated": "20220807082605"
+			},
+			"Children": [
+				{
+					"ID": "20220807081230-em6h0w8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807081230-em6h0w8",
+						"updated": "20220807081230"
+					},
+					"Children": [
+						{
+							"ID": "20220807081230-iipjpxk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807081230-iipjpxk",
+								"updated": "20220807081701"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "长度延展是指给定两段数据S和M，和一个单向散列函数h，将S和M合并起来，并计算合并后数据的散列值，叫做长度延展"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807081839-zynfytb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807081839-zynfytb"
+					},
+					"Children": [
+						{
+							"ID": "20220807081839-yrij296",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807081839-yrij296",
+								"updated": "20220807081904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果S是机密信息，M是公开信息，若机密信息放在前面则存在长度延展攻击的风险"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807081905-rz36v5o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807081905-rz36v5o"
+					},
+					"Children": [
+						{
+							"ID": "20220807081905-ri1wm58",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807081905-ri1wm58",
+								"updated": "20220807081956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "也就是说如果知道了h(S|M)，可以计算h(S|M|N)，其中N是原数据追加后的延展数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807082038-55favdz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807082038-55favdz"
+					},
+					"Children": [
+						{
+							"ID": "20220807082038-c0fmd42",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807082038-c0fmd42",
+								"updated": "20220807082158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这里的场景是这样的，只有我自己知道机密数据S，给定了公开数据M之后，只有我自己可以计算S和M的散列值，通过验证S和M的散列值，我就知道一个给定的散列值是我自己派发出去的还算伪造的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807082159-y20g0vw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807082159-y20g0vw",
+						"updated": "20220807082605"
+					},
+					"Children": [
+						{
+							"ID": "20220807082159-h557k7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807082159-h557k7c",
+								"updated": "20220807082605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "比如下面这段数据，其中key_id和perms这一段就是公开数据，发送者通过自己的机密数据和公开数据连在一起计算出了hash_sig"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807082344-wht8evm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220807082344-wht8evm",
+				"updated": "20220807082433"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "key_id=44fefa051fc1c61f5e76f27e620f51d5\u0026perms=read\u0026hash_sig=38d39516d896f879d403bd327a932d9e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220807082631-37n66nz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807082631-37n66nz",
+				"updated": "20220807082724"
+			},
+			"Children": [
+				{
+					"ID": "20220807082633-6wfmzv5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807082633-6wfmzv5",
+						"updated": "20220807082724"
+					},
+					"Children": [
+						{
+							"ID": "20220807082633-urgarf3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807082633-urgarf3",
+								"updated": "20220807083440"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但这段数据存在长度延展攻击的风险，攻击者不需要知道机密数据，只需要通过已知的url构造出一个合法的url，就可以计算出这个新url的散列值，获得不同的授权，如下"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807083502-pz1qhdb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220807083502-pz1qhdb",
+				"updated": "20220807083505"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "key_id=44fefa051fc1c61f5e76f27e620f51d5\u0026perms=read\\0x80\\0x00...\\0x02\u0026delete\u0026hash_sig=a8e6b9704f1da6ae779ad481c4c165a3\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220807083516-8r9f5i5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807083516-8r9f5i5",
+				"updated": "20220807084257"
+			},
+			"Children": [
+				{
+					"ID": "20220807083517-xj2v1cu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083517-xj2v1cu",
+						"updated": "20220807083517"
+					},
+					"Children": [
+						{
+							"ID": "20220807083517-4xviat8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083517-4xviat8",
+								"updated": "20220807083611"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其中0x80到0x02是数据块补齐数据，新增了删除权限并重新计算并替换了散列值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807083639-f6wwl47",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083639-f6wwl47"
+					},
+					"Children": [
+						{
+							"ID": "20220807083639-39remg2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083639-39remg2",
+								"updated": "20220807083852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这与单向散列函数的构造有关"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806152012-chlddys.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807083702-22lnd3f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083702-22lnd3f"
+					},
+					"Children": [
+						{
+							"ID": "20220807083702-7q7o00g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083702-7q7o00g",
+								"updated": "20220807083740"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "压缩函数是单向函数，负责算法单向性的要求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807083740-l8sndxu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083740-l8sndxu"
+					},
+					"Children": [
+						{
+							"ID": "20220807083740-yl6iwnl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083740-yl6iwnl",
+								"updated": "20220807083805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "终结函数不是单向函数，负责整理压缩函数的输出，形成最终的散列值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807083806-0351c5w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083806-0351c5w"
+					},
+					"Children": [
+						{
+							"ID": "20220807083806-kmc1soz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083806-kmc1soz",
+								"updated": "20220807083838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链接模式负责把下一个数据分组和上一个压缩函数输出结果结合出来，确保算法的雪崩效应能延续"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807083912-rosnnrp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807083912-rosnnrp"
+					},
+					"Children": [
+						{
+							"ID": "20220807083912-iwcl3o1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807083912-iwcl3o1",
+								"updated": "20220807084013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在MD5，SHA-1，SHA-256，SHA-512中，终结函数就是把压缩函数的输出向量排列成一个字节串，知道了字节串就能知道压缩函数的输出向量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084013-aelq9ew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084013-aelq9ew"
+					},
+					"Children": [
+						{
+							"ID": "20220807084013-jw0m1qj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084013-jw0m1qj",
+								"updated": "20220807084109"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而压缩函数接收一个数据分组和上一个压缩函数的运算结果，如果知道了上一个压缩函数的运算结果，就能计算下一个分组的结果"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220807084109-yiwszlb.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084102-tpxjatp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084102-tpxjatp"
+					},
+					"Children": [
+						{
+							"ID": "20220807084102-4ojhjm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084102-4ojhjm5",
+								"updated": "20220807084221"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把原散列值作为压缩函数的输入，补齐数据后加入新的数据，就可以计算新数据的散列值了"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220807084221-ht17oxv.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084224-87qubtk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084224-87qubtk",
+						"updated": "20220807084257"
+					},
+					"Children": [
+						{
+							"ID": "20220807084224-brfoerd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084224-brfoerd",
+								"updated": "20220807084257"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而把机密数据放在后面，就没办法进行长度延展攻击了"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807084314-saw3xlj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220807084314-saw3xlj",
+				"updated": "20220807084319"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何有效避免"
+				}
+			]
+		},
+		{
+			"ID": "20220807084346-6abhj7l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807084346-6abhj7l",
+				"updated": "20220807084401"
+			},
+			"Children": [
+				{
+					"ID": "20220807084347-b7zyedb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084347-b7zyedb",
+						"updated": "20220807084401"
+					},
+					"Children": [
+						{
+							"ID": "20220807084347-y5z204z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084347-y5z204z",
+								"updated": "20220807084401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用了上述模式的算法都可以进行长度延展攻击"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807084319-byj7sl5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807084319-byj7sl5",
+				"updated": "20220807084334"
+			},
+			"Children": [
+				{
+					"ID": "20220807084334-nuaum81",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084334-nuaum81",
+						"updated": "20220807084334"
+					},
+					"Children": [
+						{
+							"ID": "20220807084334-gw4bbfi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084334-gw4bbfi",
+								"updated": "20220807084345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于下列算法，长度延展攻击完全有效"
+								}
+							]
+						},
+						{
+							"ID": "20220807084405-6n9hph7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220807084405-6n9hph7"
+							},
+							"Children": [
+								{
+									"ID": "20220807084405-l5odbql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084405-l5odbql"
+									},
+									"Children": [
+										{
+											"ID": "20220807084405-08szwsi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084405-08szwsi",
+												"updated": "20220807084407"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "MD2"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084407-2ljnvwn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084407-2ljnvwn"
+									},
+									"Children": [
+										{
+											"ID": "20220807084407-u9wkn3k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084407-u9wkn3k",
+												"updated": "20220807084408"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "MD5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084409-hq6cwsc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084409-hq6cwsc"
+									},
+									"Children": [
+										{
+											"ID": "20220807084409-uo29psi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084409-uo29psi",
+												"updated": "20220807084412"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084413-odzwmie",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084413-odzwmie"
+									},
+									"Children": [
+										{
+											"ID": "20220807084413-2qjfu8b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084413-2qjfu8b",
+												"updated": "20220807084415"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-1"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084415-91b5ns4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084415-91b5ns4"
+									},
+									"Children": [
+										{
+											"ID": "20220807084415-8c0vebx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084415-8c0vebx",
+												"updated": "20220807084417"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-256"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084418-w1we46a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084418-w1we46a"
+									},
+									"Children": [
+										{
+											"ID": "20220807084418-zps43d3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084418-zps43d3",
+												"updated": "20220807084422"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-512"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084422-h5in8c3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084422-h5in8c3"
+					},
+					"Children": [
+						{
+							"ID": "20220807084422-tdj1o7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084422-tdj1o7c",
+								"updated": "20220807084450"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于下列算法，长度延展攻击不是完全有效，但安全级别显著降低"
+								}
+							]
+						},
+						{
+							"ID": "20220807084450-2vv0s6c",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220807084450-2vv0s6c"
+							},
+							"Children": [
+								{
+									"ID": "20220807084450-b8iuz6y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084450-b8iuz6y"
+									},
+									"Children": [
+										{
+											"ID": "20220807084450-i6v4wt0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084450-i6v4wt0",
+												"updated": "20220807084454"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-224"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084454-7yb1700",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084454-7yb1700"
+									},
+									"Children": [
+										{
+											"ID": "20220807084454-pe036li",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084454-pe036li",
+												"updated": "20220807084458"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-384"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084458-6u9r4c5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084458-6u9r4c5"
+					},
+					"Children": [
+						{
+							"ID": "20220807084458-1rkr1aj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084458-1rkr1aj",
+								"updated": "20220807084510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下列算法没有效果"
+								}
+							]
+						},
+						{
+							"ID": "20220807084511-sudxj2b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220807084511-sudxj2b"
+							},
+							"Children": [
+								{
+									"ID": "20220807084510-6s8o52b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084510-6s8o52b"
+									},
+									"Children": [
+										{
+											"ID": "20220807084510-q0q5reo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084510-q0q5reo",
+												"updated": "20220807084516"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-512/224"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084516-v5qhkf1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084516-v5qhkf1"
+									},
+									"Children": [
+										{
+											"ID": "20220807084516-cx11net",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084516-cx11net",
+												"updated": "20220807084522"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SHA-512/256"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220807084522-cqrswf3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807084522-cqrswf3"
+									},
+									"Children": [
+										{
+											"ID": "20220807084522-4trebvo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807084522-4trebvo",
+												"updated": "20220807084531"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有SHA-3算法"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084556-ta0vrhd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084556-ta0vrhd"
+					},
+					"Children": [
+						{
+							"ID": "20220807084556-mh8y3di",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084556-mh8y3di",
+								"updated": "20220807084620"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所以说不能单纯使用单向散列函数处理既包含机密信息又包含公开信息的数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084622-8yjyxlz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084622-8yjyxlz"
+					},
+					"Children": [
+						{
+							"ID": "20220807084622-danx533",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084622-danx533",
+								"updated": "20220807084728"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果要使用机密数据产生数据签名，应该使用设计好的经过验证的算法，如消息验证码(Message Authentication Code)和基于单向散列函数的学习验证码(Hash-based Message Authentication Code)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084812-vlgbzis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084812-vlgbzis"
+					},
+					"Children": [
+						{
+							"ID": "20220807084812-pnxq0hp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084812-pnxq0hp",
+								"updated": "20220807084829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算法还要皮实，耐用，不能无意用错了就出现安全漏洞"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220807084847-mr0kesi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220807084847-mr0kesi",
+				"updated": "20220807084903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单向散列函数适用场景"
+				}
+			]
+		},
+		{
+			"ID": "20220807084903-oiqhw6k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220807084903-oiqhw6k",
+				"updated": "20220807085038"
+			},
+			"Children": [
+				{
+					"ID": "20220807084906-5p2835b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084906-5p2835b",
+						"updated": "20220807085038"
+					},
+					"Children": [
+						{
+							"ID": "20220807084906-0wvd58x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084906-0wvd58x",
+								"updated": "20220807084910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "校验数据完整性"
+								}
+							]
+						},
+						{
+							"ID": "20220807085021-lw3uehy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220807085021-lw3uehy",
+								"updated": "20220807085038"
+							},
+							"Children": [
+								{
+									"ID": "20220807085021-qg03kt5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220807085021-qg03kt5",
+										"updated": "20220807085038"
+									},
+									"Children": [
+										{
+											"ID": "20220807085021-dtrgf08",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220807085021-dtrgf08",
+												"updated": "20220807085038"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这个场景的限制是，要确保给定的散列值不能也被修改了"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084911-9dvxqlx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084911-9dvxqlx"
+					},
+					"Children": [
+						{
+							"ID": "20220807084911-d1g9gir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084911-d1g9gir",
+								"updated": "20220807084933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字签名，和非对称密钥及其算法结合"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084933-uywxv2b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084933-uywxv2b"
+					},
+					"Children": [
+						{
+							"ID": "20220807084933-xn8sjbx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084933-xn8sjbx",
+								"updated": "20220807084943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消息验证码，和对称密钥及其算法结合"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084944-x0azvt1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084944-x0azvt1"
+					},
+					"Children": [
+						{
+							"ID": "20220807084944-6i11d4k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084944-6i11d4k",
+								"updated": "20220807084948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生成伪随机数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220807084948-r6t2wzs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220807084948-r6t2wzs"
+					},
+					"Children": [
+						{
+							"ID": "20220807084948-3lpfgv0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220807084948-3lpfgv0",
+								"updated": "20220807084953"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生成对称密钥"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

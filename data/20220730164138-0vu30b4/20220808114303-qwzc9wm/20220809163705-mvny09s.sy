@@ -1,0 +1,2572 @@
+{
+	"ID": "20220809163705-mvny09s",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809163705-mvny09s",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220810084636-2n759st\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220810095343-2af9arm\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:5355.2001953125,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220810085704-xtiilwj\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:114,\u0026amp;quot;focusEnd\u0026amp;quot;:114}",
+		"title": "卷积",
+		"updated": "20221116212125"
+	},
+	"Children": [
+		{
+			"ID": "20220810084636-2n759st",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810084636-2n759st",
+				"updated": "20220810084639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单的卷积",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810071425-rbgy8ix.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810071426-ozry9dn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810071426-ozry9dn",
+				"updated": "20220810071505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "滑动的长度称为步长，用 stride 表示，通常来说步长为 1 或 2。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810071506-v9rim2j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810071506-v9rim2j",
+				"updated": "20220810071536"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "标准卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810071536-5kz6abu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810071536-5kz6abu",
+				"updated": "20220810071747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入 m 个通道，宽为 w，高为 h，输出 n 个特征图，宽为 w'，高为 h'，卷积核大小为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "k\\times k",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810071747-ln6ehsd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810071747-ln6ehsd",
+				"updated": "20220810090859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输出特征图的通道数由卷积核个数决定，卷积核个数是 n。输入特征图有 m 个通道，每个卷积核要有 m 个通道。所以需要 n 个(m, k, k)大小的卷积核。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091004-6iw45cn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810091004-6iw45cn",
+				"updated": "20220810100524"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 100%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810071851-dwtpzlm.png"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "标准卷积"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 100%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220810072020-abrra6u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810072020-abrra6u",
+				"updated": "20220810072125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多通道的计算是把输入特征的每一个通道与卷积核中对应通道的数据进行卷积操作，产生 m 个特征图，之后将 m 个特征图对应位置求和，合并为输出特征中一个通道的特征图。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810072512-gw9f751",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810072512-gw9f751",
+				"updated": "20220810072716"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "Output_{i} = \\sum_{k=0}^{m}kernel_{k}\\star input_{k}+bias_{i},i=1,2,...,n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810072716-kmbu6qx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810072716-kmbu6qx",
+				"updated": "20220810074419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "Output_{i}",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 表示计算第 i 个通道的输出特征图，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "Kernel_{k}",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 表示 1 个卷积核里第 k 个通道，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "input_{k}",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 表示输入特征图中的第 k 个通道，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "bias_{k}",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 为偏移项，使得回归方程不必必须经过原点，可以变化得更加多样，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "\\star",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 为卷积操作。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810074424-9kbv9w1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810074424-9kbv9w1",
+				"updated": "20220810074432"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Padding",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810074434-24qhj1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810074434-24qhj1a",
+				"updated": "20220810075502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了让特征图不那么小进行的补 0 操作，有两个目的：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810075503-zq81xvp",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220810075503-zq81xvp",
+				"updated": "20220810075504"
+			},
+			"Children": [
+				{
+					"ID": "20220810075504-ybcf87f",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220810075504-ybcf87f",
+						"updated": "20220810075504"
+					},
+					"Children": [
+						{
+							"ID": "20220810075504-nfn8uu8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220810075504-nfn8uu8",
+								"updated": "20220810075520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有时候需要输入和输出的特征图保持一样的大小",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220810075520-6iyxr49",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220810075520-6iyxr49",
+						"updated": "20220810075520"
+					},
+					"Children": [
+						{
+							"ID": "20220810075520-1bty712",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220810075520-1bty712",
+								"updated": "20220810075528"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让输入特征保留更多信息",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220810075541-6w8oh9g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810075541-6w8oh9g",
+				"updated": "20220810075542"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810075542-szkbvrf.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810075543-tvr4l1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810075543-tvr4l1l",
+				"updated": "20220810075942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 PyTorch 中，padding 参数可以是字符串、int 和 tuple。字符串时，只能取'valid'和'same'，'valid'是没有 padding，'same'是让输出特征图与输入特征图大小相同，给定整型时，是要在外边不几圈 0，是 tuple 时，表示在特征图的行和列分别补多少 0。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810075942-juf2mvo.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810075843-9h7dia8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810075843-9h7dia8",
+				"updated": "20220810080000"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "PyTorch 中卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810080001-o9m82ml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810080001-o9m82ml",
+				"updated": "20220810080135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "torch.nn",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 模块中，关于卷积的操作有 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "nn.Conv1d",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ",",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "nn.Conv2d",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ",",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "nn.Conv3d",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中 2d 最常用，剩下的只是按输入特征图的维度有区别。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081007-90bn7re",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220810081007-90bn7re",
+				"updated": "20220810081009"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "class torch.nn.Conv2d(in_channels, \n                      out_channels, \n                      kernel_size, \n                      stride=1, \n                      padding=0, \n                      dilation=1, \n                      groups=1, \n                      bias=True, \n                      padding_mode='zeros', \n                      device=None, \n                      dtype=None)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810095121-efmzjd0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810095121-efmzjd0",
+				"updated": "20220810095122"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810095122-ntlzg7v.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-cv6yyts",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-cv6yyts",
+				"updated": "20220810081225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "in_channels 是指输入特征图的通道数，数据类型为 int，在标准卷积的讲解中 in_channels 为 m；out_channels 是输出特征图的通道数，数据类型为 int，在标准卷积的讲解中 out_channels 为 n。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-terip9i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-terip9i",
+				"updated": "20220810081225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "kernel_size 是卷积核的大小，数据类型为 int 或 tuple，需要注意的是只给定卷积核的高与宽即可，在标准卷积的讲解中 kernel_size 为 k。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-k5ctf3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-k5ctf3m",
+				"updated": "20220810081225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "stride 为滑动的步长，数据类型为 int 或 tuple，默认是 1，在前面的例子中步长都为 1。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-twkhifu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-twkhifu",
+				"updated": "20220810081249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "padding 为补零的方式，注意当 padding 为’valid’或’same’时，stride 必须为 1。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-2ate1ne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-2ate1ne",
+				"updated": "20220810081225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于 kernel_size、stride、padding 都可以是 tuple 类型，当为 tuple 类型时，第一个维度用于 height 的信息，第二个维度时用于 width 的信息。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810081225-uaajwx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810081225-uaajwx0",
+				"updated": "20220810081225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "bias 是否使用偏移项。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810092245-mfkol05",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810092245-mfkol05",
+				"updated": "20220810092316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意 Pytorch 输入 tensor 的维度信息是(batch_size，通道数，高，宽)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810082223-tjn08ah",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220810082223-tjn08ah",
+				"updated": "20220810082226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torch.nn as nn\nimport torch\ninput_feat = torch.tensor([[4,1,7,5],[4,4,2,5],[7,7,2,4],[1,0,2,4]],dtype=torch.float32).unsqueeze(0).unsqueeze(0)\nprint(input_feat)\nprint(input_feat.shape)\n# tensor([[[[4., 1., 7., 5.],\n#           [4., 4., 2., 5.],\n#           [7., 7., 2., 4.],\n#           [1., 0., 2., 4.]]]])\n# torch.Size([1, 1, 4, 4])\nconv2d = nn.Conv2d(1,1,(2,2),stride=1,padding='same',bias = False)\nkernels = torch.tensor([[[[1,0],[2,1]]]],dtype=torch.float32)\nconv2d.weight = nn.Parameter(kernels,requires_grad=False)\nprint(conv2d.weight)\nprint(conv2d.bias)\n# Parameter containing:\n# tensor([[[[1., 0.],\n#           [2., 1.]]]])\n# None\noutput = conv2d(input_feat)\noutput\n# tensor([[[[16., 11., 16., 15.],\n#           [25., 20., 10., 13.],\n#           [ 9.,  9., 10., 12.],\n#           [ 1.,  0.,  2.,  4.]]]])\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810084701-wjk9jjn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810084701-wjk9jjn",
+				"updated": "20220810084715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于标准卷积还有各种卷积方式，解决不同问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810084722-u2hbi0y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810084722-u2hbi0y",
+				"updated": "20220810084723"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810084723-jb05bit.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810084724-c27ba47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810084724-c27ba47",
+				"updated": "20220810084847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之前 PyTorch 中剩余的 dilation 和 groups 两个参数，对应两种不同的卷积，分别是深度可分离卷积和空洞卷积。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810084901-w5b6a7k",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220810084901-w5b6a7k",
+				"updated": "20220810084902"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220810084650-ll4oc9f",
+					"Type": "NodeHeading",
+					"HeadingLevel": 1,
+					"Properties": {
+						"id": "20220810084650-ll4oc9f",
+						"updated": "20220810084902"
+					},
+					"Children": [
+						{
+							"Type": "NodeHeadingC8hMarker",
+							"Data": "# ",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "深度可分离卷积",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220810084848-7r2cr8c",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220810084848-7r2cr8c",
+						"updated": "20220810084902"
+					}
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810084906-ijdw49p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810084906-ijdw49p",
+				"updated": "20220810084953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谷歌在 MobileNet v1 中提出的一种轻量化卷积，深度可分离卷积在效果近似相同情况下，需要的计算量更少。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810085001-8bouhbu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810085001-8bouhbu",
+				"updated": "20220810085409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深度可分离卷积(Depthwise Separable Convolution)由 Depthwise(DW)和 Pointwise(PW)两部分卷积组合而成。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810085530-vf5ud64",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810085530-vf5ud64",
+				"updated": "20220810085534"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Depthwise(DW)卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810085534-p94251a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810085534-p94251a",
+				"updated": "20220810085652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有 m 个卷积核的卷积，每个卷积核通道数为 1，分别与输入特征图对应的通道做卷积，得到 n 个通道的输出特征图，通常 DW 卷积核大小为 3x3。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810085652-j4j5jdr.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810085654-962lj5e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810085654-962lj5e",
+				"updated": "20220810085704"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Pointwise(PW)卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810085704-xtiilwj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810085704-xtiilwj",
+				"updated": "20220810085926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了替换标准卷积，深度可分离卷积的输出也要和标准卷积一样输出 n 个通道的特征图，同时也要考虑多个通道之间的信息。所以要加一个 PW 卷积，也叫逐点卷积，将 DW 输出的 m 个特征图结合在一起，输出一个有 n 个通道的特征图。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810090007-uzohjcw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810090007-uzohjcw",
+				"updated": "20220810090105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PW 卷积就是 n 个有 m 个通道的 1x1 卷积，1x1 卷积主要作用是升维或降维。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810090105-17buf23.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810090107-94qn2vo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810090107-94qn2vo",
+				"updated": "20220810090623"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "计算量对比",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810090624-ddhyn74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810090624-ddhyn74",
+				"updated": "20220810100432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标准卷积的计算量是 "
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "k\\times k\\times m\\times n\\times m'\\times n'"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以从它的"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220810091004-6iw45cn"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "输出特征图"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "反向思考。"
+				}
+			]
+		},
+		{
+			"ID": "20220810090952-xf27qnu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810090952-xf27qnu",
+				"updated": "20220810091413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DW 的计算量是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "k\\times k\\times m\\times m'\\times n'",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，PW 卷积是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "1\\times 1\\times m\\times n\\times h'\\times w'",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091414-2rg8yt0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810091414-2rg8yt0",
+				"updated": "20220810091430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以得出深度可分离卷积和标准卷积的计算量比值是",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091431-3tb1ovj",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220810091431-3tb1ovj",
+				"updated": "20220810091512"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\frac{1}{n}+\\frac{1}{k\\times k}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091304-k8l6oyl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810091304-k8l6oyl",
+				"updated": "20220810091525"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "PyTorch 实现",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091525-65l2bde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810091525-65l2bde",
+				"updated": "20220810091834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要分别实现 DW 和 PW 卷积，实现 DW 卷积会用到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "nn.Conv2d",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 中的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "groups",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 参数，作用是控制输入特征图和输出特征图的分组情况。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810091834-deh34t1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810091834-deh34t1",
+				"updated": "20220810092212"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "groups",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 不等于 1 的时候，必须能整除 in_channels 和 out_channels，会将输入特征图分为 groups 个组，每个组有自己的卷积核然后分组卷积，输出的特征图也有 groups 个组。groups 等于 in_channels 就是 DW 卷积。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810092212-1zgymee",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220810092212-1zgymee",
+				"updated": "20220810092751"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import torch\nimport torch.nn as nn\nx = torch.rand((3,5,5)).unsqueeze(0)\nprint(x.shape)\n# torch.Size([1, 3, 5, 5])\nin_channels_dw = x.shape[1]\nout_channels_dw = x.shape[1]\nkernel_size = 3\nstride = 1\ndw = nn.Conv2d(in_channels_dw,out_channels_dw,kernel_size,stride,groups=in_channels_dw)\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810092800-cdo8b4t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810092800-cdo8b4t",
+				"updated": "20220810092838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PW 卷积就是大小为 1x1 的标准卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810092839-mkgm7qv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220810092839-mkgm7qv",
+				"updated": "20220810093037"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "in_channels_pw = out_channels_dw\nout_channels_pw = 4\nkernel_size_pw = 1\npw = nn.Conv2d(in_channels_pw, out_channels_pw, kernel_size_pw,stride)\nout = pw(dw(x))\nprint(out.shape)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810093048-5ymp6jp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220810093048-5ymp6jp",
+				"updated": "20220810093054"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "空洞卷积",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810093907-ehw4j1v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810093907-ehw4j1v",
+				"updated": "20220810094048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图像分割模型经过多层卷积和 pooling 操作后，特征图会变小，为了对每个像素点进行预测，需要进行上采样或反卷积，把特征图扩大到一个尺度再进行预测。但这种恢复是有损失的，所以需要一种既可以扩大感受野又不用缩小特征图的方法。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810093054-anaunqe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810093054-anaunqe",
+				"updated": "20220810093058"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "感受野",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810093058-4hpgrpl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810093058-4hpgrpl",
+				"updated": "20220810094441"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随着不断 pooling(卷积神经网络中的一种操作，在一定区域的特征图内区最大值或平均值，用最大值或平均值代替这个区域所有数据，pooling 使得特征图变小)或卷积操作，卷积神经网络中不同层的特征图越来越小。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810094441-fdhlmhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810094441-fdhlmhv",
+				"updated": "20221116212125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在卷积神经网络中，不同层的特征图，相对于原图来说计算的区域不同。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             下图中卷积层 1 感受野是 3，卷积层 2 感受野是 5，都是 3x3 卷积。"
+				}
+			]
+		},
+		{
+			"ID": "20220810094630-xybwerd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810094630-xybwerd",
+				"updated": "20220810094635"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810094635-2ftrtu7.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810094639-b6d3rb8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810094639-b6d3rb8",
+				"updated": "20220810094639"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220810094639-wo3crbb.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810094742-fzv1i9x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220810094742-fzv1i9x",
+				"updated": "20220810094746"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "计算方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810094746-2jnpilq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810094746-2jnpilq",
+				"updated": "20220810094916"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "max-width: 404px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "下载",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/下载-20220810094854-fg3d425.gif",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkSpace",
+							"Data": " ",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "空洞卷积计算方式",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": "){: parent-style=\"max-width: 404px;\"}​",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"max-width: 404px;\"}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810094930-rnesqcl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810094930-rnesqcl",
+				"updated": "20220810095059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "计算方式是将卷积核按一定比例拆分开，实现方式是用 0 来填充卷积核。这个分开的比例叫做扩张率，就是 dilation 参数，默认是 1，这个参数可以是整型或元组，元组中第一位代表行的信息，第二位代表列的信息。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220810095343-2af9arm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220810095343-2af9arm"
+			}
+		}
+	]
+}

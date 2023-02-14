@@ -1,0 +1,10 @@
+{
+  "name": "哦我的数学",
+  "sort": 0,
+  "icon": "1f9ee",
+  "closed": false,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

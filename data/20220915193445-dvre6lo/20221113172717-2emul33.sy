@@ -1,0 +1,33 @@
+{
+	"ID": "20221113172717-2emul33",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221113172717-2emul33",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221113172717-t3uy5xn\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221113172856-4x63pbx\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221113172856-4x63pbx\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "自我介绍",
+		"updated": "20221113173245"
+	},
+	"Children": [
+		{
+			"ID": "20221113172717-t3uy5xn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113172717-t3uy5xn",
+				"updated": "20221113173245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现为东北大学软件学院2020级本硕博连读在读学士，热爱技术，学习能力强。参与“中央高校基本科研业务费专项-交叉融合与协同发展项目”等。能使用C#，Java，Python等语言进行开发，对Unity，3dsMax，Substance Painter等软件有一定使用经验，能够使用PBR流程进行开发，有一定的web开发经验。"
+				}
+			]
+		},
+		{
+			"ID": "20221113172856-4x63pbx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113172856-4x63pbx"
+			}
+		}
+	]
+}

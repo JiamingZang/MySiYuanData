@@ -1,0 +1,226 @@
+{
+	"ID": "20220830084241-p9to79n",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220830084241-p9to79n",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830084241-pfsb8lq\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830085259-a7uw7p5\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
+		"title": "软件项目管理",
+		"updated": "20220906084348"
+	},
+	"Children": [
+		{
+			"ID": "20220830084241-pfsb8lq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830084241-pfsb8lq",
+				"updated": "20220906084348"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220906084348-6odsqp9.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830084334-cxbgvut",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830084334-cxbgvut",
+				"updated": "20220830084416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "黄色标识的是敏捷方法相关内容"
+				}
+			]
+		},
+		{
+			"ID": "20220830084258-kxd50rs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830084258-kxd50rs",
+				"updated": "20220830084457"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220830084457-f8lyprk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830084458-kufk87d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830084458-kufk87d",
+				"updated": "20220830085057"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220830085057-2t2zz8e.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830085127-uu7zkbt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830085127-uu7zkbt",
+				"updated": "20220830085131"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3-4次测验"
+				}
+			]
+		},
+		{
+			"ID": "20220830085200-qk48xrq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830085200-qk48xrq",
+				"updated": "20220830085200"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220830085200-zatesjh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830085259-a7uw7p5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830085259-a7uw7p5",
+				"updated": "20220830085315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9，10，11，15每份2-3页，其他每份一页，有模板"
+				}
+			]
+		}
+	]
+}

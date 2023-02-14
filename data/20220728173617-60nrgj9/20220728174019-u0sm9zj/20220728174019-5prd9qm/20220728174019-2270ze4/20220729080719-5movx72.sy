@@ -1,0 +1,39 @@
+{
+	"ID": "20220729080719-5movx72",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220729080719-5movx72",
+		"title": "2022-07-29",
+		"updated": "20220729191352"
+	},
+	"Children": [
+		{
+			"ID": "20220729080719-qvw3dpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729080719-qvw3dpw",
+				"updated": "20220729191330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天主要看数学了（还有电视剧。。）"
+				}
+			]
+		},
+		{
+			"ID": "20220729191331-ddy2vs4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729191331-ddy2vs4",
+				"updated": "20220729191352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "html看了class和id标签，还有iframe元素"
+				}
+			]
+		}
+	]
+}

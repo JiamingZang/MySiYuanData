@@ -1,0 +1,1320 @@
+{
+	"ID": "20221010211948-klld9yt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010211948-klld9yt",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010213337-r4sum9l\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010214648-vg03de6\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2402.39990234375}",
+		"title": "超级自动化：保险例子",
+		"updated": "20221010222527"
+	},
+	"Children": [
+		{
+			"ID": "20221010213337-r4sum9l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221010213337-r4sum9l",
+				"updated": "20221010221732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保险行业的例子"
+				}
+			]
+		},
+		{
+			"ID": "20221010212440-90ne2bh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010212440-90ne2bh",
+				"updated": "20221010213336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保险赔付流程较复杂"
+				}
+			]
+		},
+		{
+			"ID": "20221010214618-wgqsuci",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010214618-wgqsuci",
+				"updated": "20221010214623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题简述"
+				}
+			]
+		},
+		{
+			"ID": "20221010212558-3vz1ql5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010212558-3vz1ql5",
+				"updated": "20221010213147"
+			},
+			"Children": [
+				{
+					"ID": "20221010212559-q45gq6g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010212559-q45gq6g",
+						"updated": "20221010212559"
+					},
+					"Children": [
+						{
+							"ID": "20221010212559-rmjyh0r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010212559-rmjyh0r",
+								"updated": "20221010212702"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目前保险公司的理赔作业流程一般完全由人工操作完成，由于对风险管控的严格要求，虽然经过长期持续的流程精简，每一个赔案都必须经过报案、受理、扫描、信息录入、医保理算、案件审核、案件赔付理算及签批复核等环节。在此传统人工模式下，客观上，理赔处理时效很难再进行缩减。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010213136-fhg1hrv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010213136-fhg1hrv",
+						"updated": "20221010213147"
+					},
+					"Children": [
+						{
+							"ID": "20221010213136-86hltvq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010213136-86hltvq",
+								"updated": "20221010213147"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以下是一个保险赔付的业务流程图"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010212702-g20sszj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010212702-g20sszj",
+				"updated": "20221010212704"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221010212704-4w4unwo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010214628-tbx36gc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010214628-tbx36gc",
+				"updated": "20221010214828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用RPA的解决方案"
+				}
+			]
+		},
+		{
+			"ID": "20221010213755-7e3o2o6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010213755-7e3o2o6",
+				"updated": "20221010220645"
+			},
+			"Children": [
+				{
+					"ID": "20221010213756-tmhkl68",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010213756-tmhkl68",
+						"updated": "20221010213921"
+					},
+					"Children": [
+						{
+							"ID": "20221010213756-v1belts",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010213756-v1belts",
+								"updated": "20221010213921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在自动化理赔系统支撑下，部分人工操作环节，如理赔信息处理、理赔金额计算等，可以交由系统处理完成；通过引入规则引擎，案件在理赔人员受理后，全部由系统自动完成后续处理，即可自动完成案件的审核、理算，并自动结案，实现了案件处理的全流程自动化结案。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010220042-6mp6b5p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010220042-6mp6b5p",
+						"updated": "20221010220640"
+					},
+					"Children": [
+						{
+							"ID": "20221010220054-ldumk36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010220054-ldumk36",
+								"updated": "20221010220054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消除报销处理中的人工数据输入"
+								}
+							]
+						},
+						{
+							"ID": "20221010220113-liozlyr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221010220113-liozlyr",
+								"updated": "20221010220640"
+							},
+							"Children": [
+								{
+									"ID": "20221010220436-hv95yl2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220436-hv95yl2",
+										"updated": "20221010220640"
+									},
+									"Children": [
+										{
+											"ID": "20221010220436-mhnxa94",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220436-mhnxa94",
+												"updated": "20221010220640"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以适当介绍一下智能文档处理https://cn.automationanywhere.com/rpa/intelligent-document-processing"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010220113-yr1i6wp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220113-yr1i6wp"
+									},
+									"Children": [
+										{
+											"ID": "20221010220113-fg68c9d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220113-fg68c9d",
+												"updated": "20221010220433"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机器人使用"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "智能文档处理"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "从索赔损失表、损失估算和医生声明中提取数据，并自动更新索赔文件。RPA 可帮助核实承保情况，完成分流和分配索赔，并安排结算通知和支付。RPA 平台内置的智能分析提供了实时的控制面板，可深入了解理赔量、频率、严重程度、类型、状态、结案时间以及任何其他用户定义的指标。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010220212-1zlpe7s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010220212-1zlpe7s",
+						"updated": "20221010220645"
+					},
+					"Children": [
+						{
+							"ID": "20221010220214-3o2eklf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010220214-3o2eklf",
+								"updated": "20221010220214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无缝收集、整理、汇总数据"
+								}
+							]
+						},
+						{
+							"ID": "20221010220251-mmdvma6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221010220251-mmdvma6",
+								"updated": "20221010220645"
+							},
+							"Children": [
+								{
+									"ID": "20221010220505-sl7o1fu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220505-sl7o1fu",
+										"updated": "20221010220645"
+									},
+									"Children": [
+										{
+											"ID": "20221010220505-v4ruovm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220505-v4ruovm",
+												"updated": "20221010220645"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以简单加一点这个有人值守和无人值守的区别https://cn.automationanywhere.com/rpa/attended-vs-unattended-rpa"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010220251-mysa40x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220251-mysa40x",
+										"updated": "20221010220257"
+									},
+									"Children": [
+										{
+											"ID": "20221010220251-abz3cii",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220251-abz3cii",
+												"updated": "20221010220257"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机器人为核保和精算分析收集、汇总和格式化数据。有人值守自动化使核保人能够与销售商业、特种和人寿险保单的坐席和服务代表进行实时协作。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010220514-ossfxcv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010220514-ossfxcv",
+						"updated": "20221010220636"
+					},
+					"Children": [
+						{
+							"ID": "20221010220526-4ku4qor",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010220526-4ku4qor",
+								"updated": "20221010220526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 RPA 机器人的帮助下改善客户体验"
+								}
+							]
+						},
+						{
+							"ID": "20221010220536-u23rm4j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221010220536-u23rm4j",
+								"updated": "20221010220636"
+							},
+							"Children": [
+								{
+									"ID": "20221010220624-26gwiqf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220624-26gwiqf",
+										"updated": "20221010220636"
+									},
+									"Children": [
+										{
+											"ID": "20221010220624-710cuy3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220624-710cuy3",
+												"updated": "20221010220636"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这个是数字化劳动力的介绍，可以适当解释https://cn.automationanywhere.com/rpa/digital-workforce"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010220536-m4kwb4t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010220536-m4kwb4t"
+									},
+									"Children": [
+										{
+											"ID": "20221010220536-i2nxq3z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010220536-i2nxq3z",
+												"updated": "20221010220553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数字化劳动力使客户服务代表能够快速汇总客户和产品信息，处理服务请求，交叉销售保险产品，并与核保人员实时互动。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010211948-ohkm5js",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010211948-ohkm5js",
+				"updated": "20221010213405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保险欺诈问题"
+				}
+			]
+		},
+		{
+			"ID": "20221010214638-8ffkyb2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010214638-8ffkyb2",
+				"updated": "20221010214642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题简述"
+				}
+			]
+		},
+		{
+			"ID": "20221010212116-3jic9tj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010212116-3jic9tj",
+				"updated": "20221010213451"
+			},
+			"Children": [
+				{
+					"ID": "20221010213453-1fkdluk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010213453-1fkdluk"
+					},
+					"Children": [
+						{
+							"ID": "20221010213453-yxr098c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010213453-yxr098c",
+								"updated": "20221010213454"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保险是重要的金融体系，对社会发展，民生保障起到重要作用。保险欺诈近些年层出不穷，在某些险种上保险欺诈的金额已经占到了理赔金额的20%甚至更多。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010213451-uzvf2do",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010213451-uzvf2do",
+						"updated": "20221010213451"
+					},
+					"Children": [
+						{
+							"ID": "20221010213451-hqzxyxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010213451-hqzxyxy",
+								"updated": "20221010214020"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如健康保险欺诈，这是一种作假骗保的行为，整个欺诈过程可能涉及患者、医生和受益人的同行的配合联合行动，联合欺诈的异常行为可能形成一个欺诈圈。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010214647-4s5ms2a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010214647-4s5ms2a",
+				"updated": "20221010214844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用人工智能的解决方案"
+				}
+			]
+		},
+		{
+			"ID": "20221010214648-vg03de6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010214648-vg03de6",
+				"updated": "20221010215459"
+			},
+			"Children": [
+				{
+					"ID": "20221010213608-zb3l0lb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010213608-zb3l0lb"
+					},
+					"Children": [
+						{
+							"ID": "20221010213608-spjd03q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010213608-spjd03q",
+								"updated": "20221010214343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对保险欺诈的识别成为保险行业中的关键应用场景。多种机器学习方法在保险反欺诈检测方面可以提供帮助。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010214553-q0s8hnz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010214553-q0s8hnz",
+						"updated": "20221010215459"
+					},
+					"Children": [
+						{
+							"ID": "20221010214553-ecd90os",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010214553-ecd90os",
+								"updated": "20221010214938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "介绍一个欺诈检测的原理：Benford定律（本福特定律）"
+								}
+							]
+						},
+						{
+							"ID": "20221010214957-6d5gjjf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221010214957-6d5gjjf",
+								"updated": "20221010215459"
+							},
+							"Children": [
+								{
+									"ID": "20221010214939-n7eqjms",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010214939-n7eqjms"
+									},
+									"Children": [
+										{
+											"ID": "20221010214959-vdnm28l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010214959-vdnm28l",
+												"updated": "20221010215003"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "统计一下世界上各个国家的人口数量，你觉得其中以1开头的数会占多大比例，而以9开头的数又占多大比例呢？如果你的回答是都为1/9，恭喜你！你是正常人。但是事实却不是如此：以1开头的数惊人地占到了27%而以9开头的数却只占5%。为什么会相差这么大呢？这正是神秘的Benford定律在起作用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010215003-evzr40w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010215003-evzr40w"
+									},
+									"Children": [
+										{
+											"ID": "20221010215003-2lct5ow",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010215003-2lct5ow"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Benford定律是一个关于数字的神奇规律，Benford定律由物理学家本福特（Benford）发现的。Benford定律中自然生成的数字首位为1的概率为30.10%，2的概率为17.61%，依次递减，首位为9的概率仅为4.58%。以下是Benford定律的计算公式，通过这一公式可以计算出1-9中每个数字出现数据首位的概率。"
+												}
+											]
+										},
+										{
+											"ID": "20221010215142-wojz5jj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010215142-wojz5jj",
+												"updated": "20221010215145"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20221010215145-ra2zj7y.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010215146-p99ayik",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010215146-p99ayik",
+										"updated": "20221010215322"
+									},
+									"Children": [
+										{
+											"ID": "20221010215146-2lsmsly",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010215146-2lsmsly",
+												"updated": "20221010215322"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "比如对于数字9，下面的公式可以计算出一组自然生成的数字中9出现在数字首位的概率是多少。"
+												}
+											]
+										},
+										{
+											"ID": "20221010215212-26jzp5a",
+											"Type": "NodeMathBlock",
+											"Properties": {
+												"id": "20221010215212-26jzp5a",
+												"updated": "20221010215257"
+											},
+											"Children": [
+												{
+													"Type": "NodeMathBlockOpenMarker"
+												},
+												{
+													"Type": "NodeMathBlockContent",
+													"Data": "P(9)= log_{10}(1+\\frac{1}{9})"
+												},
+												{
+													"Type": "NodeMathBlockCloseMarker"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010215345-81t3af3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010215345-81t3af3"
+									},
+									"Children": [
+										{
+											"ID": "20221010215345-4ih5bzq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010215345-4ih5bzq",
+												"updated": "20221010215404"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过下图可以更直观的看到Benford定律中每个数字出现的频率以及不同数字间的差异。"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20221010215348-mwl7xqb.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010215409-1wb1o7p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010215409-1wb1o7p",
+										"updated": "20221010215459"
+									},
+									"Children": [
+										{
+											"ID": "20221010215409-1b4o7oq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010215409-1b4o7oq",
+												"updated": "20221010215459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "正因为Benford定律神奇地描述了大量数据中首位数字的分布特征，该定律在审计和反欺诈领域得到了广泛的应用。当一个连续变量取值足够多时，如果它的首位数字分布与Benford定律所描述的规律有较大出入，则可以将之视为疑似欺诈进行进一步的审查。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010222240-pv67js3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010222240-pv67js3",
+				"updated": "20221010222251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "播放视频"
+				}
+			]
+		},
+		{
+			"ID": "20221010222252-ndku933",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010222252-ndku933",
+				"updated": "20221010222510"
+			},
+			"Children": [
+				{
+					"ID": "20221010222258-c5vy1un",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010222258-c5vy1un",
+						"updated": "20221010222510"
+					},
+					"Children": [
+						{
+							"ID": "20221010222258-zuaf427",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222258-zuaf427",
+								"updated": "20221010222510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我觉得那个视频可以在这个位置放，因为没有翻译大家都看不明白，这里主要是展示一下这个自动化工具的效果，就比如它识别这个文档的效果"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221010222510-arr1fdz.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010220826-evt9e7a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010220826-evt9e7a",
+				"updated": "20221010220843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用RPA+AI为保险行业带来的帮助"
+				}
+			]
+		},
+		{
+			"ID": "20221010220852-nffv8o0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010220852-nffv8o0",
+				"updated": "20221010220900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以写这个网页里面的这部分内容"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221010220900-opj32uc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221010215335-3ijfnmu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010215335-3ijfnmu",
+				"updated": "20221010221427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "再介绍目前已经有公司在使用超级自动化技术助理保险企业数字化转型，比如日本第一生命保险公司(Dai-ichi Life Insurance)选择 Automation Anywhere公司提供的超级自动化工具，在全公司范围内实施 RPA 并执行 460 项任务，每年可节省 132,000 小时。"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "我把这个公司的案例pdf放在文件夹了。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221010221427-0u0uzg1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221010221614-v7ve3rf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221010221614-v7ve3rf",
+				"updated": "20221010221726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结束部分"
+				}
+			]
+		},
+		{
+			"ID": "20221010221726-nqe9ccr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010221726-nqe9ccr",
+				"updated": "20221010221835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以写除了保险行业，超级自动化还在多个行业有应用，这里的例子都可以简单概括一下"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221010221835-6fmrdxu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221010221917-nlnmg22",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010221917-nlnmg22"
+			}
+		},
+		{
+			"ID": "20221010221918-pgidd7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221010221918-pgidd7x",
+				"updated": "20221010222135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一些问题"
+				}
+			]
+		},
+		{
+			"ID": "20221010221918-8gwtm6w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221010221918-8gwtm6w",
+				"updated": "20221010222144"
+			},
+			"Children": [
+				{
+					"ID": "20221010222144-6qvfhof",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221010222144-6qvfhof",
+						"updated": "20221010222144"
+					},
+					"Children": [
+						{
+							"ID": "20221010222144-0srlagz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222144-0srlagz",
+								"updated": "20221010222144"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "就是，开始那些超级自动化的定义看着还是有点抽象。我觉得他这个网站上面解释的其实还不错，"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20221010222059-bzlcdd7.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010222147-5b2p6gq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010222147-5b2p6gq",
+				"updated": "20221010222527"
+			}
+		}
+	]
+}

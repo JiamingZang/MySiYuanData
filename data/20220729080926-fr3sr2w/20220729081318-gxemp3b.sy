@@ -1,0 +1,7969 @@
+{
+	"ID": "20220729081318-gxemp3b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d6",
+		"id": "20220729081318-gxemp3b",
+		"title": "数学基础",
+		"updated": "20220730093535"
+	},
+	"Children": [
+		{
+			"ID": "20220729081925-74gnd84",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729081925-74gnd84",
+				"updated": "20220729081929"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729081746-z3v033g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729081746-z3v033g",
+				"updated": "20220729081850"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729081849-3a29fuz.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729081948-emrvajo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729081948-emrvajo",
+				"updated": "20220729082225"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "有理数 Rational numbers",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729081850-gztcnid",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729081850-gztcnid",
+				"updated": "20220729082504"
+			},
+			"Children": [
+				{
+					"ID": "20220729082223-xj8m7aq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729082223-xj8m7aq",
+						"updated": "20220729082504"
+					},
+					"Children": [
+						{
+							"ID": "20220729082223-kykn8fg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729082223-kykn8fg",
+								"updated": "20220729082455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有理数集合用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Q",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 表示，可以表达为两个整数的商",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729082328-mftdkyz",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729082328-mftdkyz",
+								"updated": "20220729082504"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\frac{a}{b}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729082229-t7dxe4e",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729082229-t7dxe4e",
+						"updated": "20220729082444"
+					},
+					"Children": [
+						{
+							"ID": "20220729082229-gh3mv54",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729082229-gh3mv54",
+								"updated": "20220729082322"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以表达成有限小数或无限循环小数",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729082431-nvcou5u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729082431-nvcou5u",
+				"updated": "20220729082519"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "无理数",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729082530-72dtz1d",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729082530-72dtz1d",
+				"updated": "20220729082531"
+			},
+			"Children": [
+				{
+					"ID": "20220729082531-0fh4evp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729082531-0fh4evp",
+						"updated": "20220729082531"
+					},
+					"Children": [
+						{
+							"ID": "20220729082531-ahg0q40",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729082531-ahg0q40",
+								"updated": "20220729082557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能用一个整数或两个整数的商来表示，也叫无限不循环小数",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729082557-mdtb657",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729082557-mdtb657",
+						"updated": "20220729082557"
+					},
+					"Children": [
+						{
+							"ID": "20220729082557-vrjpa30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729082557-vrjpa30",
+								"updated": "20220729082652"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如自然常数 e，也叫欧拉数，如圆周率 pi",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729082931-mffguas",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729082931-mffguas",
+				"updated": "20220729082937"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "向量",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729082918-qa9t2ir",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729082918-qa9t2ir",
+				"updated": "20220729143420"
+			},
+			"Children": [
+				{
+					"ID": "20220729082939-loe72u6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729082939-loe72u6",
+						"updated": "20220729082939"
+					},
+					"Children": [
+						{
+							"ID": "20220729082939-5l80li4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729082939-5l80li4",
+								"updated": "20220729082946"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字排成行列",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729083037-kifyrbc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083037-kifyrbc",
+						"updated": "20220729143413"
+					},
+					"Children": [
+						{
+							"ID": "20220729083037-m12ortm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083037-m12ortm",
+								"updated": "20220729143413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "行向量 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.array([[1,2,3]])",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220729083110-0l3aiuy",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729083110-0l3aiuy",
+								"updated": "20220729083315"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\u00263 \\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729083336-kd8pik9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083336-kd8pik9",
+						"updated": "20220729143420"
+					},
+					"Children": [
+						{
+							"ID": "20220729083336-4iv1lqn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083336-4iv1lqn",
+								"updated": "20220729143420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列向量 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.array([[1][2][3]])",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220729083358-kfjxsho",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729083358-kfjxsho",
+								"updated": "20220729083442"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729083537-t47n7q7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083537-t47n7q7",
+						"updated": "20220729083701"
+					},
+					"Children": [
+						{
+							"ID": "20220729083537-2ysveo0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083537-2ysveo0",
+								"updated": "20220729083555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "转置",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729083557-ql1n3ci",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729083557-ql1n3ci",
+								"updated": "20220729083701"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\u00263\\end{bmatrix}^{T}=\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729083701-7g1wzi6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729083701-7g1wzi6",
+				"updated": "20220729083818"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "矩阵",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729083821-2my0odr",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729083821-2my0odr",
+				"updated": "20220729084609"
+			},
+			"Children": [
+				{
+					"ID": "20220729083822-keuul9u",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083822-keuul9u",
+						"updated": "20220729083822"
+					},
+					"Children": [
+						{
+							"ID": "20220729083822-k5rfjrw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083822-k5rfjrw",
+								"updated": "20220729083828"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数字排成长方形",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729083830-cdutgyr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083830-cdutgyr",
+						"updated": "20220729083830"
+					},
+					"Children": [
+						{
+							"ID": "20220729083830-yl5n58i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083830-yl5n58i",
+								"updated": "20220729083858"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "英文表达",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729083854-0x9l1bl.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729083859-f2ky322",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729083859-f2ky322",
+						"updated": "20220729084047"
+					},
+					"Children": [
+						{
+							"ID": "20220729083859-pmwkfay",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729083859-pmwkfay",
+								"updated": "20220729084011"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "鸢尾花数据集",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729084023-u9pjawm",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220729084023-u9pjawm",
+								"updated": "20220729084047"
+							},
+							"Children": [
+								{
+									"ID": "20220729084105-pwanbct",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729084105-pwanbct",
+										"updated": "20220729084105"
+									},
+									"Children": [
+										{
+											"ID": "20220729084105-yh8yxss",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729084105-yh8yxss",
+												"updated": "20220729084352"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据以矩阵形式存储，此处用 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "n\\times D",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 表达",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729084417-s9k3zo0",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729084417-s9k3zo0",
+										"updated": "20220729084417"
+									},
+									"Children": [
+										{
+											"ID": "20220729084417-30cahao",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729084417-30cahao",
+												"updated": "20220729084430"
+											},
+											"Children": [
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "n=5,D=150",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729084046-wdmnua7",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729084046-wdmnua7",
+										"updated": "20220729084047"
+									},
+									"Children": [
+										{
+											"ID": "20220729084046-u993ezr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729084046-u993ezr",
+												"updated": "20220729084047"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220729084047-6u577eh.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729084023-w67xhew",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729084023-w67xhew",
+										"updated": "20220729084023"
+									},
+									"Children": [
+										{
+											"ID": "20220729084023-dyntyy4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729084023-dyntyy4",
+												"updated": "20220729084024"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "四个特征——花萼长度 (sepal length)、花",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeSoftBreak",
+													"Data": "\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeText",
+													"Data": "萼宽度 (sepal width)、花瓣长度 (petal length) 和花瓣宽度 (petal width)",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729084027-ajmm8oz",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729084027-ajmm8oz",
+										"updated": "20220729084027"
+									},
+									"Children": [
+										{
+											"ID": "20220729084027-d8rqs6i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729084027-d8rqs6i",
+												"updated": "20220729084034"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "三个标签分别为——山鸢尾 (setosa)、变色鸢尾 (versicolor)",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeSoftBreak",
+													"Data": "\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeText",
+													"Data": "和维吉尼亚鸢尾 (virginica)",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729084542-c7hln7v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729084542-c7hln7v",
+						"updated": "20220729084609"
+					},
+					"Children": [
+						{
+							"ID": "20220729084542-zjsmw1z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729084542-zjsmw1z",
+								"updated": "20220729084609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "矩阵可以看作一排列向量或一组行向量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729084612-bidgp4s",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729084612-bidgp4s",
+								"updated": "20220729084832"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\u00263\\\\4\u00265\u00266\\end{bmatrix}=\n\\begin{bmatrix}\n\\begin{bmatrix}1\\\\4\\end{bmatrix}\n\\begin{bmatrix}2\\\\5\\end{bmatrix}\n\\begin{bmatrix}3\\\\6\\end{bmatrix}\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\begin{bmatrix}1\u00262\u00263\\end{bmatrix} \\\\\n\\begin{bmatrix}4\u00265\u00266\\end{bmatrix}\n\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729084832-ffx250j",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729084832-ffx250j",
+				"updated": "20220729085552"
+			},
+			"Children": [
+				{
+					"ID": "20220729084906-0wj4tb7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729084906-0wj4tb7",
+						"updated": "20220729084906"
+					},
+					"Children": [
+						{
+							"ID": "20220729084906-4d6bryr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729084906-4d6bryr",
+								"updated": "20220729084924"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "矩阵转置：行列互换",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729084927-b9xcc2n",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729084927-b9xcc2n",
+								"updated": "20220729085020"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\\\\3\u00264\\\\5\u00266\\\\\\end{bmatrix}^{T}=\n\\begin{bmatrix}1\u00263\u00265\\\\2\u00264\u00266\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729085113-8kbxpp1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729085113-8kbxpp1",
+						"updated": "20220729085113"
+					},
+					"Children": [
+						{
+							"ID": "20220729085113-sf3jhse",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729085113-sf3jhse",
+								"updated": "20220729085120"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分类",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729085120-jxsty5e",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220729085120-jxsty5e",
+								"updated": "20220729085120"
+							},
+							"Children": [
+								{
+									"ID": "20220729085211-73bkgaj",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085211-73bkgaj",
+										"updated": "20220729085211"
+									},
+									"Children": [
+										{
+											"ID": "20220729085211-u4y26ir",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085211-u4y26ir",
+												"updated": "20220729085212"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220729085212-qzllc44.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085227-f2i8ehk",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085227-f2i8ehk",
+										"updated": "20220729085227"
+									},
+									"Children": [
+										{
+											"ID": "20220729085227-i6w4icn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085227-i6w4icn",
+												"updated": "20220729085302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全 1 向量，记作 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "1",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085246-19lmfwq",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085246-19lmfwq",
+										"updated": "20220729085246"
+									},
+									"Children": [
+										{
+											"ID": "20220729085246-k8iya3i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085246-k8iya3i",
+												"updated": "20220729085313"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全 0 向量，记作 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "0",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085120-b8tr7ms",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085120-b8tr7ms",
+										"updated": "20220729085120"
+									},
+									"Children": [
+										{
+											"ID": "20220729085120-uq1kis0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085120-uq1kis0",
+												"updated": "20220729085131"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对角矩阵 diagonal matrix",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085131-5o9tuq4",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085131-5o9tuq4",
+										"updated": "20220729085131"
+									},
+									"Children": [
+										{
+											"ID": "20220729085131-2bk2esi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085131-2bk2esi",
+												"updated": "20220729085140"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单位矩阵 identity matrix",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085140-ez9qek8",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085140-ez9qek8",
+										"updated": "20220729085140"
+									},
+									"Children": [
+										{
+											"ID": "20220729085140-519v1fp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085140-519v1fp",
+												"updated": "20220729085148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对称矩阵 symmetric matrix",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729085149-036ch5i",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729085149-036ch5i",
+										"updated": "20220729085149"
+									},
+									"Children": [
+										{
+											"ID": "20220729085149-q3uil8w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729085149-q3uil8w",
+												"updated": "20220729085207"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "零矩阵 null matrix，记作 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "O",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729085425-dae0oln",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729085425-dae0oln",
+						"updated": "20220729085552"
+					},
+					"Children": [
+						{
+							"ID": "20220729085425-vaeftf6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729085425-vaeftf6",
+								"updated": "20220729085552"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 Numpy 向量化求和避免了使用 for 循环，提高运算效率",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729085454-zhpszwg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729085454-zhpszwg",
+						"updated": "20220729085537"
+					},
+					"Children": [
+						{
+							"ID": "20220729085454-w1rs4uz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "cHl0aG9u",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220729085454-w1rs4uz",
+								"updated": "20220729085537"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cHl0aG9u",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import numpy as np\n\nA = [[1, 2, 3],\n     [4, 5, 6]]\n\nB = [[1, 0, 0],\n     [0, 1, 0]]\n\nprint(np.array(A) + np.array(B))\n\nprint(np.add(A, B))\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729085700-pda59xk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729085700-pda59xk",
+				"updated": "20220729085707"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "乘除",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729102636-ai2ojgr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729102636-ai2ojgr",
+				"updated": "20220729102649"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "算术乘除",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729085708-p9pedd2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729085708-p9pedd2",
+				"updated": "20220729085720"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729085720-b90ib8x.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729085721-hc6me9t",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729085721-hc6me9t",
+				"updated": "20220729102314"
+			},
+			"Children": [
+				{
+					"ID": "20220729101046-7hrcaly",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729101046-7hrcaly",
+						"updated": "20220729102314"
+					},
+					"Children": [
+						{
+							"ID": "20220729101046-w3qac5s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729101046-w3qac5s",
+								"updated": "20220729102314"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "乘法",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102314-i13rbbc.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729101120-f67bkve.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729101217-j0vdwep",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729101217-j0vdwep",
+						"updated": "20220729101331"
+					},
+					"Children": [
+						{
+							"ID": "20220729101217-a7pj7bv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729101217-a7pj7bv",
+								"updated": "20220729101228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "阶乘",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729101301-khwwt4y",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "cHl0aG9u",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220729101301-khwwt4y",
+								"updated": "20220729101331"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cHl0aG9u",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "math.factorial()\nscipy.special.factorial()\nnumpy.math.factorial()\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729101335-d9p5fjd",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729101335-d9p5fjd",
+				"updated": "20220729102141"
+			},
+			"Children": [
+				{
+					"ID": "20220729101338-x22ldb0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729101338-x22ldb0",
+						"updated": "20220729102141"
+					},
+					"Children": [
+						{
+							"ID": "20220729101338-g41fe5f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729101338-g41fe5f",
+								"updated": "20220729101406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "累计乘积/累积乘积：cumulative product",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729101423-gn0h9ah",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220729101423-gn0h9ah",
+								"updated": "20220729102141"
+							},
+							"Children": [
+								{
+									"ID": "20220729101422-zy1higl",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729101422-zy1higl",
+										"updated": "20220729101422"
+									},
+									"Children": [
+										{
+											"ID": "20220729101422-te4ufrd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729101422-te4ufrd",
+												"updated": "20220729101542"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从左到右每乘一个数得到的分步结果",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729101823-9gr0z48",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729101823-9gr0z48",
+										"updated": "20220729101823"
+									},
+									"Children": [
+										{
+											"ID": "20220729101823-72uk0b4",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "cHl0aG9u",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20220729101823-72uk0b4",
+												"updated": "20220729101838"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "cHl0aG9u",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "import numpy as np\n\na_i = np.linspace(1,10,10)\nprint(a_i)\n\na_i_cumprod = np.cumprod(a_i)\nnp.set_printoptions(suppress=True)\nprint(a_i_cumprod)\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729102134-bor39am",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729102134-bor39am",
+										"updated": "20220729102141"
+									},
+									"Children": [
+										{
+											"ID": "20220729102134-1tkabs1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729102134-1tkabs1",
+												"updated": "20220729102135"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220729102135-ugrpsy3.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729102142-j024gq4",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729102142-j024gq4",
+				"updated": "20220729102445"
+			},
+			"Children": [
+				{
+					"ID": "20220729102202-zccamz8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729102202-zccamz8",
+						"updated": "20220729102445"
+					},
+					"Children": [
+						{
+							"ID": "20220729102202-65yuse8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729102202-65yuse8",
+								"updated": "20220729102445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除法",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102339-y42384l.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102445-xkkype4.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102422-vyzh52q.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729102430-nxf6z65",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729102430-nxf6z65",
+				"updated": "20220729102717"
+			},
+			"Children": [
+				{
+					"ID": "20220729102509-rezcria",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729102509-rezcria",
+						"updated": "20220729102717"
+					},
+					"Children": [
+						{
+							"ID": "20220729102509-o6z932p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729102509-o6z932p",
+								"updated": "20220729102717"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分数",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102709-iklk8cu.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729102717-odfj1rj.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729102719-2s9bqnc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729102719-2s9bqnc",
+				"updated": "20220729102751"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "向量乘法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729102752-a5yv6oy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729102752-a5yv6oy",
+				"updated": "20220729102816"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "标量乘法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729102816-3w5ngoq",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729102816-3w5ngoq",
+				"updated": "20220729102817"
+			},
+			"Children": [
+				{
+					"ID": "20220729102817-gperj4a",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729102817-gperj4a",
+						"updated": "20220729102817"
+					},
+					"Children": [
+						{
+							"ID": "20220729102817-i9f8l2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729102817-i9f8l2p",
+								"updated": "20220729103015"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标量乘向量则向量的每一个元素都与标量相乘",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729103015-9xp02vt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729103015-9xp02vt",
+						"updated": "20220729103015"
+					},
+					"Children": [
+						{
+							"ID": "20220729103015-z3zek0s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729103015-z3zek0s",
+								"updated": "20220729103015"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "结果为向量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729102858-ltd15u3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729102858-ltd15u3",
+				"updated": "20220729102921"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "向量内积(inner product)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729102922-bb85u9l",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729102922-bb85u9l",
+				"updated": "20220729103355"
+			},
+			"Children": [
+				{
+					"ID": "20220729102929-9q70oi8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729102929-9q70oi8",
+						"updated": "20220729102929"
+					},
+					"Children": [
+						{
+							"ID": "20220729102929-bsogj13",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729102929-bsogj13",
+								"updated": "20220729102957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "又称标量积(scalar product)或点积(dot product)",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729102957-1aqyktq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729102957-1aqyktq",
+						"updated": "20220729102957"
+					},
+					"Children": [
+						{
+							"ID": "20220729102957-00xcaaq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729102957-00xcaaq",
+								"updated": "20220729103005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "结果为标量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729103025-coao78q",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729103025-coao78q",
+						"updated": "20220729103355"
+					},
+					"Children": [
+						{
+							"ID": "20220729103025-0xndycd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729103025-0xndycd",
+								"updated": "20220729103052"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "形状相同向量，对应位置元素一一相乘再求和",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729103054-hsk9o3j",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729103054-hsk9o3j",
+								"updated": "20220729103355"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\u00263\\end{bmatrix}\n\\cdot\n\\begin{bmatrix}4\u00263\u00262\\end{bmatrix}\n= 1\\times4+2\\times3+3\\times2=16\n\\\\\n\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}\n\\cdot\n\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\n= 1\\times(-1)+2\\times0+3\\times1=2",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729103355-o4vno0h",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729103355-o4vno0h",
+				"updated": "20220729104500"
+			},
+			"Children": [
+				{
+					"ID": "20220729103415-tcm83n8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729103415-tcm83n8",
+						"updated": "20220729103415"
+					},
+					"Children": [
+						{
+							"ID": "20220729103415-45r00ss",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729103415-45r00ss",
+								"updated": "20220729103838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "满足交换律(commutative)：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "a\\cdot b = b \\cdot a",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729103443-pgfi99z",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729103443-pgfi99z",
+						"updated": "20220729103443"
+					},
+					"Children": [
+						{
+							"ID": "20220729103443-1gg3vv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729103443-1gg3vv7",
+								"updated": "20220729103919"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对向量加法满足分配律(distributive over vector addition)：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "a\\cdot (b+c)=a\\cdot b+ a\\cdot c",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729103514-7qz8xdj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729103514-7qz8xdj",
+						"updated": "20220729103514"
+					},
+					"Children": [
+						{
+							"ID": "20220729103514-fahhz9h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729103514-fahhz9h",
+								"updated": "20220729103912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不满足结合律(associative)：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "(a \\cdot b)\\cdot c \\neq a\\cdot (b\\cdot c)",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729104312-6lubxin",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729104312-6lubxin",
+						"updated": "20220729104312"
+					},
+					"Children": [
+						{
+							"ID": "20220729104312-7g778o9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729104312-7g778o9",
+								"updated": "20220729104344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.inner()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 计算",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "行向量",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的内积",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729104351-o5u546h",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729104351-o5u546h",
+						"updated": "20220729104500"
+					},
+					"Children": [
+						{
+							"ID": "20220729104351-b75wlsd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729104351-b75wlsd",
+								"updated": "20220729104500"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是输入为两个列向量时得到的结果为",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "张量积",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(tensor product)",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729104144-9wnri5d",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220729104144-9wnri5d",
+				"updated": "20220729105738"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import numpy as np\n\n# row vector dot product \n\na_row = np.array([[1, 2, 3]])\nb_row = np.array([[4, 3, 2]])\n\na_dot_b = np.inner(a_row, b_row)\nprint(a_dot_b)\n//[[16]]\nprint(np.sum(a_row * b_row))\n//16\n#%% column vector dot product \n\na_col = np.array([[1],  [2], [3]])\nb_col = np.array([[-1], [0], [1]])\n\na_dot_b = np.inner(a_col, b_col)\nprint(a_dot_b) # tensor product\n//\n[[-1 0 1]\n [-2 0 2]\n [-3 0 3]]\n//\nprint(np.sum(a_col * b_col))\n//2\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729104854-ciz1d4z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729104854-ciz1d4z",
+				"updated": "20220729104902"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729104902-8wppyt9.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729104902-6p6m9yy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729104902-6p6m9yy",
+				"updated": "20220729105001"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "逐项积(piecewise product)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729105002-03t6984",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729105002-03t6984",
+				"updated": "20220730083714"
+			},
+			"Children": [
+				{
+					"ID": "20220729105004-erl7gmn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729105004-erl7gmn",
+						"updated": "20220730083714"
+					},
+					"Children": [
+						{
+							"ID": "20220729105004-lhst22v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729105004-lhst22v",
+								"updated": "20220730083714"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "也叫哈达玛乘积(Hadamard product)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729105032-yoqhtjd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729105032-yoqhtjd",
+						"updated": "20220729105032"
+					},
+					"Children": [
+						{
+							"ID": "20220729105032-enaeiy9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729105032-enaeiy9",
+								"updated": "20220729105104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "两个形状相同向量对应位置元素分别相乘，结果为相同形状的向量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729105139-xxw9gxq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729105139-xxw9gxq",
+						"updated": "20220729105319"
+					},
+					"Children": [
+						{
+							"ID": "20220729105139-dfn5m48",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729105139-dfn5m48",
+								"updated": "20220729105216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "符号为 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "\\odot",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，相当于算术乘法的批量运算",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729105218-1ni9n8j",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729105218-1ni9n8j",
+								"updated": "20220729105319"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{bmatrix}1\u00262\u00263\\end{bmatrix}\n\\odot\n\\begin{bmatrix}4\u00265\u00266\\end{bmatrix}\n= \\begin{bmatrix}4\u002610\u002618\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729105321-z7v69j8",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729105321-z7v69j8",
+				"updated": "20220729105345"
+			},
+			"Children": [
+				{
+					"ID": "20220729105322-hu7vjiq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729105322-hu7vjiq",
+						"updated": "20220729105345"
+					},
+					"Children": [
+						{
+							"ID": "20220729105322-4a0qmkb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729105322-4a0qmkb",
+								"updated": "20220729105345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "两个矩阵逐项积前提是矩阵形状相同",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729105517-blfc616",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220729105517-blfc616",
+				"updated": "20220729105624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import numpy as np\na = np.array([[1, 2, 3]])\nb = np.array([[4, 5, 6]])\n\n# calculate element-wise product of row vectors\na_times_b = a*b\nprint(a_times_b)\n//输出[[4 10 18]]\n\nA = np.array([[1, 2, 3],\n              [4, 5, 6]])\n\nB = np.array([[1, 2, 3],\n              [-1, 0, 1]])\n\n# calculate element-wise product of matrices\nA_times_B = A*B\nprint(A_times_B)\n//输出\n[[1 4 9]\n [-4 0 6]]\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729105626-uow93g4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729105626-uow93g4",
+				"updated": "20220729142355"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "矩阵乘法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729142356-z25q0ak",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729142356-z25q0ak",
+				"updated": "20220729142736"
+			},
+			"Children": [
+				{
+					"ID": "20220729142402-wvhqrvb",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729142402-wvhqrvb",
+						"updated": "20220729142402"
+					},
+					"Children": [
+						{
+							"ID": "20220729142402-xfwqonn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729142402-xfwqonn",
+								"updated": "20220729142425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A 和 B 矩阵相乘，A 的列数等于 B 的行数，写作 AB",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729142425-gcutcl9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729142425-gcutcl9",
+						"updated": "20220729142724"
+					},
+					"Children": [
+						{
+							"ID": "20220729142425-t7nk44c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729142425-t7nk44c",
+								"updated": "20220729142539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "AB 读作“matrix boldface capital A times matrix boldface capital B”或“the matrix product boldface capital A and boldface capital B”",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729142655-ez93klx",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729142655-ez93klx",
+						"updated": "20220729142736"
+					},
+					"Children": [
+						{
+							"ID": "20220729142655-op41ahh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729142655-op41ahh",
+								"updated": "20220729142724"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Numpy 中矩阵相乘运算符为 @",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729142542-2phubk1",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729142542-2phubk1",
+								"updated": "20220729142736"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "C_{m\\times n} = A_{m\\times p}B_{p\\times n}=A_{m\\times p}@B_{p\\times n}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729142748-j66mrdq",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729142748-j66mrdq",
+				"updated": "20220729142930"
+			},
+			"Children": [
+				{
+					"ID": "20220729142816-moagwvp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729142816-moagwvp",
+						"updated": "20220729142930"
+					},
+					"Children": [
+						{
+							"ID": "20220729142816-9fbt2z8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729142816-9fbt2z8",
+								"updated": "20220729142930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不满足交换律，如下式子很可能不成立",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729142825-yzw7lm8",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729142825-yzw7lm8",
+								"updated": "20220729142913"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "A_{m\\times p}B_{p\\times n}\\neq B_{p\\times n}A_{m\\times p}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729142913-3adz5jd",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729142913-3adz5jd",
+				"updated": "20220729143252"
+			},
+			"Children": [
+				{
+					"ID": "20220729143132-9a7v6fh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729143132-9a7v6fh",
+						"updated": "20220729143252"
+					},
+					"Children": [
+						{
+							"ID": "20220729143132-du8g3j4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729143132-du8g3j4",
+								"updated": "20220729143200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "a",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "b",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为等长列向量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729143201-v0ed0f5",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220729143201-v0ed0f5",
+								"updated": "20220729143252"
+							},
+							"Children": [
+								{
+									"ID": "20220729143201-j7xt030",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729143201-j7xt030",
+										"updated": "20220729143201"
+									},
+									"Children": [
+										{
+											"ID": "20220729143201-vauch8m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729143201-vauch8m",
+												"updated": "20220729143216"
+											},
+											"Children": [
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "a^{T}b=a\\cdot b",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220729143219-agxbdat",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220729143219-agxbdat",
+										"updated": "20220729143252"
+									},
+									"Children": [
+										{
+											"ID": "20220729143219-ge29pya",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220729143219-ge29pya",
+												"updated": "20220729143252"
+											},
+											"Children": [
+												{
+													"Type": "NodeInlineMath",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "ab^{T}",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 为方阵",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729143715-r2vfc2a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729143715-r2vfc2a",
+				"updated": "20220729143728"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "第一个视角",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729143728-2a3ra02",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729143728-2a3ra02",
+				"updated": "20220729144445"
+			},
+			"Children": [
+				{
+					"ID": "20220729143740-9mlmww6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729143740-9mlmww6",
+						"updated": "20220729143740"
+					},
+					"Children": [
+						{
+							"ID": "20220729143740-jnve7aj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729143740-jnve7aj",
+								"updated": "20220729143841"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.array([1,2,3])",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 构造的是一维数组，",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.array([[1,2,3]])",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 构造的才是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "1\\times 3",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 行向量，是一个矩阵",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729143842-pvrw6ci",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729143842-pvrw6ci",
+						"updated": "20220729144445"
+					},
+					"Children": [
+						{
+							"ID": "20220729143842-tmv9tp9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729143842-tmv9tp9",
+								"updated": "20220729143955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本视角",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729143957-2qzr5mc",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729143957-2qzr5mc",
+								"updated": "20220729144445"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "A@B =\n\\begin{bmatrix}\n\\begin{bmatrix}1\u00262\\end{bmatrix} \\\\\n\\begin{bmatrix}3\u00264\\end{bmatrix}\n\\end{bmatrix}   @\n\\begin{bmatrix}\n\\begin{bmatrix}4\\\\3\\end{bmatrix}\u0026\n\\begin{bmatrix}2\\\\1\\end{bmatrix}\n\\end{bmatrix}  =\n\\begin{bmatrix}\n\\begin{bmatrix}1\u00262\\end{bmatrix}@\\begin{bmatrix}4\\\\3\\end{bmatrix}\u0026\n\\begin{bmatrix}1\u00262\\end{bmatrix}@\\begin{bmatrix}2\\\\1\\end{bmatrix}\n\\\\\n\\begin{bmatrix}3\u00264\\end{bmatrix}@\\begin{bmatrix}4\\\\3\\end{bmatrix}\n\u0026\n\\begin{bmatrix}3\u00264\\end{bmatrix}@\\begin{bmatrix}2\\\\1\\end{bmatrix}\n\\end{bmatrix}\n=\n\\begin{bmatrix}10\u00264\\\\24\u002610\\end{bmatrix}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729144600-pvd7vr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729144600-pvd7vr7",
+				"updated": "20220729144611"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "第二个视角",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729144611-h2srmdu",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220729144611-h2srmdu",
+				"updated": "20220729144835"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "A@B =\n\\begin{bmatrix}\n\\begin{bmatrix}1\\\\3\\end{bmatrix} \u0026\n\\begin{bmatrix}2\\\\4\\end{bmatrix}\n\\end{bmatrix}   @\n\\begin{bmatrix}\n\\begin{bmatrix}4\u00262\\end{bmatrix}\\\\\n\\begin{bmatrix}3\u00261\\end{bmatrix}\n\\end{bmatrix}  =\n\\begin{bmatrix}1\\\\3\\end{bmatrix}@\n\\begin{bmatrix}4\u00262\\end{bmatrix}+\n\\begin{bmatrix}2\\\\4\\end{bmatrix}@\n\\begin{bmatrix}3\u00261\\end{bmatrix}\n=\n\\begin{bmatrix}10\u00264\\\\24\u002610\\end{bmatrix}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729144524-j1dguqj",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729144524-j1dguqj",
+				"updated": "20220729144933"
+			},
+			"Children": [
+				{
+					"ID": "20220729144859-78qsc6l",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729144859-78qsc6l",
+						"updated": "20220729144933"
+					},
+					"Children": [
+						{
+							"ID": "20220729144859-4wy8dn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729144859-4wy8dn9",
+								"updated": "20220729144933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "矩阵的乘法变成了若干矩阵的叠加",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729144925-wzquosp.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729144933-ow3e0wf.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729144930-k7qimpu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729144930-k7qimpu",
+				"updated": "20220729145108"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "矩阵除法：矩阵求逆",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729145034-atx45zs",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729145034-atx45zs",
+				"updated": "20220730083821"
+			},
+			"Children": [
+				{
+					"ID": "20220729145057-2buhzhi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145057-2buhzhi",
+						"updated": "20220729145057"
+					},
+					"Children": [
+						{
+							"ID": "20220729145057-uzoxqd3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145057-uzoxqd3",
+								"updated": "20220729145104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实际上是矩阵求逆",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729145115-39tz5jr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145115-39tz5jr",
+						"updated": "20220729145149"
+					},
+					"Children": [
+						{
+							"ID": "20220729145115-aqzbwos",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145115-aqzbwos",
+								"updated": "20220729145149"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若 A 可逆，仅当 A 为方阵且存在矩阵 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A^{-1}",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 使得下列式子成立：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729145152-rizm35h",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729145152-rizm35h",
+								"updated": "20220729145211"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "AA^{-1}=A^{-1}A=I",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729145216-chpmnfi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145216-chpmnfi",
+						"updated": "20220729145216"
+					},
+					"Children": [
+						{
+							"ID": "20220729145216-fzpiy0k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145216-fzpiy0k",
+								"updated": "20220729145250"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "numpy.linalg.inv()",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 计算方阵的逆",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729145308-ilen3wr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145308-ilen3wr",
+						"updated": "20220729145308"
+					},
+					"Children": [
+						{
+							"ID": "20220729145308-dwgjryi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145308-dwgjryi",
+								"updated": "20220729145445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一般情况下",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729145448-quof5f0",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729145448-quof5f0",
+								"updated": "20220729145518"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "（A+B）^{-1}\\neq A^{-1}+B^{-1}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729145521-4ubjx3l",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145521-4ubjx3l",
+						"updated": "20220730083821"
+					},
+					"Children": [
+						{
+							"ID": "20220729145521-bac9277",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145521-bac9277",
+								"updated": "20220729145529"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "运算规则",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220729145532-2eghp36",
+							"Type": "NodeMathBlock",
+							"Properties": {
+								"id": "20220729145532-2eghp36",
+								"updated": "20220730083821"
+							},
+							"Children": [
+								{
+									"Type": "NodeMathBlockOpenMarker"
+								},
+								{
+									"Type": "NodeMathBlockContent",
+									"Data": "\\begin{align}\n(A^{T})^{-1}\u0026=(A^{-1})^{T} \\nonumber\\\\\n(AB)^{-1}\u0026=B^{-1}A^{-1} \\nonumber\\\\\n(ABC)^{-1}\u0026=C^{-1}B^{-1}A^{-1} \\nonumber\\\\\n(kA)^{-1}\u0026=\\frac{1}{k}A^{-1} \\nonumber\n\\end{align}"
+								},
+								{
+									"Type": "NodeMathBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729145715-3ln3uhj",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729145715-3ln3uhj",
+				"updated": "20220729145743"
+			},
+			"Children": [
+				{
+					"ID": "20220729145733-aziuu30",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729145733-aziuu30",
+						"updated": "20220729145743"
+					},
+					"Children": [
+						{
+							"ID": "20220729145733-1piyq2f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729145733-1piyq2f",
+								"updated": "20220729145743"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729145739-liqkj3a.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729145743-v3p0kcy.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729145746-j1w08ga",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729145746-j1w08ga",
+				"updated": "20220729150406"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "几何",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729150407-alwy500",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729150407-alwy500",
+				"updated": "20220729151047"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729151047-9vhjfd6.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729165832-gp02ef0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729165832-gp02ef0",
+				"updated": "20220729165935"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "几何体",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729165920-x9tccnm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729165920-x9tccnm",
+				"updated": "20220729165953"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "欧几里得五个公理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729165953-13r72ht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729165953-13r72ht",
+				"updated": "20220729170013"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729170013-0x9ju8r.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729170028-dqsjds1",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729170028-dqsjds1",
+				"updated": "20220729170030"
+			},
+			"Children": [
+				{
+					"ID": "20220729170030-k2cxasn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729170030-k2cxasn",
+						"updated": "20220729170030"
+					},
+					"Children": [
+						{
+							"ID": "20220729170030-1m8hukn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729170030-1m8hukn",
+								"updated": "20220729170058"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "去掉第五公理，进入非欧几何体系，其中的黎曼几何为爱因斯坦的广义相对论准备了数学基础",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729170105-9agr1oz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729170105-9agr1oz",
+				"updated": "20220729170219"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "正多边形(regular polygons)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729170123-4v8omej",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729170123-4v8omej",
+				"updated": "20220729170124"
+			},
+			"Children": [
+				{
+					"ID": "20220729170124-y2p4a7k",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729170124-y2p4a7k",
+						"updated": "20220729170124"
+					},
+					"Children": [
+						{
+							"ID": "20220729170124-tejn7l6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729170124-tejn7l6",
+								"updated": "20220729170150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "边长相等的多边形。正多边形内角相等",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729170150-tacl1k6.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729170718-t186ay2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729170718-t186ay2",
+				"updated": "20220729170732"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "三维几何体",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729170719-cwqby90",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729170719-cwqby90",
+				"updated": "20220729172714"
+			},
+			"Children": [
+				{
+					"ID": "20220729170718-ktzlb24",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729170718-ktzlb24",
+						"updated": "20220729170718"
+					},
+					"Children": [
+						{
+							"ID": "20220729170718-shkwrm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729170718-shkwrm1",
+								"updated": "20220729170911"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "正球形 (sphere)、圆柱体 (cylinder)、圆锥 (cone)、锥台 (cone frustum)、正方体 (cube)、立方体 (cuboid)、平行六面体 (parallelepiped)、四棱台 (square pyramid frustum)、四棱锥 (square-based pyramid)、三棱锥 (triangle-based pyramid)、三棱柱",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(triangular prism)、四面体 (tetrahedron)、八面体 (octahedron)、五棱柱 (pentagonal prism)、六棱柱(hexagonal prism) 和五棱锥 (pentagonal prism)",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729170911-9zmban0.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729172623-8q993gt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729172623-8q993gt",
+						"updated": "20220729172714"
+					},
+					"Children": [
+						{
+							"ID": "20220729172623-evyxens",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729172623-evyxens",
+								"updated": "20220729172714"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "柏拉图立体 (Platonic solid)，又称正多面体。图 17 所示为五个正多面体，包括正四面体(tetrahedron)、立方体 (cube)、正八面体 (octahedron)、正十二面体(dodecahedron) 和正二十面体(icosahedron)，每个面全等，均为正多边形",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729172714-s873hsc.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729172715-vnbe091",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729172715-vnbe091",
+				"updated": "20220729172750"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "几何变换(geometric transformation)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729172752-7b8hvir",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729172752-7b8hvir",
+				"updated": "20220729173458"
+			},
+			"Children": [
+				{
+					"ID": "20220729172803-1vsjwak",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729172803-1vsjwak",
+						"updated": "20220729173458"
+					},
+					"Children": [
+						{
+							"ID": "20220729172803-tybzquj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729172803-tybzquj",
+								"updated": "20220729173458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过平移 (translate) 、旋转 (rotation)、镜像 (reflection)、缩放 (scaling)、投影",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(projection) 等变换某个图形来生成新的图形",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220729173458-nw0c8ne.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729173451-mvg0rm2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729173451-mvg0rm2",
+				"updated": "20220729173542"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "角度和弧度",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729173542-g052xrg",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220729173542-g052xrg",
+				"updated": "20220729173607"
+			},
+			"Children": [
+				{
+					"ID": "20220729173607-tluwr4j",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729173607-tluwr4j",
+						"updated": "20220729173607"
+					},
+					"Children": [
+						{
+							"ID": "20220729173607-siaierd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729173607-siaierd",
+								"updated": "20220729173633"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一周(a full circle, one revolution, one rotation)对应 360°",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729173648-zt57u61",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729173648-zt57u61",
+						"updated": "20220729173648"
+					},
+					"Children": [
+						{
+							"ID": "20220729173648-4pw9ew2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729173648-4pw9ew2",
+								"updated": "20220729173738"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "弧度(radian)写作 rad，360°=2πrad",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729173743-n0qkaa4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220729173743-n0qkaa4",
+						"updated": "20220729173743"
+					},
+					"Children": [
+						{
+							"ID": "20220729173743-90hgdsu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729173743-90hgdsu",
+								"updated": "20220729173751"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "转换",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729173752-9nma6sd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220729173752-9nma6sd",
+				"updated": "20220729173829"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "math.radidans()\nmath.degrees()\nnumpy.rad2deg()\nnumpy.deg2rad()\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729173935-bwxvd3f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729173935-bwxvd3f",
+				"updated": "20220729173941"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "三角函数",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729173942-kwxj7vt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729173942-kwxj7vt",
+				"updated": "20220729174018"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729174018-74tl8ys.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729174020-ig907oh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729174020-ig907oh",
+				"updated": "20220729174129"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "余弦定理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729175709-6kpdzs5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729175709-6kpdzs5",
+				"updated": "20220729175709"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729175709-r73fo2q.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729175710-gk9251n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729175710-gk9251n",
+				"updated": "20220729175759"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "估算圆周率",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729175800-ij094qm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729175800-ij094qm",
+				"updated": "20220729175935"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "割圆术",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729175951-4u2ps1q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729175951-4u2ps1q",
+				"updated": "20220729181049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用内接正多边形近似圆的周长下边界，外接多边形近似周长上边界",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729180105-12mvkwr.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729180145-cqc7mxm",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220729180145-cqc7mxm",
+				"updated": "20220729181049"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "n\\cdot sin\\frac{\\pi}{n}\u003c\\pi\u003cn\\cdot tan\\frac{\\pi}{n}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729180822-22caua0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729180822-22caua0",
+				"updated": "20220729181049"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729181004-7est5uy.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729181012-jhoivhk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220729181012-jhoivhk",
+				"updated": "20220729181113"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "阿基米德的方法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729181116-16buexh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729181116-16buexh",
+				"updated": "20220729181202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于正 n 边形，令",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729181206-blrrdqb",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220729181206-blrrdqb",
+				"updated": "20220729181908"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\begin{align}\nB_{n} \u0026 = n\\cdot sin\\frac{\\pi}{n} \\nonumber\\\\\nA_{n} \u0026 = n\\cdot tan\\frac{\\pi}{n}\\nonumber\n\\end{align}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729181304-lxf619w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729181304-lxf619w",
+				"updated": "20220729181432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当边数加倍时，会有如下关系",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220729181433-o393jhi",
+			"Type": "NodeMathBlock",
+			"Properties": {
+				"id": "20220729181433-o393jhi",
+				"updated": "20220730083907"
+			},
+			"Children": [
+				{
+					"Type": "NodeMathBlockOpenMarker"
+				},
+				{
+					"Type": "NodeMathBlockContent",
+					"Data": "\\begin{align}\nA_{2n} \u0026= \\frac{2A_{n}B_{n}}{A_{n}+B_{n}} \\nonumber\\\\\nB_{2n} \u0026= \\sqrt{A_{2n}B_{n}} \\nonumber\n\\end{align}"
+				},
+				{
+					"Type": "NodeMathBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220729181441-48jibk6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729181441-48jibk6",
+				"updated": "20220729181937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "收敛更快",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220729181937-a52jmkv.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220730083909-3xfgqm5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220730083909-3xfgqm5",
+				"updated": "20220730083927"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代数"
+				}
+			]
+		},
+		{
+			"ID": "20220730084058-n5m9dzy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730084058-n5m9dzy",
+				"updated": "20220730084111"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220730084059-h25ui02.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220730083928-te3w6yz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730083928-te3w6yz",
+				"updated": "20220730084020"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "集合"
+				}
+			]
+		},
+		{
+			"ID": "20220730084223-df4m8v3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730084223-df4m8v3",
+				"updated": "20220730084322"
+			},
+			"Children": [
+				{
+					"ID": "20220730084227-84x6rys",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084227-84x6rys",
+						"updated": "20220730084314"
+					},
+					"Children": [
+						{
+							"ID": "20220730084227-tg57gk8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084227-tg57gk8",
+								"updated": "20220730084314"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以分为有限元素集合(finite set)、无限元素集合(infinite set)、空集(empty set or null set)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730084202-qrl7s6v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730084202-qrl7s6v",
+				"updated": "20220730084222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "集合与元素"
+				}
+			]
+		},
+		{
+			"ID": "20220730084323-ec3pyqm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730084323-ec3pyqm",
+				"updated": "20220730084331"
+			},
+			"Children": [
+				{
+					"ID": "20220730084331-wq17pvi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084331-wq17pvi",
+						"updated": "20220730084331"
+					},
+					"Children": [
+						{
+							"ID": "20220730084331-buchpk5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084331-buchpk5",
+								"updated": "20220730084458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "集合与元素的关系有属于(belong to)"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "\\in"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，不属于(not belong to)"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "\\notin"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730084500-foxozlp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730084500-foxozlp",
+				"updated": "20220730085611"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220730084536-v6ne4sj.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220730084539-egdeomg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220730084539-egdeomg",
+				"updated": "20220730084548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "集合与集合"
+				}
+			]
+		},
+		{
+			"ID": "20220730084548-czxes4w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730084548-czxes4w",
+				"updated": "20220730084618"
+			},
+			"Children": [
+				{
+					"ID": "20220730084618-72z6ikj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084618-72z6ikj",
+						"updated": "20220730084618"
+					},
+					"Children": [
+						{
+							"ID": "20220730084618-izqx01u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084618-izqx01u",
+								"updated": "20220730084731"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A是B的子集(subset)，"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\subseteq B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，B是A的母集，也叫超集"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730084733-7s47gjz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084733-7s47gjz"
+					},
+					"Children": [
+						{
+							"ID": "20220730084733-lfhmrij",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084733-lfhmrij",
+								"updated": "20220730084853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\subseteq B 且A\\neq B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，A为B的真子集(A is a proper subset of B)，记作"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\subset B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730084853-9pevca9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084853-9pevca9"
+					},
+					"Children": [
+						{
+							"ID": "20220730084853-abskulv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084853-abskulv",
+								"updated": "20220730084928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A与B的交集(intersection)，"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\cap B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730084930-17e4qcq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730084930-17e4qcq"
+					},
+					"Children": [
+						{
+							"ID": "20220730084930-84npmnh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730084930-84npmnh",
+								"updated": "20220730085129"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A与B的并集(union)，"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\cup B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730085130-y0wllvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730085130-y0wllvq"
+					},
+					"Children": [
+						{
+							"ID": "20220730085130-akvjhbk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730085130-akvjhbk",
+								"updated": "20220730085326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "补集(complemet)一般是绝对补集(absolute complement)，若A是B的一个子集，由B中所有不属于A的元素组成的集合叫A在B中的绝对补集"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220730085326-bsz9su0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730085326-bsz9su0"
+					},
+					"Children": [
+						{
+							"ID": "20220730085326-rppyu7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730085326-rppyu7w",
+								"updated": "20220730085557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "相对补集(relative complement)，A中B的相对补集记作"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A\\setminus B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "或"
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "A-B"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(set difference of A and B)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220730085602-1m1h63l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730085602-1m1h63l",
+				"updated": "20220730085620"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220730085620-spay7jz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220730084658-oehoof5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730084658-oehoof5",
+				"updated": "20220730085626"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220730085626-q1rylw7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220730093437-bke0l2u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220730093437-bke0l2u",
+				"updated": "20220730093455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代数式到函数"
+				}
+			]
+		},
+		{
+			"ID": "20220730093455-gzp2qb2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220730093455-gzp2qb2",
+				"updated": "20220730093535"
+			},
+			"Children": [
+				{
+					"ID": "20220730093457-lfdl3pp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220730093457-lfdl3pp",
+						"updated": "20220730093535"
+					},
+					"Children": [
+						{
+							"ID": "20220730093457-rgrunyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220730093457-rgrunyx",
+								"updated": "20220730093535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算数(arithmetic)基于已知量，代数(algebra)基于未知量（变量）"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
